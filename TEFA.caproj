@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>TEFA</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>720</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="BG">
+            <object-type name="BGHOMEPAGE" sid="809209837596091">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="400347227168181" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\BG HOME PAGE.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BGNAMEPAGE" sid="491677060268153">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="640687114941801" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\BG NAME PAGE.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Ref">
+            <object-type name="HomePage" sid="723464220020903">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="391193209688558" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Completed Scene\Home Page.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-type name="IconExit" sid="407599019494904">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="442948552608590" speed="5">
+                    <frame duration="1" hotspotX="0.504587" hotspotY="0.504587" original-source="V:\Asset\Asset Printilan\icon exit.png">
+                        <collision-poly>
+                            <point x="0.00917431" y="0.00917431" />
+                            <point x="0.990826" y="0.00917431" />
+                            <point x="1" y="1" />
+                            <point x="0.00917431" y="0.990826" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="IconSetting" sid="569978311577815">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="256534977028977" speed="5">
+                    <frame duration="1" hotspotX="0.504587" hotspotY="0.504587" original-source="V:\Asset\Asset Printilan\icon setting.png">
+                        <collision-poly>
+                            <point x="0.00917431" y="0.00917431" />
+                            <point x="1" y="0" />
+                            <point x="0.990826" y="0.990826" />
+                            <point x="0.00917431" y="0.990826" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PlayButton" sid="102764802013370">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="759060256600476">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="839560348138293" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502075" original-source="V:\Asset\Asset Printilan\play button.png">
+                        <collision-poly>
+                            <point x="0.00413223" y="0.00414938" />
+                            <point x="0.995868" y="0.00414938" />
+                            <point x="0.995868" y="0.995851" />
+                            <point x="0.00413223" y="0.995851" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NamePage" sid="762790227158282">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="186723310090515" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Completed Scene\Name Page.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>OpeningPage_1.xml</layout>
+        <layout>OpeningPage_2.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>OpeningPage_1_Sheet.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances />
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
