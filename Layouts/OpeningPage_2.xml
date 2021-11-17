@@ -180,7 +180,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="NameBox" uid="10">
+                <instance type="InputName" uid="10">
                     <properties>
                         <text></text>
                         <placeholder></placeholder>
@@ -206,36 +206,6 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="TextBox" uid="12">
-                    <properties>
-                        <text>......</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Ebrima,-64,700,0</font>
-                        <color>219,64,64</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Flash" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>910.757995605</x>
-                        <y>282.378997803</y>
-                        <z>0</z>
-                        <width>648.091491699</width>
-                        <height>97.803222656</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
             </instances>
             <effects />
         </layer>
@@ -255,36 +225,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="TextBox" uid="11">
-                    <properties>
-                        <text>......</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Ebrima,-64,700,0</font>
-                        <color>219,64,64</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Flash" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>911.757995605</x>
-                        <y>282.378997803</y>
-                        <z>0</z>
-                        <width>648.091491699</width>
-                        <height>97.803222656</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="PressEnter" uid="13">
                     <properties>
                         <text>Press Enter to continue</text>

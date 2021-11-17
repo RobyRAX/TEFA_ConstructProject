@@ -3,98 +3,115 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>OpeningPage_2_Sheet</name>
     <events>
-        <event-block sid="303334243768229">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="783555036929191" type="System" />
-            </conditions>
-            <actions>
-                <action id="6" name="Set focused" sid="831621821063127" type="NameBox" />
-                <action id="7" name="Set CSS style" sid="955360958182963" type="NameBox">
-                    <param id="0" name="Property name">&quot;border-style&quot;</param>
-                    <param id="1" name="Value">&quot;none&quot;</param>
-                </action>
-                <action id="7" name="Set CSS style" sid="837235431527137" type="NameBox">
-                    <param id="0" name="Property name">&quot;background-color&quot;</param>
-                    <param id="1" name="Value">&quot;rgba(0,0,0,0)&quot;</param>
-                </action>
-                <action id="7" name="Set CSS style" sid="184844899909097" type="NameBox">
-                    <param id="0" name="Property name">&quot;outline-style&quot;</param>
-                    <param id="1" name="Value">&quot;none&quot;</param>
-                </action>
-                <action id="7" name="Set CSS style" sid="343611150024270" type="NameBox">
-                    <param id="0" name="Property name">&quot;color&quot;</param>
-                    <param id="1" name="Value">&quot;rgba(0,0,0,0)&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="814043711267618">
-            <conditions>
-                <condition id="-1" name="Every tick" sid="144564211276439" type="System" />
-                <condition id="-14" name="Pick by unique ID" sid="667769065967457" type="TextBox">
-                    <param id="0" name="Unique ID">11</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="222349593468640" type="TextBox">
-                    <param id="0" name="Text">NameBox.Text &amp; &quot;|&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="725243060067699">
-            <conditions>
-                <condition id="-6" name="Every X seconds" sid="146404313043249" type="System">
-                    <param id="0" name="Interval (seconds)">1.0</param>
-                </condition>
-                <condition id="-14" name="Pick by unique ID" sid="238904300147277" type="TextBox">
-                    <param id="0" name="Unique ID">11</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Flash" id="0" name="Flash" sid="562621644080721" type="TextBox">
-                    <param id="0" name="&apos;On&apos; time">0.5</param>
-                    <param id="1" name="&apos;Off&apos; time">0.5</param>
-                    <param id="2" name="Duration">1.0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="396679801554579">
-            <conditions>
-                <condition id="-1" name="Every tick" sid="204132745986293" type="System" />
-                <condition id="-14" name="Pick by unique ID" sid="450195225740393" type="TextBox">
-                    <param id="0" name="Unique ID">12</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="635967651923508" type="TextBox">
-                    <param id="0" name="Text">NameBox.Text &amp; &quot; &quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="982170681110406">
-            <conditions>
-                <condition id="0" name="Compare text" sid="619035902929302" type="NameBox">
-                    <param id="0" name="Text">&quot;&quot;</param>
-                    <param id="1" name="Case">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="902179885920256" type="PressEnter">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="802637980160065">
-            <conditions>
-                <condition id="0" inverted="1" name="Compare text" sid="472457882837166" type="NameBox">
-                    <param id="0" name="Text">&quot;&quot;</param>
-                    <param id="1" name="Case">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="392679059830774" type="PressEnter">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="" sid="865135719800879" title="Isi_Nama">
+            <sub-events>
+                <event-block sid="303334243768229">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="783555036929191" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Set focused" sid="831621821063127" type="InputName" />
+                        <action id="7" name="Set CSS style" sid="955360958182963" type="InputName">
+                            <param id="0" name="Property name">&quot;border-style&quot;</param>
+                            <param id="1" name="Value">&quot;none&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="837235431527137" type="InputName">
+                            <param id="0" name="Property name">&quot;background-color&quot;</param>
+                            <param id="1" name="Value">&quot;rgba(0,0,0,0)&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="184844899909097" type="InputName">
+                            <param id="0" name="Property name">&quot;outline-style&quot;</param>
+                            <param id="1" name="Value">&quot;none&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="643386864296642" type="InputName">
+                            <param id="0" name="Property name">&quot;text-align&quot;</param>
+                            <param id="1" name="Value">&quot;center&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="703222440493676" type="InputName">
+                            <param id="0" name="Property name">&quot;font-size&quot;</param>
+                            <param id="1" name="Value">&quot;100px&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="650200552673486" type="InputName">
+                            <param id="0" name="Property name">&quot;color&quot;</param>
+                            <param id="1" name="Value">&quot;rgb(218, 63, 63)&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="895994766252894" type="InputName">
+                            <param id="0" name="Property name">&quot;font-style&quot;</param>
+                            <param id="1" name="Value">&quot;Calibri&quot;</param>
+                        </action>
+                        <action id="0" name="Set cursor style" sid="988609751304123" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="481728414237647">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="621179168911707" type="System">
+                            <param id="0" name="First value">len(InputName.Text)</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Second value">17</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="797644352267308" type="InputName">
+                            <param id="0" name="Text">left(self.Text, 16)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="751442243587735">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="264641230415707" type="System">
+                            <param id="0" name="First value">len(InputName.Text)</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Second value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="811242399246307" type="PressEnter">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="986810394035557">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="886180718442711" type="System">
+                            <param id="0" name="First value">len(InputName.Text)</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="738144640130099" type="PressEnter">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="989679567560422" title="Simpan_Nama">
+            <sub-events>
+                <event-block sid="334060115934716">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="534634238724596" type="Keyboard">
+                            <param id="0" name="Key">13</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" sid="791723207249697" type="System">
+                            <param id="0" name="First value">len(InputName.Text)</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="633465149348599" type="System">
+                            <param id="0" name="Variable">NamaPemain</param>
+                            <param id="1" name="Value">InputName.text</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="176185947980695" type="TEFA">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

@@ -2,5 +2,57 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>OpeningPage_1_Sheet</name>
-    <events />
+    <events>
+        <event-group description="" sid="340338393720453" title="Button">
+            <sub-events>
+                <event-block sid="348200214549378">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="226347768376606" type="Touch">
+                            <param id="0" name="Object">PlayButton</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="406396086509529" type="System">
+                            <param id="0" name="Layout">OpeningPage_2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="766742774258010">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="672539671392023" type="Touch">
+                            <param id="0" name="Object">IconExit</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Restart layout" sid="488341511775941" type="System" />
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="955783104265769">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="112001893600627" type="Mouse">
+                            <param id="0" name="Object">PlayButton</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="478628708020889" type="Mouse">
+                            <param id="0" name="Object">IconExit</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="575354426158638" type="Mouse">
+                            <param id="0" name="Cursor style">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="557718756586825">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="340331064065710" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="483234587546924" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
 </c2eventsheet>
