@@ -10,11 +10,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">OpeningPage_1</layout>
+        <layout order="0">OpeningPage_1</layout>
         <layout order="2">OpeningPage_2</layout>
+        <layout order="5">PemilihanObjek</layout>
         <event-sheet order="1">OpeningPage_1_Sheet</event-sheet>
         <event-sheet order="3">OpeningPage_2_Sheet</event-sheet>
         <event-sheet order="4">Global_Sheet</event-sheet>
+        <event-sheet active="1" order="6">PemilihanObjek_Sheet</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -36,13 +38,21 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/BGHOMEPAGE/" />
         <folder expanded="1" path="animation-folder/BGNAMEPAGE/" />
+        <folder expanded="1" path="animation-folder/BGPHASE/" />
         <folder expanded="1" path="animation-folder/HomePage/" />
         <folder expanded="1" path="animation-folder/NamePage/" />
+        <folder expanded="1" path="animation-folder/ObjectPresent/" />
         <folder expanded="1" path="animation-folder/IconExit/" />
         <folder expanded="1" path="animation-folder/IconSetting/" />
         <folder expanded="1" path="animation-folder/PlayButton/" />
         <folder expanded="1" path="animation-folder/Hello/" />
         <folder expanded="1" path="animation-folder/MyNameIS/" />
         <folder expanded="1" path="animation-folder/TEFA/" />
+        <folder expanded="1" path="animation-folder/Arrow/" />
+        <folder expanded="1" path="animation-folder/doYouLikeIt/" />
+        <folder expanded="1" path="animation-folder/iconEmotionGede/" />
+        <folder expanded="1" path="animation-folder/iconPelangiGede/" />
+        <folder expanded="1" path="animation-folder/iconPuzzleGede/" />
+        <folder expanded="1" path="animation-folder/Objek/" />
     </folders-expanded>
 </c2uistate>

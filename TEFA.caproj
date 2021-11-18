@@ -20,6 +20,7 @@
     <used-behaviors>
         <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -63,6 +64,21 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="BGPHASE" sid="261793645794351">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="460058394784900" speed="5">
+                        <frame duration="1" hotspotX="0.50039" hotspotY="0.500694" original-source="V:\Asset\Asset Printilan\BG PHASE 1.png">
+                            <collision-poly>
+                                <point x="0.00078064" y="0.00138696" />
+                                <point x="0.999219" y="0.00138696" />
+                                <point x="0.999219" y="0.998613" />
+                                <point x="0.00078064" y="0.998613" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Ref">
             <object-type name="HomePage" sid="723464220020903">
@@ -78,6 +94,14 @@
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="186723310090515" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Completed Scene\Name Page.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="ObjectPresent" sid="374269002644262">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="109551524763267" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Completed Scene\Object Present.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -245,6 +269,115 @@
             <object-type name="PressEnter" sid="518089965297453">
                 <plugin id="Text" />
             </object-type>
+            <object-type name="Arrow" sid="821813816453681">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="959835734526623" speed="5">
+                        <frame duration="1" hotspotX="0.381818" hotspotY="0.504202" original-source="V:\Asset\Asset Printilan\play button.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="doYouLikeIt" sid="228465289410082">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="787787734256947" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.509804" original-source="V:\Asset\Asset Printilan\do you like it.png">
+                            <collision-poly>
+                                <point x="0.00507614" y="0.0392157" />
+                                <point x="0.989848" y="0.0784314" />
+                                <point x="0.974619" y="0.803922" />
+                                <point x="0.0253807" y="0.803922" />
+                                <point x="0" y="0.490196" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="iconEmotionGede" sid="685315783988189">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="829566651854045" speed="5">
+                        <frame duration="1" hotspotX="0.501754" hotspotY="0.501754" original-source="V:\Asset\Asset Printilan\icon emotion gede.png">
+                            <collision-poly>
+                                <point x="0.0210526" y="0.0210526" />
+                                <point x="0.498246" y="0" />
+                                <point x="0.978947" y="0.0210526" />
+                                <point x="1" y="0.498246" />
+                                <point x="0.978947" y="0.978947" />
+                                <point x="0.498246" y="0.996491" />
+                                <point x="0.0210526" y="0.978947" />
+                                <point x="0.00350877" y="0.498246" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="iconPelangiGede" sid="954690471085375">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="860788576595947" speed="5">
+                        <frame duration="1" hotspotX="0.501754" hotspotY="0.501754" original-source="V:\Asset\Asset Printilan\icon pelangi gede.png">
+                            <collision-poly>
+                                <point x="0.0210526" y="0.0210526" />
+                                <point x="0.498246" y="0.00350877" />
+                                <point x="0.978947" y="0.0210526" />
+                                <point x="1" y="0.498246" />
+                                <point x="0.978947" y="0.978947" />
+                                <point x="0.498246" y="1" />
+                                <point x="0.0210526" y="0.978947" />
+                                <point x="0.00350877" y="0.498246" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="iconPuzzleGede" sid="631904095982288">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="693260155943512" speed="5">
+                        <frame duration="1" hotspotX="0.501754" hotspotY="0.501754" original-source="V:\Asset\Asset Printilan\icon puzzle gede.png">
+                            <collision-poly>
+                                <point x="0.0210526" y="0.0210526" />
+                                <point x="0.498246" y="0.00350877" />
+                                <point x="0.978947" y="0.0210526" />
+                                <point x="1" y="0.498246" />
+                                <point x="0.978947" y="0.978947" />
+                                <point x="0.498246" y="1" />
+                                <point x="0.0210526" y="0.978947" />
+                                <point x="0.00350877" y="0.498246" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Objek" sid="131066383500209">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Timer" sid="920732289396703">
+                        <behavior id="Timer" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="811589880929168" speed="0">
+                        <frame duration="1" hotspotX="0.500864" hotspotY="0.501577" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501577" original-source="V:\Asset\Asset Printilan\object present.png">
+                            <collision-poly>
+                                <point x="0.00172414" y="0.00315457" />
+                                <point x="0.5" y="0.00315457" />
+                                <point x="0.851724" y="0.271293" />
+                                <point x="0.851724" y="0.498423" />
+                                <point x="0.996552" y="0.993691" />
+                                <point x="0.00517241" y="0.990536" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.500864" hotspotY="0.501577" original-source="V:\Asset\Asset Printilan\object ball.png" />
+                        <frame duration="1" hotspotX="0.500864" hotspotY="0.501577" original-source="V:\Asset\Asset Printilan\object cars.png" />
+                        <frame duration="1" hotspotX="0.500864" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\object puzzle.png" />
+                        <frame duration="1" hotspotX="0.500864" hotspotY="0.501577" original-source="V:\Asset\Asset Printilan\object robot.png" />
+                        <frame duration="1" hotspotX="0.500864" hotspotY="0.501577" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="Touch" sid="289867748623296">
             <plugin id="Touch" />
@@ -260,11 +393,13 @@
     <layout-folder>
         <layout>OpeningPage_1.xml</layout>
         <layout>OpeningPage_2.xml</layout>
+        <layout>PemilihanObjek.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>OpeningPage_1_Sheet.xml</event-sheet>
         <event-sheet>OpeningPage_2_Sheet.xml</event-sheet>
         <event-sheet>Global_Sheet.xml</event-sheet>
+        <event-sheet>PemilihanObjek_Sheet.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="14">

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>PemilihanObjek_Sheet</name>
+    <events>
+        <variable constant="0" name="Timer_PemilihanObjek" sid="273951466179641" static="0" type="number">3</variable>
+        <event-block sid="742206660207760">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="832772963495946" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Sine" id="0" name="Set active" sid="975189199363152" type="PlayButton">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Timer" id="0" name="Start timer" sid="940350096317990" type="Objek">
+                    <param id="0" name="Duration">Timer_PemilihanObjek</param>
+                    <param id="1" name="Type">0</param>
+                    <param id="2" name="Tag">&quot;Timer_NoResponse&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="899162933444493" title="Pergantian_Objek">
+            <sub-events>
+                <event-block sid="702739044001080">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="198228169076212" type="Objek">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="481434024069881" type="Objek">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="324737055686955">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="556517352983746" type="Objek">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="632304847172772" type="Objek">
+                            <param id="0" name="Frame number">5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" sid="281262537928972" title="Automatic">
+                    <sub-events>
+                        <event-block sid="269095998104137">
+                            <conditions>
+                                <condition behavior="Timer" id="0" name="On timer" sid="455833847471736" type="Objek">
+                                    <param id="0" name="Tag">&quot;Timer_NoResponse&quot;</param>
+                                </condition>
+                                <condition id="3" inverted="1" name="Compare frame" sid="904244545052636" type="Objek">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Timer" id="0" name="Start timer" sid="956679660392057" type="Objek">
+                                    <param id="0" name="Duration">Timer_PemilihanObjek</param>
+                                    <param id="1" name="Type">0</param>
+                                    <param id="2" name="Tag">&quot;Timer_NoResponse&quot;</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="158170643739724" type="Objek">
+                                    <param id="0" name="Frame number">Self.AnimationFrame + 1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="282985745007881">
+                            <conditions>
+                                <condition behavior="Timer" id="0" name="On timer" sid="136978304328412" type="Objek">
+                                    <param id="0" name="Tag">&quot;Timer_NoResponse&quot;</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="822666992802604" type="Objek">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Timer" id="0" name="Start timer" sid="348875491655678" type="Objek">
+                                    <param id="0" name="Duration">Timer_PemilihanObjek</param>
+                                    <param id="1" name="Type">0</param>
+                                    <param id="2" name="Tag">&quot;Timer_NoResponse&quot;</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="305390917213701" type="Objek">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="593713542478984" title="Via_Keyboard">
+                    <sub-events>
+                        <event-block sid="369611359525073">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="567266306965481" type="Keyboard">
+                                    <param id="0" name="Key">39</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="414415182692500" type="Objek">
+                                    <param id="0" name="Frame number">self.AnimationFrame + 1</param>
+                                </action>
+                                <action behavior="Timer" id="0" name="Start timer" sid="307704442036200" type="Objek">
+                                    <param id="0" name="Duration">Timer_PemilihanObjek</param>
+                                    <param id="1" name="Type">0</param>
+                                    <param id="2" name="Tag">&quot;Timer_NoResponse&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="922056140571004">
+                            <conditions>
+                                <condition id="0" name="On key pressed" sid="749591655066160" type="Keyboard">
+                                    <param id="0" name="Key">37</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="739454025987260" type="Objek">
+                                    <param id="0" name="Frame number">self.AnimationFrame - 1</param>
+                                </action>
+                                <action behavior="Timer" id="0" name="Start timer" sid="192360200181091" type="Objek">
+                                    <param id="0" name="Duration">Timer_PemilihanObjek</param>
+                                    <param id="1" name="Type">0</param>
+                                    <param id="2" name="Tag">&quot;Timer_NoResponse&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="647912190877758" title="SimpanPilihan">
+            <sub-events>
+                <event-block sid="541055654129207">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="349758564368589" type="Touch">
+                            <param id="0" name="Object">PlayButton</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="314865487476546">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="889690526941175" type="Objek">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="523948913920966" type="System">
+                                    <param id="0" name="Variable">PilihanObjek</param>
+                                    <param id="1" name="Value">&quot;Kado&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="121167033998545">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="745578864178660" type="Objek">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="508340777444948" type="System">
+                                    <param id="0" name="Variable">PilihanObjek</param>
+                                    <param id="1" name="Value">&quot;Bola&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="200348798994076">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="729218024050217" type="Objek">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="599163802053796" type="System">
+                                    <param id="0" name="Variable">PilihanObjek</param>
+                                    <param id="1" name="Value">&quot;Mobil&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="249083938831719">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="726953843862037" type="Objek">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="834561387828475" type="System">
+                                    <param id="0" name="Variable">PilihanObjek</param>
+                                    <param id="1" name="Value">&quot;Puzzle&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="149105994857627">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="437105455430286" type="Objek">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="661822985093241" type="System">
+                                    <param id="0" name="Variable">PilihanObjek</param>
+                                    <param id="1" name="Value">&quot;Robot&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
