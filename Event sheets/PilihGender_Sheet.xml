@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>PilihGender_Sheet</name>
+    <events>
+        <event-group description="" sid="806298588732768" title="Button_PilihGender">
+            <sub-events>
+                <event-block sid="173799420824679">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="624393291583994" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">IconExit</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="582033981060979" type="System">
+                            <param id="0" name="Layout">MainMenu</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="293594500873402">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="601789251625804" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Tefa_Static</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="338124442166030" type="System">
+                            <param id="0" name="Layout">IsiNama</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="658389764738839" type="System">
+                            <param id="0" name="Variable">Gender</param>
+                            <param id="1" name="Value">&quot;Cowok&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="597439610888929">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="199087296909077" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Tefi_Static</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="747769051689718" type="System">
+                            <param id="0" name="Layout">IsiNama</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="222713437989264" type="System">
+                            <param id="0" name="Variable">Gender</param>
+                            <param id="1" name="Value">&quot;Cewek&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="659143314338025">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="278355482196306" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="153214898587715" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="983727453651869" title="Efek">
+            <sub-events>
+                <event-block sid="513986705958324">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="334060806544991" type="Mouse">
+                            <param id="0" name="Object">Tefi_Static</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Set scale" sid="530817914343323" type="Tefi_Static">
+                            <param id="0" name="Scale">1.2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="478918259297753">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="591874406773360" type="Mouse">
+                            <param id="0" name="Object">IconExit</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="159904474281388" type="Mouse">
+                            <param id="0" name="Cursor style">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="912321318074353">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="168206056400710" type="Mouse">
+                            <param id="0" name="Object">IconExit</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="876116725192196" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="739290771981157">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="627854942807150" type="Mouse">
+                            <param id="0" name="Object">Tefi_Static</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Set scale" sid="511273743133929" type="Tefi_Static">
+                            <param id="0" name="Scale">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="768415465242355">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="264731575861773" type="Mouse">
+                            <param id="0" name="Object">Tefa_Static</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Set scale" sid="685758251133252" type="Tefa_Static">
+                            <param id="0" name="Scale">1.2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="156631030772149">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="507827340355951" type="Mouse">
+                            <param id="0" name="Object">Tefa_Static</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Set scale" sid="773955783324611" type="Tefa_Static">
+                            <param id="0" name="Scale">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

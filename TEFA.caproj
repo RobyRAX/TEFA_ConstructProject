@@ -10,6 +10,7 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
@@ -174,18 +175,18 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="MyNameIS" sid="986017006368859">
+            <object-type name="MyNameIs_" sid="986017006368859">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="920411374213669" speed="5">
-                        <frame duration="1" hotspotX="0.501114" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\MyNameIS.png">
+                        <frame duration="1" hotspotX="0.501109" hotspotY="0.304878" original-source="V:\Asset\Asset Printilan\MyNameIS.png">
                             <collision-poly>
-                                <point x="0.00668151" y="0.0267857" />
-                                <point x="0.498886" y="0.285714" />
-                                <point x="0.92873" y="0.285714" />
-                                <point x="1" y="0.5" />
-                                <point x="1" y="1" />
-                                <point x="0" y="1" />
+                                <point x="0.00886917" y="0" />
+                                <point x="0.498891" y="0.0121947" />
+                                <point x="0.926829" y="0.0121947" />
+                                <point x="0.997783" y="0.304878" />
+                                <point x="0.997783" y="0.987805" />
+                                <point x="0.00221729" y="0.987805" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -199,67 +200,161 @@
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="60" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="709129363399575" speed="24">
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_00.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_01.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_02.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_03.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_04.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_05.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_06.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_07.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_08.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_09.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_10.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_11.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_12.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_13.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_14.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_15.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_16.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_17.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_18.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_19.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_20.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_21.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_22.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_23.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_24.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_25.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_26.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_27.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_28.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_29.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_30.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_31.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_32.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_33.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_34.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_35.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_36.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_37.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_38.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_39.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_40.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_41.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_42.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_43.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_44.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_45.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_46.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_47.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_48.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_49.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_50.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_51.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_52.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_53.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_54.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_55.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_56.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_57.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_58.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation\Tefa_Tunjuk_59.png" />
+                    <animation framecount="76" loop="1" name="Tefa" pingpong="0" repeatcount="1" repeatto="0" sid="916756877733827" speed="30">
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_00.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_01.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_02.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_03.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_04.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_05.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_06.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_07.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_08.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_09.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_10.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_11.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_12.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_13.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_14.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_15.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_16.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_17.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_18.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_19.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_20.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_21.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_22.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_23.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_24.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_25.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_26.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_27.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_28.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_29.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_30.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_31.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_32.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_33.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_34.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_35.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_36.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_37.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_38.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_39.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_40.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_41.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_42.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_43.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_44.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_45.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_46.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_47.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_48.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_49.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_50.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_51.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_52.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_53.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_54.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_55.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_56.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_57.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_58.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_59.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_60.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_61.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_62.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_63.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_64.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_65.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_66.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_67.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_68.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_69.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_70.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_71.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_72.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_73.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_74.png" />
+                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_75.png" />
+                    </animation>
+                    <animation framecount="76" loop="1" name="Tefi" pingpong="0" repeatcount="1" repeatto="0" sid="910523505022075" speed="30">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_00.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_01.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_02.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_03.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_04.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_05.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_06.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_07.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_08.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_09.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_10.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_11.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_12.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_13.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_14.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_15.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_16.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_17.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_18.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_19.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_20.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_21.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_22.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_23.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_24.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_25.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_26.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_27.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_28.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_29.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_30.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_31.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_32.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_33.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_34.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_35.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_36.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_37.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_38.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_39.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_40.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_41.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_42.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_43.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_44.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_45.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_46.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_47.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_48.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_49.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_50.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_51.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_52.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_53.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_54.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_55.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_56.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_57.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_58.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_59.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_60.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_61.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_62.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_63.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_64.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_65.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_66.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_67.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_68.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_69.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_70.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_71.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_72.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_73.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_74.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_75.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -378,6 +473,12 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="MyNameIs" sid="479819231583293">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="HaloNamakuTef" sid="894223337512825">
+                <plugin id="Text" />
+            </object-type>
         </object-folder>
         <object-type name="Touch" sid="289867748623296">
             <plugin id="Touch" />
@@ -388,18 +489,61 @@
         <object-type name="Keyboard" sid="203565115293577">
             <plugin id="Keyboard" />
         </object-type>
+        <object-type name="Merah" sid="865056480962175">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="149290983999018" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tefa_Static" sid="731995669014453">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="364960795125242" speed="5">
+                    <frame duration="1" hotspotX="0.501661" hotspotY="1" original-source="V:\Asset\Asset Printilan\Tefa.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tefi_Static" sid="966159332209545">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="408390648013898" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="V:\Asset\Asset Printilan\Tefi.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Browser" sid="917623311826091">
+            <plugin id="Browser" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>OpeningPage_1.xml</layout>
-        <layout>OpeningPage_2.xml</layout>
+        <layout>MainMenu.xml</layout>
+        <layout>IsiNama.xml</layout>
         <layout>PemilihanObjek.xml</layout>
+        <layout>PilihGender.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>OpeningPage_1_Sheet.xml</event-sheet>
-        <event-sheet>OpeningPage_2_Sheet.xml</event-sheet>
+        <event-sheet>MainMenu_Sheet.xml</event-sheet>
+        <event-sheet>IsiNama_Sheet.xml</event-sheet>
         <event-sheet>Global_Sheet.xml</event-sheet>
         <event-sheet>PemilihanObjek_Sheet.xml</event-sheet>
+        <event-sheet>PilihGender_Sheet.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="14">
@@ -409,6 +553,7 @@
         </global-instance>
         <global-instance type="Mouse" uid="15" />
         <global-instance type="Keyboard" uid="16" />
+        <global-instance type="Browser" uid="30" />
     </global-instances>
     <sounds-folder />
     <music-folder />

@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>IsiNama_Sheet</name>
+    <events>
+        <event-group description="" sid="679864162669603" title="Cek Gender">
+            <sub-events>
+                <event-block sid="424755328342840">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="819676633854892" type="System">
+                            <param id="0" name="Variable">Gender</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;Cowok&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="967192605714481" type="TEFA">
+                            <param id="0" name="Animation">&quot;Tefa&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="935900857505315" type="HaloNamakuTef">
+                            <param id="0" name="Text">&quot;Hai! Namaku Tefa, siapa namamu?&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="906923399931307">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="672300938954208" type="System">
+                            <param id="0" name="Variable">Gender</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;Cewek&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="174877446557458" type="TEFA">
+                            <param id="0" name="Animation">&quot;Tefi&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="769558128824807" type="HaloNamakuTef">
+                            <param id="0" name="Text">&quot;Hai! Namaku Tefi, siapa namamu?&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="865135719800879" title="Isian_Nama">
+            <sub-events>
+                <event-block sid="303334243768229">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="783555036929191" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Set focused" sid="831621821063127" type="InputName" />
+                        <action id="7" name="Set CSS style" sid="955360958182963" type="InputName">
+                            <param id="0" name="Property name">&quot;border-style&quot;</param>
+                            <param id="1" name="Value">&quot;none&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="837235431527137" type="InputName">
+                            <param id="0" name="Property name">&quot;background-color&quot;</param>
+                            <param id="1" name="Value">&quot;rgba(0,0,0,0)&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="184844899909097" type="InputName">
+                            <param id="0" name="Property name">&quot;outline-style&quot;</param>
+                            <param id="1" name="Value">&quot;none&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="643386864296642" type="InputName">
+                            <param id="0" name="Property name">&quot;text-align&quot;</param>
+                            <param id="1" name="Value">&quot;center&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="703222440493676" type="InputName">
+                            <param id="0" name="Property name">&quot;font-size&quot;</param>
+                            <param id="1" name="Value">&quot;100px&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="650200552673486" type="InputName">
+                            <param id="0" name="Property name">&quot;color&quot;</param>
+                            <param id="1" name="Value">&quot;rgb(218, 63, 63)&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="895994766252894" type="InputName">
+                            <param id="0" name="Property name">&quot;font-style&quot;</param>
+                            <param id="1" name="Value">&quot;Calibri&quot;</param>
+                        </action>
+                        <action id="0" name="Set cursor style" sid="988609751304123" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="481728414237647">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="621179168911707" type="System">
+                            <param id="0" name="First value">len(InputName.Text)</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Second value">17</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="797644352267308" type="InputName">
+                            <param id="0" name="Text">left(self.Text, 16)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="751442243587735">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="264641230415707" type="System">
+                            <param id="0" name="First value">len(InputName.Text)</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Second value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="811242399246307" type="PressEnter">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="986810394035557">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="886180718442711" type="System">
+                            <param id="0" name="First value">len(InputName.Text)</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="738144640130099" type="PressEnter">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="989679567560422" title="Simpan_Nama">
+            <sub-events>
+                <event-block sid="334060115934716">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="534634238724596" type="Keyboard">
+                            <param id="0" name="Key">13</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" sid="791723207249697" type="System">
+                            <param id="0" name="First value">len(InputName.Text)</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="633465149348599" type="System">
+                            <param id="0" name="Variable">NamaPemain</param>
+                            <param id="1" name="Value">InputName.text</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="252941701402188" type="System">
+                            <param id="0" name="Layout">PemilihanObjek</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="774855919906173" title="Button_IsiNama">
+            <sub-events>
+                <event-block sid="205324431599816">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="729727746826321" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">IconExit</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="890040584780253" type="System">
+                            <param id="0" name="Layout">PilihGender</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="871818460678226" title="Efek_IsiNama">
+            <sub-events>
+                <event-block any="1" sid="834833843059207">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="705469791944705" type="Mouse">
+                            <param id="0" name="Object">IconExit</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="568678272208997" type="Mouse">
+                            <param id="0" name="Cursor style">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="960217635652755">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="321315938653363" type="Mouse">
+                            <param id="0" name="Object">IconExit</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="942932084076221" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
