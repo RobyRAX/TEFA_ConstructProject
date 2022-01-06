@@ -252,7 +252,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="MyNameIs" uid="31">
+                <instance type="Namaku" uid="31">
                     <properties>
                         <text>Namaku :</text>
                         <initial-visibility>Visible</initial-visibility>

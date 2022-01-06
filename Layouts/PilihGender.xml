@@ -51,6 +51,50 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="LakiSymbol" uid="34">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>960</x>
+                        <y>200</y>
+                        <z>0</z>
+                        <width>153</width>
+                        <height>153</height>
+                        <depth>0</depth>
+                        <hotspotX>0.503268003</hotspotX>
+                        <hotspotY>0.503268003</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="PerempuanSymbol" uid="35">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>320</x>
+                        <y>200</y>
+                        <z>0</z>
+                        <width>153</width>
+                        <height>153</height>
+                        <depth>0</depth>
+                        <hotspotX>0.503268003</hotspotX>
+                        <hotspotY>0.503268003</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="Merah" uid="26">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -64,8 +108,62 @@
                         <x>640</x>
                         <y>360</y>
                         <z>0</z>
-                        <width>11</width>
-                        <height>758</height>
+                        <width>10</width>
+                        <height>760</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Laki" uid="36">
+                    <properties>
+                        <text>Laki-Laki</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Ebrima,-48,700,0</font>
+                        <color>220,65,65</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Center</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>960</x>
+                        <y>75</y>
+                        <z>0</z>
+                        <width>320</width>
+                        <height>75</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Perempuan" uid="37">
+                    <properties>
+                        <text>Perempuan</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Ebrima,-48,700,0</font>
+                        <color>220,65,65</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Center</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>320</x>
+                        <y>75</y>
+                        <z>0</z>
+                        <width>320</width>
+                        <height>75</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -99,6 +197,10 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <defWidth>0</defWidth>
+                        <defHeight>0</defHeight>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -121,6 +223,10 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <defWidth>0</defWidth>
+                        <defHeight>0</defHeight>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>

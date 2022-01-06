@@ -80,6 +80,27 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Merah" sid="865056480962175">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="149290983999018" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BG_Polos" sid="852269422844655">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="779652482814650" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\bg biru.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\bg merah.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\bg kuning.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\bg ijo.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\bg ungu.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\bg biru.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Ref">
             <object-type name="HomePage" sid="723464220020903">
@@ -106,345 +127,963 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="WhatsAppImage20211126At95846PM" sid="977242783844890">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="187806711046189" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\WhatsApp Image 2021-11-26 at 9.58.46 PM.jpeg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Frame" sid="780598982754524">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="139649015530149" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\Frame 54.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Frame2" sid="538818120469768">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="671413617990255" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\Frame 55.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Frame3" sid="739262036272597">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="792449402861360" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Completed Scene\Frame 59.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Frame4" sid="611817810731444">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="825578406452027" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Completed Scene\Frame 61.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Button &amp; Detail">
-            <object-type name="IconExit" sid="407599019494904">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="442948552608590" speed="5">
-                        <frame duration="1" hotspotX="0.504587" hotspotY="0.504587" original-source="V:\Asset\Asset Printilan\icon exit.png">
-                            <collision-poly>
-                                <point x="0.00917431" y="0.00917431" />
-                                <point x="0.990826" y="0.00917431" />
-                                <point x="1" y="1" />
-                                <point x="0.00917431" y="0.990826" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="IconSetting" sid="569978311577815">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="256534977028977" speed="5">
-                        <frame duration="1" hotspotX="0.504587" hotspotY="0.504587" original-source="V:\Asset\Asset Printilan\icon setting.png">
-                            <collision-poly>
-                                <point x="0.00917431" y="0.00917431" />
-                                <point x="1" y="0" />
-                                <point x="0.990826" y="0.990826" />
-                                <point x="0.00917431" y="0.990826" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="PlayButton" sid="102764802013370">
-                <plugin id="Sprite" />
-                <behaviors>
-                    <behavior-type name="Sine" sid="759060256600476">
-                        <behavior id="Sin" />
-                    </behavior-type>
-                </behaviors>
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="839560348138293" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.502075" original-source="V:\Asset\Asset Printilan\play button.png">
-                            <collision-poly>
-                                <point x="0.00413223" y="0.00414938" />
-                                <point x="0.995868" y="0.00414938" />
-                                <point x="0.995868" y="0.995851" />
-                                <point x="0.00413223" y="0.995851" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="Hello" sid="250020668913228">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="240323269090568" speed="5">
-                        <frame duration="1" hotspotX="0.501538" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\Name Page.png">
-                            <collision-poly>
-                                <point x="0" y="0" />
-                                <point x="1" y="0" />
-                                <point x="1" y="0.5" />
-                                <point x="0.913846" y="0.825" />
-                                <point x="0.0861538" y="0.825" />
-                                <point x="0" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="MyNameIs_" sid="986017006368859">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="920411374213669" speed="5">
-                        <frame duration="1" hotspotX="0.501109" hotspotY="0.304878" original-source="V:\Asset\Asset Printilan\MyNameIS.png">
-                            <collision-poly>
-                                <point x="0.00886917" y="0" />
-                                <point x="0.498891" y="0.0121947" />
-                                <point x="0.926829" y="0.0121947" />
-                                <point x="0.997783" y="0.304878" />
-                                <point x="0.997783" y="0.987805" />
-                                <point x="0.00221729" y="0.987805" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="TEFA" sid="784079713248480">
-                <plugin id="Sprite" />
-                <behaviors>
-                    <behavior-type name="Flash" sid="318761345939935">
-                        <behavior id="Flash" />
-                    </behavior-type>
-                </behaviors>
-                <animation-folder>
-                    <animation framecount="76" loop="1" name="Tefa" pingpong="0" repeatcount="1" repeatto="0" sid="916756877733827" speed="30">
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_00.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_01.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_02.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_03.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_04.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_05.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_06.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_07.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_08.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_09.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_10.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_11.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_12.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_13.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_14.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_15.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_16.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_17.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_18.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_19.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_20.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_21.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_22.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_23.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_24.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_25.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_26.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_27.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_28.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_29.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_30.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_31.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_32.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_33.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_34.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_35.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_36.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_37.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_38.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_39.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_40.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_41.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_42.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_43.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_44.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_45.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_46.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_47.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_48.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_49.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_50.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_51.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_52.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_53.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_54.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_55.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_56.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_57.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_58.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_59.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_60.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_61.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_62.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_63.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_64.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_65.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_66.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_67.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_68.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_69.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_70.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_71.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_72.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_73.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_74.png" />
-                        <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_75.png" />
-                    </animation>
-                    <animation framecount="76" loop="1" name="Tefi" pingpong="0" repeatcount="1" repeatto="0" sid="910523505022075" speed="30">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_00.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_01.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_02.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_03.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_04.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_05.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_06.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_07.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_08.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_09.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_10.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_11.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_12.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_13.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_14.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_15.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_16.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_17.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_18.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_19.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_20.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_21.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_22.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_23.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_24.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_25.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_26.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_27.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_28.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_29.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_30.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_31.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_32.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_33.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_34.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_35.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_36.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_37.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_38.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_39.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_40.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_41.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_42.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_43.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_44.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_45.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_46.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_47.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_48.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_49.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_50.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_51.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_52.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_53.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_54.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_55.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_56.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_57.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_58.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_59.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_60.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_61.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_62.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_63.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_64.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_65.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_66.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_67.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_68.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_69.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_70.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_71.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_72.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_73.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_74.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_75.png" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="InputName" sid="830328140244506">
-                <plugin id="TextBox" />
-            </object-type>
-            <object-type name="PressEnter" sid="518089965297453">
-                <plugin id="Text" />
-            </object-type>
-            <object-type name="Arrow" sid="821813816453681">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="959835734526623" speed="5">
-                        <frame duration="1" hotspotX="0.381818" hotspotY="0.504202" original-source="V:\Asset\Asset Printilan\play button.png" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="doYouLikeIt" sid="228465289410082">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="787787734256947" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.509804" original-source="V:\Asset\Asset Printilan\do you like it.png">
-                            <collision-poly>
-                                <point x="0.00507614" y="0.0392157" />
-                                <point x="0.989848" y="0.0784314" />
-                                <point x="0.974619" y="0.803922" />
-                                <point x="0.0253807" y="0.803922" />
-                                <point x="0" y="0.490196" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="iconEmotionGede" sid="685315783988189">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="829566651854045" speed="5">
-                        <frame duration="1" hotspotX="0.501754" hotspotY="0.501754" original-source="V:\Asset\Asset Printilan\icon emotion gede.png">
-                            <collision-poly>
-                                <point x="0.0210526" y="0.0210526" />
-                                <point x="0.498246" y="0" />
-                                <point x="0.978947" y="0.0210526" />
-                                <point x="1" y="0.498246" />
-                                <point x="0.978947" y="0.978947" />
-                                <point x="0.498246" y="0.996491" />
-                                <point x="0.0210526" y="0.978947" />
-                                <point x="0.00350877" y="0.498246" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="iconPelangiGede" sid="954690471085375">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="860788576595947" speed="5">
-                        <frame duration="1" hotspotX="0.501754" hotspotY="0.501754" original-source="V:\Asset\Asset Printilan\icon pelangi gede.png">
-                            <collision-poly>
-                                <point x="0.0210526" y="0.0210526" />
-                                <point x="0.498246" y="0.00350877" />
-                                <point x="0.978947" y="0.0210526" />
-                                <point x="1" y="0.498246" />
-                                <point x="0.978947" y="0.978947" />
-                                <point x="0.498246" y="1" />
-                                <point x="0.0210526" y="0.978947" />
-                                <point x="0.00350877" y="0.498246" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="iconPuzzleGede" sid="631904095982288">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="693260155943512" speed="5">
-                        <frame duration="1" hotspotX="0.501754" hotspotY="0.501754" original-source="V:\Asset\Asset Printilan\icon puzzle gede.png">
-                            <collision-poly>
-                                <point x="0.0210526" y="0.0210526" />
-                                <point x="0.498246" y="0.00350877" />
-                                <point x="0.978947" y="0.0210526" />
-                                <point x="1" y="0.498246" />
-                                <point x="0.978947" y="0.978947" />
-                                <point x="0.498246" y="1" />
-                                <point x="0.0210526" y="0.978947" />
-                                <point x="0.00350877" y="0.498246" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
+            <object-folder name="MainMenu">
+                <object-type name="PlayButton" sid="102764802013370">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Sine" sid="759060256600476">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="839560348138293" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.502075" original-source="V:\Asset\Asset Printilan\play button.png">
+                                <collision-poly>
+                                    <point x="0.00413223" y="0.00414938" />
+                                    <point x="0.995868" y="0.00414938" />
+                                    <point x="0.995868" y="0.995851" />
+                                    <point x="0.00413223" y="0.995851" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="Global">
+                <object-type name="Arrow" sid="821813816453681">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="959835734526623" speed="5">
+                            <frame duration="1" hotspotX="0.381818" hotspotY="0.504202" original-source="V:\Asset\Asset Printilan\play button.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="IconExit" sid="407599019494904">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="442948552608590" speed="5">
+                            <frame duration="1" hotspotX="0.504587" hotspotY="0.504587" original-source="V:\Asset\Asset Printilan\icon exit.png">
+                                <collision-poly>
+                                    <point x="0.00917431" y="0.00917431" />
+                                    <point x="0.990826" y="0.00917431" />
+                                    <point x="1" y="1" />
+                                    <point x="0.00917431" y="0.990826" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="IconSetting" sid="569978311577815">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="256534977028977" speed="5">
+                            <frame duration="1" hotspotX="0.504587" hotspotY="0.504587" original-source="V:\Asset\Asset Printilan\icon setting.png">
+                                <collision-poly>
+                                    <point x="0.00917431" y="0.00917431" />
+                                    <point x="1" y="0" />
+                                    <point x="0.990826" y="0.990826" />
+                                    <point x="0.00917431" y="0.990826" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="PilihGender">
+                <object-type name="Laki" sid="253961588094276">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Perempuan" sid="963175213409765">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Tefa_Static" sid="731995669014453">
+                    <plugin id="Sprite" />
+                    <instance-variables>
+                        <instance-variable name="defWidth" sid="559886001016549" type="number" />
+                        <instance-variable name="defHeight" sid="594436285077016" type="number" />
+                    </instance-variables>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="364960795125242" speed="5">
+                            <frame duration="1" hotspotX="0.501661" hotspotY="1" original-source="V:\Asset\Asset Printilan\Tefa.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Tefi_Static" sid="966159332209545">
+                    <plugin id="Sprite" />
+                    <instance-variables>
+                        <instance-variable name="defWidth" sid="995435728691169" type="number" />
+                        <instance-variable name="defHeight" sid="439957400928274" type="number" />
+                    </instance-variables>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="408390648013898" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="V:\Asset\Asset Printilan\Tefi.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="LakiSymbol" sid="134323568165787">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="642358599594417" speed="5">
+                            <frame duration="1" hotspotX="0.503268" hotspotY="0.503268" original-source="V:\Asset\Asset Printilan\Logo Lakik.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="PerempuanSymbol" sid="925667446633180">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="147785103616341" speed="5">
+                            <frame duration="1" hotspotX="0.503268" hotspotY="0.503268" original-source="V:\Asset\Asset Printilan\Logo Perempuan.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="IsiNama">
+                <object-type name="HaloNamakuTef" sid="894223337512825">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Hello" sid="250020668913228">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="240323269090568" speed="5">
+                            <frame duration="1" hotspotX="0.501538" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\Name Page.png">
+                                <collision-poly>
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.913846" y="0.825" />
+                                    <point x="0.0861538" y="0.825" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="InputName" sid="830328140244506">
+                    <plugin id="TextBox" />
+                </object-type>
+                <object-type name="MyNameIs_" sid="986017006368859">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="920411374213669" speed="5">
+                            <frame duration="1" hotspotX="0.501109" hotspotY="0.304878" original-source="V:\Asset\Asset Printilan\MyNameIS.png">
+                                <collision-poly>
+                                    <point x="0.00886917" y="0" />
+                                    <point x="0.498891" y="0.0121947" />
+                                    <point x="0.926829" y="0.0121947" />
+                                    <point x="0.997783" y="0.304878" />
+                                    <point x="0.997783" y="0.987805" />
+                                    <point x="0.00221729" y="0.987805" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="TEFA" sid="784079713248480">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Flash" sid="318761345939935">
+                            <behavior id="Flash" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="76" loop="1" name="Tefa" pingpong="0" repeatcount="1" repeatto="0" sid="916756877733827" speed="30">
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_00.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_01.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_02.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_03.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_04.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_05.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_06.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_07.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_08.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_09.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_10.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_11.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_12.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_13.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_14.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_15.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_16.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_17.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_18.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_19.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_20.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_21.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_22.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_23.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_24.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_25.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_26.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_27.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_28.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_29.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_30.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_31.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_32.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_33.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_34.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_35.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_36.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_37.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_38.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_39.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_40.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_41.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_42.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_43.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_44.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_45.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_46.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_47.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_48.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_49.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_50.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_51.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_52.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_53.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_54.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_55.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_56.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_57.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_58.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_59.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_60.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_61.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_62.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_63.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_64.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_65.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_66.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_67.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_68.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_69.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_70.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_71.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_72.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_73.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_74.png" />
+                            <frame duration="1" hotspotX="0.500945" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefa\Tefa_Tunjuk_75.png" />
+                        </animation>
+                        <animation framecount="76" loop="1" name="Tefi" pingpong="0" repeatcount="1" repeatto="0" sid="910523505022075" speed="30">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_00.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_01.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_02.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_03.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_04.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_05.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_06.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_07.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_08.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_09.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_10.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_11.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_12.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_13.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_14.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_15.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_16.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_17.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_18.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_19.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_20.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_21.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_22.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_23.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_24.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_25.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_26.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_27.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_28.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_29.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_30.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_31.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_32.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_33.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_34.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_35.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_36.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_37.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_38.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_39.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_40.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_41.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_42.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_43.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_44.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_45.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_46.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_47.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_48.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_49.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_50.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_51.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_52.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_53.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_54.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_55.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_56.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_57.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_58.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_59.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_60.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_61.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_62.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_63.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_64.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_65.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_66.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_67.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_68.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_69.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_70.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_71.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_72.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_73.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_74.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Tefa boy\Animation Tefi\tefi_75.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="PressEnter" sid="518089965297453">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Namaku" sid="479819231583293">
+                    <plugin id="Text" />
+                </object-type>
+            </object-folder>
+            <object-folder name="OpsiUtama">
+                <object-type name="gantiBgm" sid="316998894475518">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="603136671278439" speed="5">
+                            <frame duration="1" hotspotX="0.500734" hotspotY="0.508065" original-source="V:\Asset\Asset Printilan\Pilih Latar Musik.png">
+                                <collision-poly>
+                                    <point x="0.00496278" y="0.0336134" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.995037" y="0.0336134" />
+                                    <point x="0.995037" y="0.966387" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.00496278" y="0.966387" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="iconEmotionGede" sid="685315783988189">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="829566651854045" speed="5">
+                            <frame duration="1" hotspotX="0.501754" hotspotY="0" original-source="V:\Asset\Asset Printilan\icon emotion gede.png">
+                                <collision-poly>
+                                    <point x="0.0210526" y="0.0210526" />
+                                    <point x="0.498246" y="0" />
+                                    <point x="0.978947" y="0.0210526" />
+                                    <point x="1" y="0.498246" />
+                                    <point x="0.978947" y="0.978947" />
+                                    <point x="0.498246" y="0.996491" />
+                                    <point x="0.0210526" y="0.978947" />
+                                    <point x="0.00350877" y="0.498246" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="iconNarativeGede" sid="624334340354937">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="415716001027435" speed="5">
+                            <frame duration="1" hotspotX="0.501754" hotspotY="0" original-source="V:\Asset\Asset Printilan\icon narative gede.png">
+                                <collision-poly>
+                                    <point x="0.0210526" y="0.0210526" />
+                                    <point x="0.498246" y="0" />
+                                    <point x="0.978947" y="0.0210526" />
+                                    <point x="0.996491" y="0.498246" />
+                                    <point x="0.978947" y="0.978947" />
+                                    <point x="0.498246" y="0.996491" />
+                                    <point x="0.0210526" y="0.978947" />
+                                    <point x="0" y="0.498246" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="iconPelangiGede" sid="954690471085375">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="860788576595947" speed="5">
+                            <frame duration="1" hotspotX="0.501754" hotspotY="0" original-source="V:\Asset\Asset Printilan\icon pelangi gede.png">
+                                <collision-poly>
+                                    <point x="0.0210526" y="0.0210526" />
+                                    <point x="0.498246" y="0.00350877" />
+                                    <point x="0.978947" y="0.0210526" />
+                                    <point x="1" y="0.498246" />
+                                    <point x="0.978947" y="0.978947" />
+                                    <point x="0.498246" y="1" />
+                                    <point x="0.0210526" y="0.978947" />
+                                    <point x="0.00350877" y="0.498246" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="iconPuzzleGede" sid="631904095982288">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="693260155943512" speed="5">
+                            <frame duration="1" hotspotX="0.501754" hotspotY="0" original-source="V:\Asset\Asset Printilan\icon puzzle gede.png">
+                                <collision-poly>
+                                    <point x="0.0210526" y="0.0210526" />
+                                    <point x="0.498246" y="0.00350877" />
+                                    <point x="0.978947" y="0.0210526" />
+                                    <point x="1" y="0.498246" />
+                                    <point x="0.978947" y="0.978947" />
+                                    <point x="0.498246" y="1" />
+                                    <point x="0.0210526" y="0.978947" />
+                                    <point x="0.00350877" y="0.498246" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="iconVolumeGede" sid="855666795234148">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="912160072348201" speed="5">
+                            <frame duration="1" hotspotX="0.501754" hotspotY="0" original-source="V:\Asset\Asset Printilan\icon volume gede.png">
+                                <collision-poly>
+                                    <point x="0.0210526" y="0.0210526" />
+                                    <point x="0.498246" y="0.00350877" />
+                                    <point x="0.978947" y="0.0210526" />
+                                    <point x="0.996491" y="0.498246" />
+                                    <point x="0.978947" y="0.978947" />
+                                    <point x="0.498246" y="1" />
+                                    <point x="0.0210526" y="0.978947" />
+                                    <point x="0" y="0.498246" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="spoilerBenda" sid="843197865733984">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="562693660131992" speed="5">
+                            <frame duration="1" hotspotX="0.50039" hotspotY="0.500694" original-source="V:\Asset\Asset Printilan\spoiler benda.png">
+                                <collision-poly>
+                                    <point x="0.00078064" y="0.00138696" />
+                                    <point x="0.999219" y="0.00138696" />
+                                    <point x="0.999219" y="0.998613" />
+                                    <point x="0" y="1" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="SpoilerEkspresi" sid="719879863269267">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="637677650783101" speed="5">
+                            <frame duration="1" hotspotX="0.50039" hotspotY="0.500694" original-source="V:\Asset\Asset Printilan\Spoiler Ekspresi.png">
+                                <collision-poly>
+                                    <point x="0.00078064" y="0.00138696" />
+                                    <point x="0.999219" y="0.00138696" />
+                                    <point x="0.999219" y="0.998613" />
+                                    <point x="0.00078064" y="0.998613" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="spoilerIntonasi" sid="537858559475316">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="920389403325282" speed="5">
+                            <frame duration="1" hotspotX="0.50039" hotspotY="0.500694" original-source="V:\Asset\Asset Printilan\spoiler Intonasi.png">
+                                <collision-poly>
+                                    <point x="0.00078064" y="0.00138696" />
+                                    <point x="0.999219" y="0.00138696" />
+                                    <point x="0.999219" y="0.998613" />
+                                    <point x="0.00078064" y="0.998613" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="SpoilerMusik" sid="719465902987601">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="681060459942400" speed="5">
+                            <frame duration="1" hotspotX="0.50039" hotspotY="0.500694" original-source="V:\Asset\Asset Printilan\Spoiler Musik.png">
+                                <collision-poly>
+                                    <point x="0.00078064" y="0.00138696" />
+                                    <point x="0.999219" y="0.00138696" />
+                                    <point x="0.999219" y="0.998613" />
+                                    <point x="0.00078064" y="0.998613" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="spoilerWarna" sid="241729557621676">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="192345796230541" speed="5">
+                            <frame duration="1" hotspotX="0.50039" hotspotY="0.500694" original-source="V:\Asset\Asset Printilan\spoiler warna.png">
+                                <collision-poly>
+                                    <point x="0.00078064" y="0.00138696" />
+                                    <point x="0.999219" y="0.00138696" />
+                                    <point x="0.999219" y="0.998613" />
+                                    <point x="0.00078064" y="0.998613" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="pilihWarna" sid="143913507520908">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="352989416843444" speed="5">
+                            <frame duration="1" hotspotX="0.500715" hotspotY="0.504" original-source="V:\Asset\Asset Printilan\pilih warna.png">
+                                <collision-poly>
+                                    <point x="0.0100143" y="0.056" />
+                                    <point x="0.499285" y="0" />
+                                    <point x="0.989986" y="0.056" />
+                                    <point x="0.989986" y="0.944" />
+                                    <point x="0.499285" y="1" />
+                                    <point x="0.0100143" y="0.944" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="selectYourPreferencesEmotion" sid="747545865993129">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="640113602550718" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.504" original-source="V:\Asset\Asset Printilan\select your preferences emotion 2.0.png">
+                                <collision-poly>
+                                    <point x="0.00875" y="0.056" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.99125" y="0.056" />
+                                    <point x="0.99125" y="0.944" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.00875" y="0.944" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mainan" sid="588774836531164">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="458340008309168" speed="5">
+                            <frame duration="1" hotspotX="0.500715" hotspotY="0.504" original-source="V:\Asset\Asset Printilan\mainan.png">
+                                <collision-poly>
+                                    <point x="0.0100143" y="0.056" />
+                                    <point x="0.499285" y="0" />
+                                    <point x="0.989986" y="0.056" />
+                                    <point x="0.989986" y="0.944" />
+                                    <point x="0.499285" y="1" />
+                                    <point x="0.0100143" y="0.944" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="intonasi" sid="733681352470617">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="620222859949265" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.504" original-source="V:\Asset\Asset Printilan\intonasi.png">
+                                <collision-poly>
+                                    <point x="0.00757576" y="0.056" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.992424" y="0.056" />
+                                    <point x="0.992424" y="0.944" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.00757576" y="0.944" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="GantiMusik">
+                <object-type name="iconVolumeGede2" sid="558173329789886">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="345877956571318" speed="5">
+                            <frame duration="1" hotspotX="0.501754" hotspotY="0.501754" original-source="V:\Asset\Asset Printilan\icon volume gede.png">
+                                <collision-poly>
+                                    <point x="0.0210526" y="0.0210526" />
+                                    <point x="0.498246" y="0.00350877" />
+                                    <point x="0.978947" y="0.0210526" />
+                                    <point x="0.996491" y="0.498246" />
+                                    <point x="0.978947" y="0.978947" />
+                                    <point x="0.498246" y="1" />
+                                    <point x="0.0210526" y="0.978947" />
+                                    <point x="0" y="0.498246" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="KlikUntukMengganti" sid="456962097816828">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="falseLogo" sid="117763789518662">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="523631389439632" speed="5">
+                            <frame duration="1" hotspotX="0.503876" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\false logo.png">
+                                <collision-poly>
+                                    <point x="0.0387597" y="0.0390625" />
+                                    <point x="0.496124" y="0" />
+                                    <point x="0.953488" y="0.046875" />
+                                    <point x="0.992248" y="0.5" />
+                                    <point x="0.953488" y="0.953125" />
+                                    <point x="0.496124" y="1" />
+                                    <point x="0.0387597" y="0.960938" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="trueLogo" sid="544188379250111">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="243045366930584" speed="5">
+                            <frame duration="1" hotspotX="0.503876" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\true logo.png">
+                                <collision-poly>
+                                    <point x="0.0387597" y="0.0390625" />
+                                    <point x="0.496124" y="0" />
+                                    <point x="0.953488" y="0.046875" />
+                                    <point x="0.992248" y="0.5" />
+                                    <point x="0.953488" y="0.953125" />
+                                    <point x="0.496124" y="1" />
+                                    <point x="0.0387597" y="0.960938" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="iconTap" sid="100874440927673">
+                    <plugin id="Sprite" />
+                    <instance-variables>
+                        <instance-variable name="defX" sid="433297333925978" type="number" />
+                        <instance-variable name="defY" sid="984737515523110" type="number" />
+                        <instance-variable name="scale" sid="355512485155372" type="number" />
+                    </instance-variables>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="572581921251303" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\icon tap.png">
+                                <collision-poly>
+                                    <point x="0.0413534" y="0.0413534" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.958647" y="0.0413534" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.958647" y="0.958647" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.0413534" y="0.958647" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="PilihEkspresi">
+                <object-type name="iconEmotionGede2" sid="174238431150243">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="517860999068098" speed="5">
+                            <frame duration="1" hotspotX="0.501754" hotspotY="0.501754" original-source="V:\Asset\Asset Printilan\icon emotion gede.png">
+                                <collision-poly>
+                                    <point x="0.0210526" y="0.0210526" />
+                                    <point x="0.498246" y="0" />
+                                    <point x="0.978947" y="0.0210526" />
+                                    <point x="1" y="0.498246" />
+                                    <point x="0.978947" y="0.978947" />
+                                    <point x="0.498246" y="0.996491" />
+                                    <point x="0.0210526" y="0.978947" />
+                                    <point x="0.00350877" y="0.498246" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="flat" sid="850110364905235">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="189863276608125" speed="5">
+                            <frame duration="1" hotspotX="0.503185" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\Emojis\flat.png">
+                                <collision-poly>
+                                    <point x="0.152866" y="0.151899" />
+                                    <point x="0.503185" y="0.0126582" />
+                                    <point x="0.847134" y="0.158228" />
+                                    <point x="0.993631" y="0.5" />
+                                    <point x="0.853503" y="0.848101" />
+                                    <point x="0.503185" y="0.993671" />
+                                    <point x="0.152866" y="0.848101" />
+                                    <point x="0.00636943" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="kiss" sid="468519633275934">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="869094119669370" speed="5">
+                            <frame duration="1" hotspotX="0.503268" hotspotY="0.503268" original-source="V:\Asset\Asset Printilan\Emojis\kiss.png">
+                                <collision-poly>
+                                    <point x="0.149804" y="0.136471" />
+                                    <point x="0.510065" y="0" />
+                                    <point x="0.870327" y="0.136471" />
+                                    <point x="1" y="0.496732" />
+                                    <point x="0.877124" y="0.863791" />
+                                    <point x="0.510065" y="1" />
+                                    <point x="0.143007" y="0.863791" />
+                                    <point x="0.000261438" y="0.496732" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="laugh" sid="950318048143461">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="584616728069058" speed="5">
+                            <frame duration="1" hotspotX="0.503268" hotspotY="0.496732" original-source="V:\Asset\Asset Printilan\Emojis\laugh.png">
+                                <collision-poly>
+                                    <point x="0.156863" y="0.150327" />
+                                    <point x="0.503268" y="0.00653595" />
+                                    <point x="0.849673" y="0.150327" />
+                                    <point x="0.986928" y="0.496732" />
+                                    <point x="0.849673" y="0.843137" />
+                                    <point x="0.503268" y="0.986928" />
+                                    <point x="0.156863" y="0.843137" />
+                                    <point x="0.0130719" y="0.496732" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="lol" sid="175069988717323">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="643546818119038" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.503268" original-source="V:\Asset\Asset Printilan\Emojis\lol.png">
+                                <collision-poly>
+                                    <point x="0.144737" y="0.156863" />
+                                    <point x="0.486842" y="0.00653595" />
+                                    <point x="0.842105" y="0.143791" />
+                                    <point x="0.993421" y="0.496732" />
+                                    <point x="0.842105" y="0.849673" />
+                                    <point x="0.486842" y="0.986928" />
+                                    <point x="0.144737" y="0.836601" />
+                                    <point x="0.00657895" y="0.496732" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Senyum" sid="573320183036299">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="868544490604523" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.503268" original-source="V:\Asset\Asset Printilan\Emojis\Senyum.png">
+                                <collision-poly>
+                                    <point x="0.157895" y="0.150327" />
+                                    <point x="0.506579" y="0.00653595" />
+                                    <point x="0.848684" y="0.156863" />
+                                    <point x="0.993421" y="0.496732" />
+                                    <point x="0.855263" y="0.843137" />
+                                    <point x="0.506579" y="0.986928" />
+                                    <point x="0.151316" y="0.849673" />
+                                    <point x="0.00657895" y="0.496732" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="PilihIntonasi">
+                <object-type name="spoilerIntonasi2" sid="349406028540674">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="596372006711496" speed="5">
+                            <frame duration="1" hotspotX="0.50039" hotspotY="0.500694" original-source="V:\Asset\Asset Printilan\spoiler Intonasi.png">
+                                <collision-poly>
+                                    <point x="0.00078064" y="0.00138696" />
+                                    <point x="0.999219" y="0.00138696" />
+                                    <point x="0.999219" y="0.998613" />
+                                    <point x="0.00078064" y="0.998613" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="iconNarativeGede2" sid="364089022643779">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="232784269729783" speed="5">
+                            <frame duration="1" hotspotX="0.501754" hotspotY="0.501754" original-source="V:\Asset\Asset Printilan\icon narative gede.png">
+                                <collision-poly>
+                                    <point x="0.0210526" y="0.0210526" />
+                                    <point x="0.498246" y="0" />
+                                    <point x="0.978947" y="0.0210526" />
+                                    <point x="0.996491" y="0.498246" />
+                                    <point x="0.978947" y="0.978947" />
+                                    <point x="0.498246" y="0.996491" />
+                                    <point x="0.0210526" y="0.978947" />
+                                    <point x="0" y="0.498246" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="GantiWarna">
+                <object-type name="iconPelangiGede2" sid="334807451540230">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="409861295873916" speed="5">
+                            <frame duration="1" hotspotX="0.501754" hotspotY="0.501754" original-source="V:\Asset\Asset Printilan\icon pelangi gede.png">
+                                <collision-poly>
+                                    <point x="0.0210526" y="0.0210526" />
+                                    <point x="0.498246" y="0.00350877" />
+                                    <point x="0.978947" y="0.0210526" />
+                                    <point x="1" y="0.498246" />
+                                    <point x="0.978947" y="0.978947" />
+                                    <point x="0.498246" y="1" />
+                                    <point x="0.0210526" y="0.978947" />
+                                    <point x="0.00350877" y="0.498246" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="catBiru" sid="225803951866936">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="250521831101059" speed="5">
+                            <frame duration="1" hotspotX="0.501385" hotspotY="0.500963" original-source="V:\Asset\Asset Printilan\Cat\cat biru.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="catIjo" sid="905160628359368">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="822411671132422" speed="5">
+                            <frame duration="1" hotspotX="0.501385" hotspotY="0.500963" original-source="V:\Asset\Asset Printilan\Cat\cat ijo.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="catKuning" sid="974443391285793">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="347987895191100" speed="5">
+                            <frame duration="1" hotspotX="0.501385" hotspotY="0.500963" original-source="V:\Asset\Asset Printilan\Cat\cat kuning.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="catMerah" sid="541884959921775">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="606810104024967" speed="5">
+                            <frame duration="1" hotspotX="0.501385" hotspotY="0.500963" original-source="V:\Asset\Asset Printilan\Cat\cat merah.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="catUngu" sid="541405795318132">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="126636167459342" speed="5">
+                            <frame duration="1" hotspotX="0.501385" hotspotY="0.500963" original-source="V:\Asset\Asset Printilan\Cat\cat ungu.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="PilihMainan">
+                <object-type name="iconPuzzleGede2" sid="920247738273015">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="928738827319767" speed="5">
+                            <frame duration="1" hotspotX="0.501754" hotspotY="0.501754" original-source="V:\Asset\Asset Printilan\icon puzzle gede.png">
+                                <collision-poly>
+                                    <point x="0.0210526" y="0.0210526" />
+                                    <point x="0.498246" y="0.00350877" />
+                                    <point x="0.978947" y="0.0210526" />
+                                    <point x="1" y="0.498246" />
+                                    <point x="0.978947" y="0.978947" />
+                                    <point x="0.498246" y="1" />
+                                    <point x="0.0210526" y="0.978947" />
+                                    <point x="0.00350877" y="0.498246" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
             <object-type name="Objek" sid="131066383500209">
                 <plugin id="Sprite" />
                 <behaviors>
@@ -473,12 +1112,6 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="MyNameIs" sid="479819231583293">
-                <plugin id="Text" />
-            </object-type>
-            <object-type name="HaloNamakuTef" sid="894223337512825">
-                <plugin id="Text" />
-            </object-type>
         </object-folder>
         <object-type name="Touch" sid="289867748623296">
             <plugin id="Touch" />
@@ -489,54 +1122,108 @@
         <object-type name="Keyboard" sid="203565115293577">
             <plugin id="Keyboard" />
         </object-type>
-        <object-type name="Merah" sid="865056480962175">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="149290983999018" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Tefa_Static" sid="731995669014453">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="364960795125242" speed="5">
-                    <frame duration="1" hotspotX="0.501661" hotspotY="1" original-source="V:\Asset\Asset Printilan\Tefa.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Tefi_Static" sid="966159332209545">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="408390648013898" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="V:\Asset\Asset Printilan\Tefi.png">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Browser" sid="917623311826091">
             <plugin id="Browser" />
         </object-type>
+        <object-type name="bgwhite" sid="343421072140473">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="defX" sid="765473597953729" type="number" />
+                <instance-variable name="defY" sid="404270644955473" type="number" />
+                <instance-variable name="scale" sid="696186092051888" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="512206585379126" speed="5">
+                    <frame duration="1" hotspotX="0.501695" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\bg-white.png">
+                        <collision-poly>
+                            <point x="0.0576271" y="0.0452128" />
+                            <point x="0.498305" y="0" />
+                            <point x="0.942373" y="0.0452128" />
+                            <point x="1" y="0.5" />
+                            <point x="0.942373" y="0.954787" />
+                            <point x="0.498305" y="1" />
+                            <point x="0.0576271" y="0.954787" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Frame5" sid="511119863158060">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="503910508428575" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Completed Scene\Frame 58.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
-    <families />
+    <families>
+        <family name="OpsiUtama_Button" plugin-id="Sprite" sid="872241909552528">
+            <members>
+                <member>iconEmotionGede</member>
+                <member>iconEmotionGede2</member>
+                <member>iconNarativeGede</member>
+                <member>iconNarativeGede2</member>
+                <member>iconPelangiGede</member>
+                <member>iconPelangiGede2</member>
+                <member>iconPuzzleGede</member>
+                <member>iconPuzzleGede2</member>
+                <member>iconVolumeGede</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="defX" sid="993796659067245" type="number" />
+                <instance-variable name="defY" sid="956176452673328" type="number" />
+                <instance-variable name="scale" sid="538328268503530" type="number" />
+            </instance-variables>
+        </family>
+        <family name="PilihEmot" plugin-id="Sprite" sid="657691295231325">
+            <members>
+                <member>flat</member>
+                <member>kiss</member>
+                <member>laugh</member>
+                <member>lol</member>
+                <member>Senyum</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="defX" sid="169791145418965" type="number" />
+                <instance-variable name="defY" sid="749089968299825" type="number" />
+                <instance-variable name="scale" sid="928236362728512" type="number" />
+            </instance-variables>
+        </family>
+        <family name="GantiWarna" plugin-id="Sprite" sid="441777652520503">
+            <members>
+                <member>catBiru</member>
+                <member>catIjo</member>
+                <member>catKuning</member>
+                <member>catMerah</member>
+                <member>catUngu</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="defX" sid="880180143626476" type="number" />
+                <instance-variable name="defY" sid="614467264921523" type="number" />
+                <instance-variable name="scale" sid="593394698061507" type="number" />
+            </instance-variables>
+        </family>
+    </families>
     <layout-folder>
-        <layout>MainMenu.xml</layout>
-        <layout>IsiNama.xml</layout>
+        <layout-folder name="OpeningPage">
+            <layout>MainMenu.xml</layout>
+            <layout>PilihGender.xml</layout>
+            <layout>IsiNama.xml</layout>
+        </layout-folder>
+        <layout-folder name="SelectStage_1">
+            <layout>OpsiUtama.xml</layout>
+            <layout>Ganti_Musik.xml</layout>
+            <layout>Pilih_Intonasi.xml</layout>
+            <layout>Pilih_Ekspresi.xml</layout>
+            <layout>Ganti_Warna.xml</layout>
+            <layout>Pilih_Mainan.xml</layout>
+        </layout-folder>
+        <layout-folder name="SelectStage_2">
+            <layout>SelectStage_2.xml</layout>
+        </layout-folder>
         <layout>PemilihanObjek.xml</layout>
-        <layout>PilihGender.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>MainMenu_Sheet.xml</event-sheet>
@@ -544,6 +1231,14 @@
         <event-sheet>Global_Sheet.xml</event-sheet>
         <event-sheet>PemilihanObjek_Sheet.xml</event-sheet>
         <event-sheet>PilihGender_Sheet.xml</event-sheet>
+        <event-sheet>OpsiUtama_Sheet.xml</event-sheet>
+        <event-sheet>GantiMusik_Sheet.xml</event-sheet>
+        <event-sheet>SelectStage_2_Sheet.xml</event-sheet>
+        <event-sheet>PilihEkspresi_Sheet.xml</event-sheet>
+        <event-sheet>PilihIntonasi_Sheet.xml</event-sheet>
+        <event-sheet>GantiWarna_Sheet.xml</event-sheet>
+        <event-sheet>BGandBGM.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="14">

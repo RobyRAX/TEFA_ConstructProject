@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>PilihEkspresi_Sheet</name>
+    <events>
+        <variable constant="0" name="PilihanEmot" sid="808116621275658" static="0" type="number">0</variable>
+        <event-group description="" sid="427738250354524" title="Efek_PilihEmot">
+            <sub-events>
+                <event-block sid="870419741738955">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="357033350771351" type="Mouse">
+                            <param id="0" name="Object">Senyum</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="523052296647901" type="Senyum">
+                            <param id="0" name="Width">lerp(self.Width, PilihEmot.defX*PilihEmot.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, PilihEmot.defY*PilihEmot.scale, 0.2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="111342271520947" type="System">
+                            <param id="0" name="Variable">PilihanEmot</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="155432710988583">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="965043427520703" type="Mouse">
+                            <param id="0" name="Object">Senyum</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="482399127900659" type="Senyum">
+                            <param id="0" name="Width">lerp(self.Width, PilihEmot.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, PilihEmot.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="778337585690688">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="236489210828091" type="Mouse">
+                            <param id="0" name="Object">kiss</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="736003853370875" type="kiss">
+                            <param id="0" name="Width">lerp(self.Width, PilihEmot.defX*PilihEmot.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, PilihEmot.defY*PilihEmot.scale, 0.2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="757399646068987" type="System">
+                            <param id="0" name="Variable">PilihanEmot</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="569704419300924">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="485168127859626" type="Mouse">
+                            <param id="0" name="Object">kiss</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="296970340251239" type="kiss">
+                            <param id="0" name="Width">lerp(self.Width, PilihEmot.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, PilihEmot.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="735501964533381">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="221916345695171" type="Mouse">
+                            <param id="0" name="Object">flat</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="735509951490101" type="flat">
+                            <param id="0" name="Width">lerp(self.Width, PilihEmot.defX*PilihEmot.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, PilihEmot.defY*PilihEmot.scale, 0.2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="652365330980894" type="System">
+                            <param id="0" name="Variable">PilihanEmot</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="325932549725953">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="970365019269539" type="Mouse">
+                            <param id="0" name="Object">flat</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="612462190882928" type="flat">
+                            <param id="0" name="Width">lerp(self.Width, PilihEmot.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, PilihEmot.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="156604826457280">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="153503480185024" type="Mouse">
+                            <param id="0" name="Object">laugh</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="270038614386686" type="laugh">
+                            <param id="0" name="Width">lerp(self.Width, PilihEmot.defX*PilihEmot.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, PilihEmot.defY*PilihEmot.scale, 0.2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="396595105830834" type="System">
+                            <param id="0" name="Variable">PilihanEmot</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="225813881882578">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="303904630895089" type="Mouse">
+                            <param id="0" name="Object">laugh</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="673745550840755" type="laugh">
+                            <param id="0" name="Width">lerp(self.Width, PilihEmot.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, PilihEmot.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="885150764448877">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="774322835870354" type="Mouse">
+                            <param id="0" name="Object">lol</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="265436449695510" type="lol">
+                            <param id="0" name="Width">lerp(self.Width, PilihEmot.defX*PilihEmot.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, PilihEmot.defY*PilihEmot.scale, 0.2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="398920362305646" type="System">
+                            <param id="0" name="Variable">PilihanEmot</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="270553219161231">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="116544804220559" type="Mouse">
+                            <param id="0" name="Object">lol</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="940870950298023" type="lol">
+                            <param id="0" name="Width">lerp(self.Width, PilihEmot.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, PilihEmot.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="251541023859384">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="660495025679632" type="Mouse">
+                            <param id="0" name="Object">PilihEmot</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="491428830988073" type="System">
+                            <param id="0" name="Variable">PilihanEmot</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="511556213184003" title="Button_PilihEmot">
+            <sub-events>
+                <event-block sid="876957278449468">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="868942984943136" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">PilihEmot</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="580474003905688" type="System">
+                            <param id="0" name="Layout">SelectStage_2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

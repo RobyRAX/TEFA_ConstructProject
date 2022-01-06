@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>BGandBGM</name>
+    <events>
+        <event-group description="" sid="215971992087363" title="Warna_Background">
+            <sub-events>
+                <event-block sid="353147221824845">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="227977271000715" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="559480971232752" type="BG_Polos">
+                            <param id="0" name="Frame number">PilihanWarna</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

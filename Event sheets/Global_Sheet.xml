@@ -6,5 +6,6 @@
         <variable constant="0" name="Gender" sid="423176775043569" static="0" type="text"></variable>
         <variable constant="0" name="NamaPemain" sid="117258754935172" static="0" type="text"></variable>
         <variable constant="0" name="PilihanObjek" sid="867116871985063" static="0" type="text"></variable>
+        <variable constant="0" name="SubState" sid="317418699906233" static="0" type="number">0</variable>
     </events>
 </c2eventsheet>

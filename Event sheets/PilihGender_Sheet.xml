@@ -3,6 +3,33 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>PilihGender_Sheet</name>
     <events>
+        <event-group description="" sid="662236859226687" title="Start_PilihGender">
+            <sub-events>
+                <event-block sid="496903662400410">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="848238843140181" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="457396138848171" type="Tefa_Static">
+                            <param id="0" name="Instance variable">defWidth</param>
+                            <param id="1" name="Value">self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="923430694570135" type="Tefa_Static">
+                            <param id="0" name="Instance variable">defHeight</param>
+                            <param id="1" name="Value">self.Height</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="413557368160667" type="Tefi_Static">
+                            <param id="0" name="Instance variable">defWidth</param>
+                            <param id="1" name="Value">self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="356701242905681" type="Tefi_Static">
+                            <param id="0" name="Instance variable">defHeight</param>
+                            <param id="1" name="Value">self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-group description="" sid="806298588732768" title="Button_PilihGender">
             <sub-events>
                 <event-block sid="173799420824679">
@@ -76,8 +103,48 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="9" name="Set scale" sid="530817914343323" type="Tefi_Static">
-                            <param id="0" name="Scale">1.2</param>
+                        <action id="-7" name="Set size" sid="530817914343323" type="Tefi_Static">
+                            <param id="0" name="Width">lerp(self.Width, self.defWidth*1.25, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, self.defHeight*1.25, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="739290771981157">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="627854942807150" type="Mouse">
+                            <param id="0" name="Object">Tefi_Static</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="251731020755601" type="Tefi_Static">
+                            <param id="0" name="Width">lerp(self.Width, self.defWidth, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, self.defHeight, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="768415465242355">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="264731575861773" type="Mouse">
+                            <param id="0" name="Object">Tefa_Static</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="731302708345822" type="Tefa_Static">
+                            <param id="0" name="Width">lerp(self.Width, self.defWidth*1.25, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, self.defHeight*1.25, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="156631030772149">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="507827340355951" type="Mouse">
+                            <param id="0" name="Object">Tefa_Static</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="703381420930150" type="Tefa_Static">
+                            <param id="0" name="Width">lerp(self.Width, self.defWidth, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, self.defHeight, 0.2)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -102,42 +169,6 @@
                     <actions>
                         <action id="0" name="Set cursor style" sid="876116725192196" type="Mouse">
                             <param id="0" name="Cursor style">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="739290771981157">
-                    <conditions>
-                        <condition id="7" inverted="1" name="Cursor is over object" sid="627854942807150" type="Mouse">
-                            <param id="0" name="Object">Tefi_Static</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="9" name="Set scale" sid="511273743133929" type="Tefi_Static">
-                            <param id="0" name="Scale">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="768415465242355">
-                    <conditions>
-                        <condition id="7" name="Cursor is over object" sid="264731575861773" type="Mouse">
-                            <param id="0" name="Object">Tefa_Static</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="9" name="Set scale" sid="685758251133252" type="Tefa_Static">
-                            <param id="0" name="Scale">1.2</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="156631030772149">
-                    <conditions>
-                        <condition id="7" inverted="1" name="Cursor is over object" sid="507827340355951" type="Mouse">
-                            <param id="0" name="Object">Tefa_Static</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="9" name="Set scale" sid="773955783324611" type="Tefa_Static">
-                            <param id="0" name="Scale">1</param>
                         </action>
                     </actions>
                 </event-block>

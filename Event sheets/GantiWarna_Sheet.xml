@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>GantiWarna_Sheet</name>
+    <events>
+        <include>BGandBGM</include>
+        <variable constant="0" name="PilihanWarna" sid="509145641887108" static="0" type="number">0</variable>
+        <event-group description="" sid="954183039422326" title="Start_GantiWarna">
+            <sub-events>
+                <event-block sid="891705930007466">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="250130445314463" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="827728089598637" type="bgwhite">
+                            <param id="0" name="Instance variable">defX</param>
+                            <param id="1" name="Value">self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="532167755797662" type="bgwhite">
+                            <param id="0" name="Instance variable">defY</param>
+                            <param id="1" name="Value">self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="105806717138781" title="Efek_GantiWarna">
+            <sub-events>
+                <event-block sid="641105953279407">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="788078074181212" type="Mouse">
+                            <param id="0" name="Object">catMerah</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="929405143321283" type="catMerah">
+                            <param id="0" name="Width">lerp(self.Width, GantiWarna.defX*GantiWarna.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, GantiWarna.defY*GantiWarna.scale, 0.2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="301147515064526" type="System">
+                            <param id="0" name="Variable">PilihanWarna</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="254939331416232">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="358159572030902" type="Mouse">
+                            <param id="0" name="Object">catMerah</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="806215202634580" type="catMerah">
+                            <param id="0" name="Width">lerp(self.Width, GantiWarna.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, GantiWarna.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="346829568970420">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="378178791296202" type="Mouse">
+                            <param id="0" name="Object">catKuning</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="253055316363454" type="catKuning">
+                            <param id="0" name="Width">lerp(self.Width, GantiWarna.defX*GantiWarna.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, GantiWarna.defY*GantiWarna.scale, 0.2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="722821099580028" type="System">
+                            <param id="0" name="Variable">PilihanWarna</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="364099744203273">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="696337502002341" type="Mouse">
+                            <param id="0" name="Object">catKuning</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="964967754393767" type="catKuning">
+                            <param id="0" name="Width">lerp(self.Width, GantiWarna.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, GantiWarna.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="819122905417230">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="454743185415652" type="Mouse">
+                            <param id="0" name="Object">catIjo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="366199072056063" type="catIjo">
+                            <param id="0" name="Width">lerp(self.Width, GantiWarna.defX*GantiWarna.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, GantiWarna.defY*GantiWarna.scale, 0.2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="927467339827746" type="System">
+                            <param id="0" name="Variable">PilihanWarna</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="586760808530322">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="661237081808455" type="Mouse">
+                            <param id="0" name="Object">catIjo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="277480790623925" type="catIjo">
+                            <param id="0" name="Width">lerp(self.Width, GantiWarna.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, GantiWarna.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="598858679157770">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="855543239150665" type="Mouse">
+                            <param id="0" name="Object">catUngu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="633180770469052" type="catUngu">
+                            <param id="0" name="Width">lerp(self.Width, GantiWarna.defX*GantiWarna.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, GantiWarna.defY*GantiWarna.scale, 0.2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="606350291249780" type="System">
+                            <param id="0" name="Variable">PilihanWarna</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="651768731084195">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="910377111759267" type="Mouse">
+                            <param id="0" name="Object">catUngu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="364708803004728" type="catUngu">
+                            <param id="0" name="Width">lerp(self.Width, GantiWarna.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, GantiWarna.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="758339618992082">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="443293941411772" type="Mouse">
+                            <param id="0" name="Object">catBiru</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="510678506996700" type="catBiru">
+                            <param id="0" name="Width">lerp(self.Width, GantiWarna.defX*GantiWarna.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, GantiWarna.defY*GantiWarna.scale, 0.2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="445360672295302" type="System">
+                            <param id="0" name="Variable">PilihanWarna</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="411205948446613">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="835100234406611" type="Mouse">
+                            <param id="0" name="Object">catBiru</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="814751687860322" type="catBiru">
+                            <param id="0" name="Width">lerp(self.Width, GantiWarna.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, GantiWarna.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="490320147677832">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="401957501720147" type="Mouse">
+                            <param id="0" name="Object">GantiWarna</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="266083183166750" type="bgwhite">
+                            <param id="0" name="Width">lerp(self.Width, self.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, self.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="563939070026585">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="317157957106140" type="Mouse">
+                            <param id="0" name="Object">GantiWarna</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="703707585593284" type="bgwhite">
+                            <param id="0" name="Width">lerp(self.Width, self.defX*self.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.Height, self.defY*self.scale, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="740721826734105">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="208500032721276" type="System">
+                            <param id="0" name="Variable">PilihanWarna</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="711441203610842" type="bgwhite">
+                            <param id="0" name="X">lerp(self.X, catMerah.X, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="785417563978366">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="300660814919332" type="System">
+                            <param id="0" name="Variable">PilihanWarna</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="264983333536153" type="bgwhite">
+                            <param id="0" name="X">lerp(self.X, catKuning.X, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="365932938504704">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="975701822294863" type="System">
+                            <param id="0" name="Variable">PilihanWarna</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="932566547327856" type="bgwhite">
+                            <param id="0" name="X">lerp(self.X, catIjo.X, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="267669069264927">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="976627207866941" type="System">
+                            <param id="0" name="Variable">PilihanWarna</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="766935984105256" type="bgwhite">
+                            <param id="0" name="X">lerp(self.X, catUngu.X, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="786744715258715">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="469655922204733" type="System">
+                            <param id="0" name="Variable">PilihanWarna</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="138871324259209" type="bgwhite">
+                            <param id="0" name="X">lerp(self.X, catBiru.X, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="858032149303651" title="Button_GantiWarna">
+            <sub-events>
+                <event-block sid="709877817955718">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="900876376418641" type="Touch">
+                            <param id="0" name="Object">GantiWarna</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="621748048592965" type="System">
+                            <param id="0" name="Layout">SelectStage_2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>GantiMusik_Sheet</name>
+    <events>
+        <variable constant="0" name="PilihanMusik" sid="555990525690845" static="0" type="number">1</variable>
+        <event-group description="" sid="674163879281421" title="Start_GantiMusik">
+            <sub-events>
+                <event-block sid="614470528075386">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="964273069249151" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="639958697549482" type="iconTap">
+                            <param id="0" name="Instance variable">defX</param>
+                            <param id="1" name="Value">Self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="810656691699732" type="iconTap">
+                            <param id="0" name="Instance variable">defY</param>
+                            <param id="1" name="Value">Self.height</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="645427540044981" title="Efek_GantiMusik">
+            <sub-events>
+                <event-block sid="818208971716176">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="656356122843069" type="Mouse">
+                            <param id="0" name="Object">iconTap</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="823024458173919" type="iconTap">
+                            <param id="0" name="Width">lerp(self.Width, self.defX*self.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="352292201412011">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="619275502903207" type="Mouse">
+                            <param id="0" name="Object">iconTap</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="230879230144297" type="iconTap">
+                            <param id="0" name="Width">lerp(self.Width, self.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="810857797449461">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="552674186599649" type="Mouse">
+                            <param id="0" name="Object">falseLogo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Set scale" sid="727083937688820" type="falseLogo">
+                            <param id="0" name="Scale">1.1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="115642047431310">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="396207043942799" type="Mouse">
+                            <param id="0" name="Object">falseLogo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Set scale" sid="583881399268985" type="falseLogo">
+                            <param id="0" name="Scale">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="516443094936065">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="211866776221022" type="Mouse">
+                            <param id="0" name="Object">trueLogo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Set scale" sid="322484744526201" type="trueLogo">
+                            <param id="0" name="Scale">1.1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="996558770732391">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="611553330653752" type="Mouse">
+                            <param id="0" name="Object">trueLogo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Set scale" sid="256103903272821" type="trueLogo">
+                            <param id="0" name="Scale">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="198853634107390" title="Button_GantiMusik">
+            <sub-events>
+                <event-block sid="496654889690793">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="692059829507796" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">iconTap</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="670728852229243" type="System">
+                            <param id="0" name="Layer">&quot;UI&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="925681684102707" type="System">
+                            <param id="0" name="Variable">PilihanMusik</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="468027601453313">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="203590981956255" type="System">
+                                    <param id="0" name="Variable">PilihanMusik</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="113636647140641" type="System">
+                                    <param id="0" name="Variable">PilihanMusik</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="769318511446227">
+                    <conditions>
+                        <condition id="-9" name="Layer is visible" sid="778493686284999" type="System">
+                            <param id="0" name="Layer">&quot;UI&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="376840373035219">
+                            <conditions>
+                                <condition id="6" name="On object clicked" sid="514121089935532" type="Mouse">
+                                    <param id="0" name="Mouse button">0</param>
+                                    <param id="1" name="Click type">0</param>
+                                    <param id="2" name="Object clicked">falseLogo</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="119217925280334" type="System">
+                                    <param id="0" name="Layer">&quot;UI&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="611245510031223">
+                            <conditions>
+                                <condition id="6" name="On object clicked" sid="198350945641646" type="Mouse">
+                                    <param id="0" name="Mouse button">0</param>
+                                    <param id="1" name="Click type">0</param>
+                                    <param id="2" name="Object clicked">trueLogo</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="313320399175574" type="System">
+                                    <param id="0" name="Layout">SelectStage_2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
