@@ -180,11 +180,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>640</x>
-                        <y>360</y>
+                        <x>640.000061035</x>
+                        <y>359.585968018</y>
                         <z>0</z>
-                        <width>1280</width>
-                        <height>720</height>
+                        <width>1278.307250977</width>
+                        <height>719.742370605</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
