@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Kartun_Sheet</name>
+    <events>
+        <variable constant="0" name="Timer" sid="748092134445207" static="0" type="number">0</variable>
+        <include>BGandBGM</include>
+        <event-block sid="290325430280677">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="395110032915760" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Play" sid="864442118785750" type="Video" />
+            </actions>
+        </event-block>
+        <event-group description="" sid="394575021658800" title="Efek_Kartun">
+            <sub-events>
+                <event-block sid="461450654552932">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="636532273405576" type="Mouse">
+                            <param id="0" name="Object">IconExit</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="472177066215058" type="Mouse">
+                            <param id="0" name="Cursor style">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="476372424114233">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="220064615254133" type="Mouse">
+                            <param id="0" name="Object">IconExit</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="819594428064447" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="138505111830283" title="Button_Kartun">
+            <sub-events>
+                <event-block sid="336094914277077">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="792415935562774" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">IconExit</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="683590592172257" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="680586397638324" type="System">
+                            <param id="0" name="Layout">SelectStage_2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="146014775975051" title="Timer">
+            <sub-events>
+                <event-block sid="758480131229853">
+                    <conditions>
+                        <condition id="0" name="Is playing" sid="636851207265112" type="Video" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="563011071032143">
+                            <conditions>
+                                <condition id="-6" name="Every X seconds" sid="639425251721042" type="System">
+                                    <param id="0" name="Interval (seconds)">1.0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="919802300177029" type="System">
+                                    <param id="0" name="Variable">Timer</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="974977552612491" type="Text_Timer">
+                                    <param id="0" name="Text">&quot;0&quot; &amp; zeropad(floor(Timer/60), 1) &amp; &quot;:&quot; &amp; zeropad(floor(Timer%60), 2)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

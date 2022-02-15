@@ -255,11 +255,11 @@
                         <x>1210</x>
                         <y>70</y>
                         <z>0</z>
-                        <width>109</width>
-                        <height>109</height>
+                        <width>110</width>
+                        <height>110</height>
                         <depth>0</depth>
-                        <hotspotX>0.504587173</hotspotX>
-                        <hotspotY>0.504587173</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>GantiMusik_Sheet</name>
     <events>
-        <variable constant="0" name="PilihanMusik" sid="555990525690845" static="0" type="number">1</variable>
+        <variable constant="0" name="PilihanMusik" sid="555990525690845" static="0" type="number">0</variable>
         <event-group description="" sid="674163879281421" title="Start_GantiMusik">
             <sub-events>
                 <event-block sid="614470528075386">
@@ -18,6 +18,17 @@
                         <action id="-10" name="Set value" sid="810656691699732" type="iconTap">
                             <param id="0" name="Instance variable">defY</param>
                             <param id="1" name="Value">Self.height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="608932293117897">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="372069501573379" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="383294545935156" type="System">
+                            <param id="0" name="Variable">PilihanMusik</param>
+                            <param id="1" name="Value">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -160,6 +171,10 @@
                                     <param id="0" name="Layer">&quot;UI&quot;</param>
                                     <param id="1" name="Visibility">0</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="252184290310561" type="System">
+                                    <param id="0" name="Variable">PilihanMusik</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="611245510031223">
@@ -177,6 +192,106 @@
                             </actions>
                         </event-block>
                     </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="803398978195336" title="BGM">
+            <sub-events>
+                <event-block sid="864342531694840">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="787386359580337" type="System">
+                            <param id="0" name="Variable">PilihanMusik</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="210746978232571" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="899851996436556" type="Audio">
+                            <param id="0" name="Audio file">EZ-Dude</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Musik-1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="319236730617204">
+                    <conditions>
+                        <condition id="-14" inverted="1" name="Compare variable" sid="982263420023488" type="System">
+                            <param id="0" name="Variable">PilihanMusik</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="813620580980324" type="Audio">
+                            <param id="0" name="Tag">&quot;Musik-1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="423756771149168">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="419655296146118" type="System">
+                            <param id="0" name="Variable">PilihanMusik</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="304205450868398" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="382453764696623" type="Audio">
+                            <param id="0" name="Audio file">Take-it-Low</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Musik-2&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="390725505549746">
+                    <conditions>
+                        <condition id="-14" inverted="1" name="Compare variable" sid="485203342624412" type="System">
+                            <param id="0" name="Variable">PilihanMusik</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="110366848532538" type="Audio">
+                            <param id="0" name="Tag">&quot;Musik-2&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="227815688101236">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="498530272653199" type="System">
+                            <param id="0" name="Variable">PilihanMusik</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="208483041032154" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="831197514484717" type="Audio">
+                            <param id="0" name="Audio file">Tangan-Kosong-ft_-Gamma</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Musik-3&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="666226831516788">
+                    <conditions>
+                        <condition id="-14" inverted="1" name="Compare variable" sid="477797721872200" type="System">
+                            <param id="0" name="Variable">PilihanMusik</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="292531965340703" type="Audio">
+                            <param id="0" name="Tag">&quot;Musik-3&quot;</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-group>

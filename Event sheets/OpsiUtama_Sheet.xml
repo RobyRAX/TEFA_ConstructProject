@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>OpsiUtama_Sheet</name>
     <events>
-        <variable constant="0" name="PilihOpsi" sid="621015102854126" static="0" type="number">0</variable>
+        <variable constant="0" name="Pilih_OpsiUtama" sid="621015102854126" static="0" type="number">0</variable>
         <event-group description="" sid="673833127270102" title="Start">
             <sub-events>
                 <event-block sid="450644646410636">
@@ -45,7 +45,7 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Set value" sid="226125399897008" type="System">
-                            <param id="0" name="Variable">PilihOpsi</param>
+                            <param id="0" name="Variable">Pilih_OpsiUtama</param>
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="-7" name="Set size" sid="399816499451204" type="iconVolumeGede">
@@ -75,7 +75,7 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Set value" sid="968034663450288" type="System">
-                            <param id="0" name="Variable">PilihOpsi</param>
+                            <param id="0" name="Variable">Pilih_OpsiUtama</param>
                             <param id="1" name="Value">2</param>
                         </action>
                         <action id="-7" name="Set size" sid="952593024557047" type="iconEmotionGede">
@@ -105,7 +105,7 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Set value" sid="724003465136056" type="System">
-                            <param id="0" name="Variable">PilihOpsi</param>
+                            <param id="0" name="Variable">Pilih_OpsiUtama</param>
                             <param id="1" name="Value">3</param>
                         </action>
                         <action id="-7" name="Set size" sid="840394871989180" type="iconNarativeGede">
@@ -135,7 +135,7 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Set value" sid="540380978695358" type="System">
-                            <param id="0" name="Variable">PilihOpsi</param>
+                            <param id="0" name="Variable">Pilih_OpsiUtama</param>
                             <param id="1" name="Value">4</param>
                         </action>
                         <action id="-7" name="Set size" sid="164646946070849" type="iconPelangiGede">
@@ -165,7 +165,7 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Set value" sid="849207188897323" type="System">
-                            <param id="0" name="Variable">PilihOpsi</param>
+                            <param id="0" name="Variable">Pilih_OpsiUtama</param>
                             <param id="1" name="Value">5</param>
                         </action>
                         <action id="-7" name="Set size" sid="990287074078236" type="iconPuzzleGede">
@@ -195,17 +195,17 @@
                     </conditions>
                     <actions>
                         <action id="-9" name="Set value" sid="372666769197667" type="System">
-                            <param id="0" name="Variable">PilihOpsi</param>
+                            <param id="0" name="Variable">Pilih_OpsiUtama</param>
                             <param id="1" name="Value">0</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-group description="" sid="101633921476914" title="Printilan">
+                <event-group description="" sid="101633921476914" title="Spoiler">
                     <sub-events>
                         <event-block sid="208591208204299">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="638607052264874" type="System">
-                                    <param id="0" name="Variable">PilihOpsi</param>
+                                    <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">1</param>
                                 </condition>
@@ -220,7 +220,7 @@
                         <event-block sid="532871434750999">
                             <conditions>
                                 <condition id="-14" inverted="1" name="Compare variable" sid="934646848801522" type="System">
-                                    <param id="0" name="Variable">PilihOpsi</param>
+                                    <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">1</param>
                                 </condition>
@@ -235,7 +235,7 @@
                         <event-block sid="249909622143247">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="465640568186237" type="System">
-                                    <param id="0" name="Variable">PilihOpsi</param>
+                                    <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">2</param>
                                 </condition>
@@ -250,7 +250,7 @@
                         <event-block sid="321084159000676">
                             <conditions>
                                 <condition id="-14" inverted="1" name="Compare variable" sid="577127104288257" type="System">
-                                    <param id="0" name="Variable">PilihOpsi</param>
+                                    <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">2</param>
                                 </condition>
@@ -265,7 +265,7 @@
                         <event-block sid="883934305744141">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="864228772996021" type="System">
-                                    <param id="0" name="Variable">PilihOpsi</param>
+                                    <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">3</param>
                                 </condition>
@@ -280,7 +280,7 @@
                         <event-block sid="529099565364501">
                             <conditions>
                                 <condition id="-14" inverted="1" name="Compare variable" sid="149686646093686" type="System">
-                                    <param id="0" name="Variable">PilihOpsi</param>
+                                    <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">3</param>
                                 </condition>
@@ -295,7 +295,7 @@
                         <event-block sid="484457567339297">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="677187457147392" type="System">
-                                    <param id="0" name="Variable">PilihOpsi</param>
+                                    <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">4</param>
                                 </condition>
@@ -310,7 +310,7 @@
                         <event-block sid="209738972685814">
                             <conditions>
                                 <condition id="-14" inverted="1" name="Compare variable" sid="887423307026265" type="System">
-                                    <param id="0" name="Variable">PilihOpsi</param>
+                                    <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">4</param>
                                 </condition>
@@ -325,7 +325,7 @@
                         <event-block sid="311292532736560">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="548505438247442" type="System">
-                                    <param id="0" name="Variable">PilihOpsi</param>
+                                    <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">5</param>
                                 </condition>
@@ -340,7 +340,7 @@
                         <event-block sid="447296593552270">
                             <conditions>
                                 <condition id="-14" inverted="1" name="Compare variable" sid="842978866575512" type="System">
-                                    <param id="0" name="Variable">PilihOpsi</param>
+                                    <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">5</param>
                                 </condition>

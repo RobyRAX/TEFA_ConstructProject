@@ -160,6 +160,10 @@
                                     <param id="0" name="Layer">&quot;UI&quot;</param>
                                     <param id="1" name="Visibility">0</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="586842176414825" type="System">
+                                    <param id="0" name="Variable">PilihanIntonasi</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="793714962519985">
@@ -174,9 +178,110 @@
                                 <action id="-2" name="Go to layout" sid="836610481811606" type="System">
                                     <param id="0" name="Layout">SelectStage_2</param>
                                 </action>
+                                <action id="33" name="Stop all" sid="540769859273257" type="Audio" />
                             </actions>
                         </event-block>
                     </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="719825677186935" title="Intonasi">
+            <sub-events>
+                <event-block sid="200070919269400">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="459108139502312" type="System">
+                            <param id="0" name="Variable">PilihanIntonasi</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="476056471714515" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="553795808558260" type="Audio">
+                            <param id="0" name="Audio file">level complete</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Intonasi-1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="706349002444089">
+                    <conditions>
+                        <condition id="-14" inverted="1" name="Compare variable" sid="605674277234500" type="System">
+                            <param id="0" name="Variable">PilihanIntonasi</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="929491172145470" type="Audio">
+                            <param id="0" name="Tag">&quot;Intonasi-1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="408053799471451">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="378646457198641" type="System">
+                            <param id="0" name="Variable">PilihanIntonasi</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="441870388543450" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="720158476301932" type="Audio">
+                            <param id="0" name="Audio file">losing or failing</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Intonasi-2&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="121667404706860">
+                    <conditions>
+                        <condition id="-14" inverted="1" name="Compare variable" sid="429632582702858" type="System">
+                            <param id="0" name="Variable">PilihanIntonasi</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="929733667278905" type="Audio">
+                            <param id="0" name="Tag">&quot;Intonasi-2&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="741172754160611">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="602623169418622" type="System">
+                            <param id="0" name="Variable">PilihanIntonasi</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="671383726137670" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="235322997542832" type="Audio">
+                            <param id="0" name="Audio file">tembakan kirai</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Intonasi-3&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="640503781334032">
+                    <conditions>
+                        <condition id="-14" inverted="1" name="Compare variable" sid="725522296712685" type="System">
+                            <param id="0" name="Variable">PilihanIntonasi</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="872856419003183" type="Audio">
+                            <param id="0" name="Tag">&quot;Intonasi-3&quot;</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-group>

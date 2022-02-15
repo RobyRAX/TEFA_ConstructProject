@@ -2,5 +2,292 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>SelectStage_2_Sheet</name>
-    <events />
+    <events>
+        <variable constant="0" name="Pilih_OpsiStage2" sid="879708787208581" static="0" type="number">0</variable>
+        <include>BGandBGM</include>
+        <event-group description="" sid="141765196591838" title="Start_Stage2">
+            <sub-events>
+                <event-block sid="113691634545202">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="492019334292096" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="326787054163217" type="iconCartoon">
+                            <param id="0" name="Instance variable">defX</param>
+                            <param id="1" name="Value">self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="688302463680395" type="iconCartoon">
+                            <param id="0" name="Instance variable">defY</param>
+                            <param id="1" name="Value">self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="817568264687160">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="900089245788188" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="954819495306531" type="iconSingin">
+                            <param id="0" name="Instance variable">defX</param>
+                            <param id="1" name="Value">self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="706564980562698" type="iconSingin">
+                            <param id="0" name="Instance variable">defY</param>
+                            <param id="1" name="Value">self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="874910957209444">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="684044580392066" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="773566039308480" type="iconElectronics">
+                            <param id="0" name="Instance variable">defX</param>
+                            <param id="1" name="Value">self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="932225923706648" type="iconElectronics">
+                            <param id="0" name="Instance variable">defY</param>
+                            <param id="1" name="Value">self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="615631133688871">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="949060097585741" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="359237265110495" type="iconAmbiance">
+                            <param id="0" name="Instance variable">defX</param>
+                            <param id="1" name="Value">self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="353571568578258" type="iconAmbiance">
+                            <param id="0" name="Instance variable">defY</param>
+                            <param id="1" name="Value">self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="956650903190352">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="419085595881260" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="308524107328429" type="iconAnimal">
+                            <param id="0" name="Instance variable">defX</param>
+                            <param id="1" name="Value">self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="837639565643245" type="iconAnimal">
+                            <param id="0" name="Instance variable">defY</param>
+                            <param id="1" name="Value">self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="603883319010383" title="Efek_Stage2">
+            <sub-events>
+                <event-block sid="663793829883023">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="185925219668468" type="Mouse">
+                            <param id="0" name="Object">iconCartoon</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="814188485843956" type="System">
+                            <param id="0" name="Variable">Pilih_OpsiStage2</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="863106383345751" type="iconCartoon">
+                            <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="928610443533837" type="System">
+                            <param id="0" name="Layer">&quot;Spoiler_Kartun&quot;</param>
+                            <param id="1" name="Opacity">lerp(LayerOpacity(&quot;Spoiler_Kartun&quot;), 100, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="100660848010405">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="126771355289106" type="Mouse">
+                            <param id="0" name="Object">iconCartoon</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="176217856412604" type="iconCartoon">
+                            <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="610999721088238" type="System">
+                            <param id="0" name="Layer">&quot;Spoiler_Kartun&quot;</param>
+                            <param id="1" name="Opacity">lerp(LayerOpacity(&quot;Spoiler_Kartun&quot;), 0, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="328279951597657">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="694818538989925" type="Mouse">
+                            <param id="0" name="Object">iconSingin</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="309382655438425" type="System">
+                            <param id="0" name="Variable">Pilih_OpsiStage2</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="941415473224763" type="iconSingin">
+                            <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="430640975486192" type="System">
+                            <param id="0" name="Layer">&quot;Spoiler_Nyanyi&quot;</param>
+                            <param id="1" name="Opacity">lerp(LayerOpacity(&quot;Spoiler_Nyanyi&quot;), 100, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="174779521056643">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="387633792995158" type="Mouse">
+                            <param id="0" name="Object">iconSingin</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="984647642149647" type="iconSingin">
+                            <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="525463534219367" type="System">
+                            <param id="0" name="Layer">&quot;Spoiler_Nyanyi&quot;</param>
+                            <param id="1" name="Opacity">lerp(LayerOpacity(&quot;Spoiler_Nyanyi&quot;), 0, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="403407409016745">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="488580956631202" type="Mouse">
+                            <param id="0" name="Object">iconElectronics</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="930871886378949" type="System">
+                            <param id="0" name="Variable">Pilih_OpsiStage2</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="881695924683303" type="iconElectronics">
+                            <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="297037764360717">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="953013629752525" type="Mouse">
+                            <param id="0" name="Object">iconElectronics</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="595211420391863" type="iconElectronics">
+                            <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="815322739364009">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="252685621893050" type="Mouse">
+                            <param id="0" name="Object">iconAmbiance</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="646457493802102" type="System">
+                            <param id="0" name="Variable">Pilih_OpsiStage2</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="350888356399444" type="iconAmbiance">
+                            <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="848342831003317">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="573333260948772" type="Mouse">
+                            <param id="0" name="Object">iconAmbiance</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="999748325895465" type="iconAmbiance">
+                            <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="648036368672876">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="490218292136861" type="Mouse">
+                            <param id="0" name="Object">iconAnimal</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="131756204765212" type="System">
+                            <param id="0" name="Variable">Pilih_OpsiStage2</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="742787357078753" type="iconAnimal">
+                            <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="655515161862651">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="233511795774410" type="Mouse">
+                            <param id="0" name="Object">iconAnimal</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="914723879905179" type="System">
+                            <param id="0" name="Variable">Pilih_OpsiStage2</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="918742604359192" type="iconAnimal">
+                            <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="753375540887904">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="213255339546271" type="Mouse">
+                            <param id="0" name="Object">Stage2_Opsi</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="141888288072940" type="System">
+                            <param id="0" name="Variable">Pilih_OpsiStage2</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="869594702097246" title="Button_Stage2">
+            <sub-events>
+                <event-block sid="463004344726806">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="478401082734828" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">iconCartoon</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="264653437853468" type="System">
+                            <param id="0" name="Layout">Kartun</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
 </c2eventsheet>

@@ -10,6 +10,7 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
@@ -17,6 +18,7 @@
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="video" version="1">Video</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
@@ -167,6 +169,14 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Frame5" sid="511119863158060">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="503910508428575" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Completed Scene\Frame 58.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Button &amp; Detail">
             <object-folder name="MainMenu">
@@ -204,12 +214,12 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="442948552608590" speed="5">
-                            <frame duration="1" hotspotX="0.504587" hotspotY="0.504587" original-source="V:\Asset\Asset Printilan\icon exit.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\icon exit.png">
                                 <collision-poly>
-                                    <point x="0.00917431" y="0.00917431" />
-                                    <point x="0.990826" y="0.00917431" />
-                                    <point x="1" y="1" />
-                                    <point x="0.00917431" y="0.990826" />
+                                    <point x="0.018018" y="0.018018" />
+                                    <point x="0.981982" y="0.018018" />
+                                    <point x="0.990991" y="0.990991" />
+                                    <point x="0.018018" y="0.981982" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -225,6 +235,30 @@
                                     <point x="1" y="0" />
                                     <point x="0.990826" y="0.990826" />
                                     <point x="0.00917431" y="0.990826" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="bgwhite" sid="343421072140473">
+                    <plugin id="Sprite" />
+                    <instance-variables>
+                        <instance-variable name="defX" sid="765473597953729" type="number" />
+                        <instance-variable name="defY" sid="404270644955473" type="number" />
+                        <instance-variable name="scale" sid="696186092051888" type="number" />
+                    </instance-variables>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="512206585379126" speed="5">
+                            <frame duration="1" hotspotX="0.501695" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\bg-white.png">
+                                <collision-poly>
+                                    <point x="0.0576271" y="0.0452128" />
+                                    <point x="0.498305" y="0" />
+                                    <point x="0.942373" y="0.0452128" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.942373" y="0.954787" />
+                                    <point x="0.498305" y="1" />
+                                    <point x="0.0576271" y="0.954787" />
+                                    <point x="0" y="0.5" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -1083,35 +1117,187 @@
                         </animation>
                     </animation-folder>
                 </object-type>
+                <object-type name="Objek" sid="131066383500209">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Timer" sid="920732289396703">
+                            <behavior id="Timer" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="811589880929168" speed="0">
+                            <frame duration="1" hotspotX="0.500864" hotspotY="0.501577" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501577" original-source="V:\Asset\Asset Printilan\object present.png">
+                                <collision-poly>
+                                    <point x="0.00172414" y="0.00315457" />
+                                    <point x="0.5" y="0.00315457" />
+                                    <point x="0.851724" y="0.271293" />
+                                    <point x="0.851724" y="0.498423" />
+                                    <point x="0.996552" y="0.993691" />
+                                    <point x="0.00517241" y="0.990536" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.500864" hotspotY="0.501577" original-source="V:\Asset\Asset Printilan\object ball.png" />
+                            <frame duration="1" hotspotX="0.500864" hotspotY="0.501577" original-source="V:\Asset\Asset Printilan\object cars.png" />
+                            <frame duration="1" hotspotX="0.500864" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\object puzzle.png" />
+                            <frame duration="1" hotspotX="0.500864" hotspotY="0.501577" original-source="V:\Asset\Asset Printilan\object robot.png" />
+                            <frame duration="1" hotspotX="0.500864" hotspotY="0.501577" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Bola" sid="661198397365488">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="267974469387210" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\Bola.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Kado" sid="986965960776297">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="101231767450241" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\Kado.png">
+                                <collision-poly>
+                                    <point x="0" y="0" />
+                                    <point x="0.680583" y="0" />
+                                    <point x="1" y="0.327538" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="mobil" sid="984420882673436">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="732440998607421" speed="5">
+                            <frame duration="1" hotspotX="0.501124" hotspotY="0.502128" original-source="V:\Asset\Asset Printilan\mobil.png">
+                                <collision-poly>
+                                    <point x="0" y="0" />
+                                    <point x="0.408277" y="0.0382979" />
+                                    <point x="1" y="0.548936" />
+                                    <point x="1" y="0.897872" />
+                                    <point x="0.47651" y="0.982979" />
+                                    <point x="0" y="0.768085" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Puzzle" sid="438389559622103">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="900809098344831" speed="5">
+                            <frame duration="1" hotspotX="0.501538" hotspotY="0.502128" original-source="V:\Asset\Asset Printilan\Puzzle.png">
+                                <collision-poly>
+                                    <point x="0.0030581" y="0.00429185" />
+                                    <point x="0.724771" y="0" />
+                                    <point x="1" y="0.412017" />
+                                    <point x="0.996942" y="0.995708" />
+                                    <point x="0.253823" y="1" />
+                                    <point x="0" y="0.497854" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="robot" sid="791349592247845">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="208244428733389" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.502041" original-source="V:\Asset\Asset Printilan\robot.png">
+                                <collision-poly>
+                                    <point x="0" y="0.518368" />
+                                    <point x="0.495192" y="0" />
+                                    <point x="0.865385" y="0.130612" />
+                                    <point x="1" y="0.414286" />
+                                    <point x="1" y="1" />
+                                    <point x="0.110577" y="1" />
+                                    <point x="0.365385" y="0.491837" />
+                                    <point x="0" y="0.845918" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
-            <object-type name="Objek" sid="131066383500209">
-                <plugin id="Sprite" />
-                <behaviors>
-                    <behavior-type name="Timer" sid="920732289396703">
-                        <behavior id="Timer" />
-                    </behavior-type>
-                </behaviors>
-                <animation-folder>
-                    <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="811589880929168" speed="0">
-                        <frame duration="1" hotspotX="0.500864" hotspotY="0.501577" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.501577" original-source="V:\Asset\Asset Printilan\object present.png">
-                            <collision-poly>
-                                <point x="0.00172414" y="0.00315457" />
-                                <point x="0.5" y="0.00315457" />
-                                <point x="0.851724" y="0.271293" />
-                                <point x="0.851724" y="0.498423" />
-                                <point x="0.996552" y="0.993691" />
-                                <point x="0.00517241" y="0.990536" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.500864" hotspotY="0.501577" original-source="V:\Asset\Asset Printilan\object ball.png" />
-                        <frame duration="1" hotspotX="0.500864" hotspotY="0.501577" original-source="V:\Asset\Asset Printilan\object cars.png" />
-                        <frame duration="1" hotspotX="0.500864" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\object puzzle.png" />
-                        <frame duration="1" hotspotX="0.500864" hotspotY="0.501577" original-source="V:\Asset\Asset Printilan\object robot.png" />
-                        <frame duration="1" hotspotX="0.500864" hotspotY="0.501577" />
-                    </animation>
-                </animation-folder>
-            </object-type>
+            <object-folder name="Stage_2">
+                <object-type name="iconAmbiance" sid="269925370774057">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="975024611774738" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0" original-source="V:\Asset\Asset Printilan\icon ambiance.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="iconAnimal" sid="924604321461288">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="477902839537507" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0" original-source="V:\Asset\Asset Printilan\icon animal.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="iconCartoon" sid="337514344811122">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="275251183061699" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0" original-source="V:\Asset\Asset Printilan\icon cartoon.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="iconElectronics" sid="556328617266608">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="717445774190652" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0" original-source="V:\Asset\Asset Printilan\icon electronics.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="iconSingin" sid="306752943858638">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="720671313245298" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0" original-source="V:\Asset\Asset Printilan\icon singin.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Spoiler_Nyanyi" sid="198227117012135">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="492579809235872" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\Spoiler_Nyanyi.png">
+                                <collision-poly>
+                                    <point x="0.242969" y="0.431944" />
+                                    <point x="0.757031" y="0.431944" />
+                                    <point x="0.767187" y="0.5" />
+                                    <point x="0.964063" y="0.936111" />
+                                    <point x="0.5" y="0.569444" />
+                                    <point x="0.0132813" y="0.976389" />
+                                    <point x="0.232812" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="spoilerKartunIjo" sid="783935821804829">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="386484618182693" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\spoiler kartun ijo.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
         </object-folder>
         <object-type name="Touch" sid="289867748623296">
             <plugin id="Touch" />
@@ -1125,37 +1311,41 @@
         <object-type name="Browser" sid="917623311826091">
             <plugin id="Browser" />
         </object-type>
-        <object-type name="bgwhite" sid="343421072140473">
+        <object-type name="Video" sid="768874479117314">
+            <plugin id="video" />
+        </object-type>
+        <object-type name="waktu" sid="655789494733354">
             <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="defX" sid="765473597953729" type="number" />
-                <instance-variable name="defY" sid="404270644955473" type="number" />
-                <instance-variable name="scale" sid="696186092051888" type="number" />
-            </instance-variables>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="512206585379126" speed="5">
-                    <frame duration="1" hotspotX="0.501695" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\bg-white.png">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="731931129051722" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504762" original-source="V:\Asset\Asset Printilan\waktu.png">
                         <collision-poly>
-                            <point x="0.0576271" y="0.0452128" />
-                            <point x="0.498305" y="0" />
-                            <point x="0.942373" y="0.0452128" />
-                            <point x="1" y="0.5" />
-                            <point x="0.942373" y="0.954787" />
-                            <point x="0.498305" y="1" />
-                            <point x="0.0576271" y="0.954787" />
-                            <point x="0" y="0.5" />
+                            <point x="0.0282258" y="0.0679612" />
+                            <point x="0.5" y="0.0194175" />
+                            <point x="0.971774" y="0.0679612" />
+                            <point x="0.995968" y="0.495146" />
+                            <point x="0.971774" y="0.932039" />
+                            <point x="0.5" y="0.990291" />
+                            <point x="0.0282258" y="0.932039" />
+                            <point x="0.00403226" y="0.495146" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Frame5" sid="511119863158060">
+        <object-type name="BG_Video" sid="437793587968607">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="503910508428575" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Completed Scene\Frame 58.png" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="346963326174325" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Text_Timer" sid="384279754177045">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Audio" sid="668918957852979">
+            <plugin id="Audio" />
         </object-type>
     </object-folder>
     <families>
@@ -1205,6 +1395,34 @@
                 <instance-variable name="scale" sid="593394698061507" type="number" />
             </instance-variables>
         </family>
+        <family name="PilihMainan" plugin-id="Sprite" sid="706407923500899">
+            <members>
+                <member>Bola</member>
+                <member>Kado</member>
+                <member>mobil</member>
+                <member>Puzzle</member>
+                <member>robot</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="defX" sid="609037427256938" type="number" />
+                <instance-variable name="defY" sid="943730742012266" type="number" />
+                <instance-variable name="scale" sid="887334721002672" type="number" />
+            </instance-variables>
+        </family>
+        <family name="Stage2_Opsi" plugin-id="Sprite" sid="291356762781751">
+            <members>
+                <member>iconAmbiance</member>
+                <member>iconAnimal</member>
+                <member>iconCartoon</member>
+                <member>iconElectronics</member>
+                <member>iconSingin</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="defX" sid="519907638629028" type="number" />
+                <instance-variable name="defY" sid="242565408801950" type="number" />
+                <instance-variable name="scale" sid="827879673887325" type="number" />
+            </instance-variables>
+        </family>
     </families>
     <layout-folder>
         <layout-folder name="OpeningPage">
@@ -1222,6 +1440,7 @@
         </layout-folder>
         <layout-folder name="SelectStage_2">
             <layout>SelectStage_2.xml</layout>
+            <layout>Kartun.xml</layout>
         </layout-folder>
         <layout>PemilihanObjek.xml</layout>
     </layout-folder>
@@ -1238,7 +1457,8 @@
         <event-sheet>PilihIntonasi_Sheet.xml</event-sheet>
         <event-sheet>GantiWarna_Sheet.xml</event-sheet>
         <event-sheet>BGandBGM.xml</event-sheet>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>PilihMainan_Sheet.xml</event-sheet>
+        <event-sheet>Kartun_Sheet.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="14">
@@ -1249,9 +1469,31 @@
         <global-instance type="Mouse" uid="15" />
         <global-instance type="Keyboard" uid="16" />
         <global-instance type="Browser" uid="30" />
+        <global-instance type="Audio" uid="114">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder />
-    <music-folder />
+    <sounds-folder>
+        <file name="level complete.ogg" />
+        <file name="tembakan kirai.ogg" />
+        <file name="losing or failing.ogg" />
+    </sounds-folder>
+    <music-folder>
+        <file name="EZ-Dude.ogg" />
+        <file name="Take-it-Low.ogg" />
+        <file name="Tangan-Kosong-ft_-Gamma.ogg" />
+    </music-folder>
     <files-folder>
         <file-folder name="Icons">
             <file name="icon-16.png" />
@@ -1261,5 +1503,6 @@
             <file name="icon-256.png" />
             <file name="loading-logo.png" />
         </file-folder>
+        <file name="Dora_Test_Compressed.mp4" />
     </files-folder>
 </c2project>

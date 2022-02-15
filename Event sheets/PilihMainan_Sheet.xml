@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>PilihMainan_Sheet</name>
+    <events>
+        <variable constant="0" name="PilihanMainan" sid="442309359549435" static="0" type="number">0</variable>
+        <event-group description="" sid="297519969062922" title="Start_PilihMainan">
+            <sub-events>
+                <event-block sid="923142274161274">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="288790511070582" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="915045586806894" type="Bola">
+                            <param id="0" name="Instance variable">defX</param>
+                            <param id="1" name="Value">self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="137874960828965" type="Bola">
+                            <param id="0" name="Instance variable">defY</param>
+                            <param id="1" name="Value">self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="925409184934748">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="427424854604618" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="379332020146664" type="mobil">
+                            <param id="0" name="Instance variable">defX</param>
+                            <param id="1" name="Value">self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="257911999499520" type="mobil">
+                            <param id="0" name="Instance variable">defY</param>
+                            <param id="1" name="Value">self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="169631285360537">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="534154086975271" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="911712975927337" type="robot">
+                            <param id="0" name="Instance variable">defX</param>
+                            <param id="1" name="Value">self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="897217171016675" type="robot">
+                            <param id="0" name="Instance variable">defY</param>
+                            <param id="1" name="Value">self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="933152366203337">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="677843148309033" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="742363871246181" type="Kado">
+                            <param id="0" name="Instance variable">defX</param>
+                            <param id="1" name="Value">self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="776324986466976" type="Kado">
+                            <param id="0" name="Instance variable">defY</param>
+                            <param id="1" name="Value">self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="879257227400779">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="180549276649475" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="810231865370589" type="Puzzle">
+                            <param id="0" name="Instance variable">defX</param>
+                            <param id="1" name="Value">self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="163384356648145" type="Puzzle">
+                            <param id="0" name="Instance variable">defY</param>
+                            <param id="1" name="Value">self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="810683139786374" title="Efek_PilihMainan">
+            <sub-events>
+                <event-block sid="810071217063624">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="130908167345009" type="Mouse">
+                            <param id="0" name="Object">PilihMainan</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="628363672171933" type="System">
+                            <param id="0" name="Variable">PilihanMainan</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="720667252763500">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="541863968152170" type="Mouse">
+                            <param id="0" name="Object">Bola</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="777614560650870" type="Bola">
+                            <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="750728982589587" type="System">
+                            <param id="0" name="Variable">PilihanMainan</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="807548515292792">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="142957733263909" type="Mouse">
+                            <param id="0" name="Object">Bola</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="642226131749931" type="Bola">
+                            <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="115376109565153">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="739388155623460" type="Mouse">
+                            <param id="0" name="Object">robot</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="837972490685656" type="robot">
+                            <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="430993595814330" type="System">
+                            <param id="0" name="Variable">PilihanMainan</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="828880483230757">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="386662042210767" type="Mouse">
+                            <param id="0" name="Object">robot</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="928346175083897" type="robot">
+                            <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="871241427647621">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="877676477930603" type="Mouse">
+                            <param id="0" name="Object">mobil</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="985941718144276" type="mobil">
+                            <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="597270554228184" type="System">
+                            <param id="0" name="Variable">PilihanMainan</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="477351510263586">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="742679068406749" type="Mouse">
+                            <param id="0" name="Object">mobil</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="237616405364606" type="mobil">
+                            <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="490922863518946">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="294209699494187" type="Mouse">
+                            <param id="0" name="Object">Kado</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="490469569192085" type="Kado">
+                            <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="603563400140514" type="System">
+                            <param id="0" name="Variable">PilihanMainan</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="497330853843091">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="483804324404479" type="Mouse">
+                            <param id="0" name="Object">Kado</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="196344758137314" type="Kado">
+                            <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="157914066670406">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="762170618834468" type="Mouse">
+                            <param id="0" name="Object">Puzzle</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="465526770007642" type="Puzzle">
+                            <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="646378157897100" type="System">
+                            <param id="0" name="Variable">PilihanMainan</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="110681977797453">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="381117531821660" type="Mouse">
+                            <param id="0" name="Object">Puzzle</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="113480171924612" type="Puzzle">
+                            <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
+                            <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="756786210365478" title="Button_PilihMainan">
+            <sub-events>
+                <event-block sid="974796043764715">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="354880313702756" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">PilihMainan</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="697192097621165" type="System">
+                            <param id="0" name="Layout">SelectStage_2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
