@@ -3,8 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Kartun_Sheet</name>
     <events>
+        <include>BG_Sheet</include>
         <variable constant="0" name="Timer" sid="748092134445207" static="0" type="number">0</variable>
-        <include>BGandBGM</include>
         <event-block sid="290325430280677">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="395110032915760" type="System" />
@@ -87,6 +87,16 @@
                             </actions>
                         </event-block>
                     </sub-events>
+                </event-block>
+                <event-block sid="665675041937343">
+                    <conditions>
+                        <condition id="2" name="Has ended" sid="633996317437730" type="Video" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="454948356512892" type="System">
+                            <param id="0" name="Layout">Hasil</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-group>

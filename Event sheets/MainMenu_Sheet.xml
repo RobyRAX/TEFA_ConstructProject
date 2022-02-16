@@ -3,6 +3,28 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>MainMenu_Sheet</name>
     <events>
+        <include>Storage_Sheet</include>
+        <event-block sid="986806339754560">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="363073775795971" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="463651727990579" type="Function">
+                    <param id="0" name="Name">&quot;Init_Array&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="281141502832841">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="404722596864715" type="Keyboard">
+                    <param id="0" name="Key">82</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Clear storage" sid="494749903727819" type="a_LocalStorage" />
+            </actions>
+        </event-block>
         <event-group description="" sid="340338393720453" title="Button">
             <sub-events>
                 <event-block sid="348200214549378">

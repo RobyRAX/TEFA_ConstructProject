@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>PilihEkspresi_Sheet</name>
     <events>
-        <variable constant="0" name="PilihanEmot" sid="808116621275658" static="0" type="number">0</variable>
+        <include>Storage_Sheet</include>
         <event-group description="" sid="427738250354524" title="Efek_PilihEmot">
             <sub-events>
                 <event-block sid="870419741738955">
@@ -19,7 +19,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="111342271520947" type="System">
                             <param id="0" name="Variable">PilihanEmot</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">&quot;Senyum Lebar&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -49,7 +49,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="757399646068987" type="System">
                             <param id="0" name="Variable">PilihanEmot</param>
-                            <param id="1" name="Value">2</param>
+                            <param id="1" name="Value">&quot;Cium&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -79,7 +79,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="652365330980894" type="System">
                             <param id="0" name="Variable">PilihanEmot</param>
-                            <param id="1" name="Value">3</param>
+                            <param id="1" name="Value">&quot;Datar&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -109,7 +109,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="396595105830834" type="System">
                             <param id="0" name="Variable">PilihanEmot</param>
-                            <param id="1" name="Value">4</param>
+                            <param id="1" name="Value">&quot;Ketawa&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -139,7 +139,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="398920362305646" type="System">
                             <param id="0" name="Variable">PilihanEmot</param>
-                            <param id="1" name="Value">5</param>
+                            <param id="1" name="Value">&quot;Ngakak&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -189,5 +189,24 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="803166038047724">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="838045487557391" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="471732013170853" type="Function">
+                    <param id="0" name="Name">&quot;Emot_Block&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="121716333162585" type="Function">
+                    <param id="0" name="Name">&quot;Input_Array&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="332767378357005" type="Function">
+                    <param id="0" name="Name">&quot;Save&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

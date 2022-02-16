@@ -10,9 +10,12 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
@@ -1298,6 +1301,72 @@
                     </animation-folder>
                 </object-type>
             </object-folder>
+            <object-folder name="Kartun">
+                <object-type name="BG_Video" sid="437793587968607">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="346963326174325" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Text_Timer" sid="384279754177045">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="waktu" sid="655789494733354">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="731931129051722" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.504762" original-source="V:\Asset\Asset Printilan\waktu.png">
+                                <collision-poly>
+                                    <point x="0.0282258" y="0.0679612" />
+                                    <point x="0.5" y="0.0194175" />
+                                    <point x="0.971774" y="0.0679612" />
+                                    <point x="0.995968" y="0.495146" />
+                                    <point x="0.971774" y="0.932039" />
+                                    <point x="0.5" y="0.990291" />
+                                    <point x="0.0282258" y="0.932039" />
+                                    <point x="0.00403226" y="0.495146" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="Hasil">
+                <object-type name="Text_TemplateHasil" sid="434910493795973">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Text_Nama" sid="295954472568394">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Text_Gender" sid="563354910085081">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Text_Minat" sid="462270055246621">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Text_Pilihan" sid="480744886465333">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Text_Pengayaan" sid="761497853489211">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Text_Pilihan_2" sid="130368415770584">
+                    <plugin id="Text" />
+                </object-type>
+            </object-folder>
+        </object-folder>
+        <object-folder name="SaveData">
+            <object-type global="1" name="a_PlayerData" sid="625980022406034">
+                <plugin id="Arr" />
+            </object-type>
+            <object-type name="a_LocalStorage" sid="104481609717473">
+                <plugin id="LocalStorage" />
+            </object-type>
+            <object-type global="1" name="a_LoadedData" sid="317481012667059">
+                <plugin id="Arr" />
+            </object-type>
         </object-folder>
         <object-type name="Touch" sid="289867748623296">
             <plugin id="Touch" />
@@ -1314,38 +1383,19 @@
         <object-type name="Video" sid="768874479117314">
             <plugin id="video" />
         </object-type>
-        <object-type name="waktu" sid="655789494733354">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="731931129051722" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.504762" original-source="V:\Asset\Asset Printilan\waktu.png">
-                        <collision-poly>
-                            <point x="0.0282258" y="0.0679612" />
-                            <point x="0.5" y="0.0194175" />
-                            <point x="0.971774" y="0.0679612" />
-                            <point x="0.995968" y="0.495146" />
-                            <point x="0.971774" y="0.932039" />
-                            <point x="0.5" y="0.990291" />
-                            <point x="0.0282258" y="0.932039" />
-                            <point x="0.00403226" y="0.495146" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
+        <object-type name="Audio" sid="668918957852979">
+            <plugin id="Audio" />
         </object-type>
-        <object-type name="BG_Video" sid="437793587968607">
+        <object-type name="Function" sid="968871677800340">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="Line" sid="375143324755543">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="346963326174325" speed="5">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="609991124141386" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="Text_Timer" sid="384279754177045">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Audio" sid="668918957852979">
-            <plugin id="Audio" />
         </object-type>
     </object-folder>
     <families>
@@ -1442,12 +1492,14 @@
             <layout>SelectStage_2.xml</layout>
             <layout>Kartun.xml</layout>
         </layout-folder>
+        <layout-folder name="Result">
+            <layout>Hasil.xml</layout>
+        </layout-folder>
         <layout>PemilihanObjek.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>MainMenu_Sheet.xml</event-sheet>
         <event-sheet>IsiNama_Sheet.xml</event-sheet>
-        <event-sheet>Global_Sheet.xml</event-sheet>
         <event-sheet>PemilihanObjek_Sheet.xml</event-sheet>
         <event-sheet>PilihGender_Sheet.xml</event-sheet>
         <event-sheet>OpsiUtama_Sheet.xml</event-sheet>
@@ -1456,9 +1508,11 @@
         <event-sheet>PilihEkspresi_Sheet.xml</event-sheet>
         <event-sheet>PilihIntonasi_Sheet.xml</event-sheet>
         <event-sheet>GantiWarna_Sheet.xml</event-sheet>
-        <event-sheet>BGandBGM.xml</event-sheet>
+        <event-sheet>BG_Sheet.xml</event-sheet>
         <event-sheet>PilihMainan_Sheet.xml</event-sheet>
         <event-sheet>Kartun_Sheet.xml</event-sheet>
+        <event-sheet>Storage_Sheet.xml</event-sheet>
+        <event-sheet>Hasil_Sheet.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="14">
@@ -1483,6 +1537,8 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
+        <global-instance type="a_LocalStorage" uid="116" />
+        <global-instance type="Function" uid="117" />
     </global-instances>
     <sounds-folder>
         <file name="level complete.ogg" />

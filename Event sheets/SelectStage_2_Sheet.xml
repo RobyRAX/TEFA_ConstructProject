@@ -3,8 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>SelectStage_2_Sheet</name>
     <events>
-        <variable constant="0" name="Pilih_OpsiStage2" sid="879708787208581" static="0" type="number">0</variable>
-        <include>BGandBGM</include>
+        <include>Storage_Sheet</include>
+        <include>BG_Sheet</include>
         <event-group description="" sid="141765196591838" title="Start_Stage2">
             <sub-events>
                 <event-block sid="113691634545202">
@@ -95,7 +95,7 @@
                     <actions>
                         <action id="-9" name="Set value" sid="814188485843956" type="System">
                             <param id="0" name="Variable">Pilih_OpsiStage2</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">&quot;Kartun&quot;</param>
                         </action>
                         <action id="-7" name="Set size" sid="863106383345751" type="iconCartoon">
                             <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
@@ -133,7 +133,7 @@
                     <actions>
                         <action id="-9" name="Set value" sid="309382655438425" type="System">
                             <param id="0" name="Variable">Pilih_OpsiStage2</param>
-                            <param id="1" name="Value">2</param>
+                            <param id="1" name="Value">&quot;Nyanyi&quot;</param>
                         </action>
                         <action id="-7" name="Set size" sid="941415473224763" type="iconSingin">
                             <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
@@ -171,7 +171,7 @@
                     <actions>
                         <action id="-9" name="Set value" sid="930871886378949" type="System">
                             <param id="0" name="Variable">Pilih_OpsiStage2</param>
-                            <param id="1" name="Value">3</param>
+                            <param id="1" name="Value">&quot;Senter&quot;</param>
                         </action>
                         <action id="-7" name="Set size" sid="881695924683303" type="iconElectronics">
                             <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
@@ -201,7 +201,7 @@
                     <actions>
                         <action id="-9" name="Set value" sid="646457493802102" type="System">
                             <param id="0" name="Variable">Pilih_OpsiStage2</param>
-                            <param id="1" name="Value">4</param>
+                            <param id="1" name="Value">&quot;Suasana&quot;</param>
                         </action>
                         <action id="-7" name="Set size" sid="350888356399444" type="iconAmbiance">
                             <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
@@ -231,7 +231,7 @@
                     <actions>
                         <action id="-9" name="Set value" sid="131756204765212" type="System">
                             <param id="0" name="Variable">Pilih_OpsiStage2</param>
-                            <param id="1" name="Value">5</param>
+                            <param id="1" name="Value">&quot;Hewan&quot;</param>
                         </action>
                         <action id="-7" name="Set size" sid="742787357078753" type="iconAnimal">
                             <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
@@ -246,10 +246,6 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="914723879905179" type="System">
-                            <param id="0" name="Variable">Pilih_OpsiStage2</param>
-                            <param id="1" name="Value">5</param>
-                        </action>
                         <action id="-7" name="Set size" sid="918742604359192" type="iconAnimal">
                             <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
                             <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
@@ -289,5 +285,20 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="845484293699811">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="472167840198378" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="163472467072268" type="Function">
+                    <param id="0" name="Name">&quot;Input_Array&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="513200085770181" type="Function">
+                    <param id="0" name="Name">&quot;Save&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

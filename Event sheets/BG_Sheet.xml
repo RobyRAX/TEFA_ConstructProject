@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>BG_Sheet</name>
+    <events>
+        <event-group description="" sid="215971992087363" title="Warna_Background">
+            <sub-events>
+                <event-block disabled="1" sid="353147221824845">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="227977271000715" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="559480971232752" type="BG_Polos">
+                            <param id="0" name="Frame number">PilihanWarna</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="469029566127871">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="846676032396256" type="System">
+                            <param id="0" name="Variable">PilihanWarna</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;Merah&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="905118604878080" type="BG_Polos">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="607324074675192">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="197106808883709" type="System">
+                            <param id="0" name="Variable">PilihanWarna</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;Kuning&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="459396869748081" type="BG_Polos">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="997554280313493">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="552501063865361" type="System">
+                            <param id="0" name="Variable">PilihanWarna</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;Hijau&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="147451895489794" type="BG_Polos">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="208597660848044">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="753271626255979" type="System">
+                            <param id="0" name="Variable">PilihanWarna</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;Ungu&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="425647840668781" type="BG_Polos">
+                            <param id="0" name="Frame number">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="377389036914848">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="233801554947624" type="System">
+                            <param id="0" name="Variable">PilihanWarna</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;Biru&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="535987377630458" type="BG_Polos">
+                            <param id="0" name="Frame number">5</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

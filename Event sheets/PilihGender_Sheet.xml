@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>PilihGender_Sheet</name>
     <events>
+        <include>Storage_Sheet</include>
         <event-group description="" sid="662236859226687" title="Start_PilihGender">
             <sub-events>
                 <event-block sid="496903662400410">
@@ -174,5 +175,20 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="936780128345931">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="419612026503737" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="565440271657834" type="Function">
+                    <param id="0" name="Name">&quot;Init_Array&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="620761386984995" type="Function">
+                    <param id="0" name="Name">&quot;Input_Array&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

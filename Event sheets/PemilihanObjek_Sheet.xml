@@ -150,12 +150,7 @@
                                     <param id="1" name="Number">1</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action id="-9" name="Set value" sid="523948913920966" type="System">
-                                    <param id="0" name="Variable">PilihanObjek</param>
-                                    <param id="1" name="Value">&quot;Kado&quot;</param>
-                                </action>
-                            </actions>
+                            <actions />
                         </event-block>
                         <event-block sid="121167033998545">
                             <conditions>
@@ -164,12 +159,7 @@
                                     <param id="1" name="Number">2</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action id="-9" name="Set value" sid="508340777444948" type="System">
-                                    <param id="0" name="Variable">PilihanObjek</param>
-                                    <param id="1" name="Value">&quot;Bola&quot;</param>
-                                </action>
-                            </actions>
+                            <actions />
                         </event-block>
                         <event-block sid="200348798994076">
                             <conditions>
@@ -178,12 +168,7 @@
                                     <param id="1" name="Number">3</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action id="-9" name="Set value" sid="599163802053796" type="System">
-                                    <param id="0" name="Variable">PilihanObjek</param>
-                                    <param id="1" name="Value">&quot;Mobil&quot;</param>
-                                </action>
-                            </actions>
+                            <actions />
                         </event-block>
                         <event-block sid="249083938831719">
                             <conditions>
@@ -192,12 +177,7 @@
                                     <param id="1" name="Number">4</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action id="-9" name="Set value" sid="834561387828475" type="System">
-                                    <param id="0" name="Variable">PilihanObjek</param>
-                                    <param id="1" name="Value">&quot;Puzzle&quot;</param>
-                                </action>
-                            </actions>
+                            <actions />
                         </event-block>
                         <event-block sid="149105994857627">
                             <conditions>
@@ -206,12 +186,7 @@
                                     <param id="1" name="Number">5</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action id="-9" name="Set value" sid="661822985093241" type="System">
-                                    <param id="0" name="Variable">PilihanObjek</param>
-                                    <param id="1" name="Value">&quot;Robot&quot;</param>
-                                </action>
-                            </actions>
+                            <actions />
                         </event-block>
                     </sub-events>
                 </event-block>

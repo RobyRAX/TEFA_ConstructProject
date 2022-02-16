@@ -3,8 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>GantiWarna_Sheet</name>
     <events>
-        <include>BGandBGM</include>
-        <variable constant="0" name="PilihanWarna" sid="509145641887108" static="0" type="number">0</variable>
+        <include>Storage_Sheet</include>
+        <include>BG_Sheet</include>
         <event-group description="" sid="954183039422326" title="Start_GantiWarna">
             <sub-events>
                 <event-block sid="891705930007466">
@@ -39,7 +39,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="301147515064526" type="System">
                             <param id="0" name="Variable">PilihanWarna</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">&quot;Merah&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -69,7 +69,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="722821099580028" type="System">
                             <param id="0" name="Variable">PilihanWarna</param>
-                            <param id="1" name="Value">2</param>
+                            <param id="1" name="Value">&quot;Kuning&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -99,7 +99,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="927467339827746" type="System">
                             <param id="0" name="Variable">PilihanWarna</param>
-                            <param id="1" name="Value">3</param>
+                            <param id="1" name="Value">&quot;Hijau&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -129,7 +129,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="606350291249780" type="System">
                             <param id="0" name="Variable">PilihanWarna</param>
-                            <param id="1" name="Value">4</param>
+                            <param id="1" name="Value">&quot;Ungu&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -159,7 +159,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="445360672295302" type="System">
                             <param id="0" name="Variable">PilihanWarna</param>
-                            <param id="1" name="Value">5</param>
+                            <param id="1" name="Value">&quot;Biru&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -207,7 +207,7 @@
                         <condition id="-14" name="Compare variable" sid="208500032721276" type="System">
                             <param id="0" name="Variable">PilihanWarna</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
+                            <param id="2" name="Value">&quot;Merah&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -221,7 +221,7 @@
                         <condition id="-14" name="Compare variable" sid="300660814919332" type="System">
                             <param id="0" name="Variable">PilihanWarna</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">2</param>
+                            <param id="2" name="Value">&quot;Kuning&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -235,7 +235,7 @@
                         <condition id="-14" name="Compare variable" sid="975701822294863" type="System">
                             <param id="0" name="Variable">PilihanWarna</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">3</param>
+                            <param id="2" name="Value">&quot;Hijau&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -249,7 +249,7 @@
                         <condition id="-14" name="Compare variable" sid="976627207866941" type="System">
                             <param id="0" name="Variable">PilihanWarna</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">4</param>
+                            <param id="2" name="Value">&quot;Ungu&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -263,7 +263,7 @@
                         <condition id="-14" name="Compare variable" sid="469655922204733" type="System">
                             <param id="0" name="Variable">PilihanWarna</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">5</param>
+                            <param id="2" name="Value">&quot;Biru&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -290,5 +290,24 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="758704417983626">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="641552213892624" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="974386090695125" type="Function">
+                    <param id="0" name="Name">&quot;Warna_Block&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="976681909717185" type="Function">
+                    <param id="0" name="Name">&quot;Input_Array&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="616309861733615" type="Function">
+                    <param id="0" name="Name">&quot;Save&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

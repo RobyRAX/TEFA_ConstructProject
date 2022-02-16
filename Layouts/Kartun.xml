@@ -190,6 +190,14 @@
             <effects />
         </layer>
     </layers>
-    <nonworld-instances />
+    <nonworld-instances>
+        <instance type="a_PlayerData" uid="115">
+            <properties>
+                <width>9</width>
+                <height>2</height>
+                <depth>1</depth>
+            </properties>
+        </instance>
+    </nonworld-instances>
     <effects />
 </c2layout>

@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>PilihMainan_Sheet</name>
     <events>
-        <variable constant="0" name="PilihanMainan" sid="442309359549435" static="0" type="number">0</variable>
+        <include>Storage_Sheet</include>
         <event-group description="" sid="297519969062922" title="Start_PilihMainan">
             <sub-events>
                 <event-block sid="923142274161274">
@@ -111,7 +111,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="750728982589587" type="System">
                             <param id="0" name="Variable">PilihanMainan</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">&quot;Bola&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -141,7 +141,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="430993595814330" type="System">
                             <param id="0" name="Variable">PilihanMainan</param>
-                            <param id="1" name="Value">2</param>
+                            <param id="1" name="Value">&quot;Robot&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -171,7 +171,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="597270554228184" type="System">
                             <param id="0" name="Variable">PilihanMainan</param>
-                            <param id="1" name="Value">3</param>
+                            <param id="1" name="Value">&quot;Mobil&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -201,7 +201,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="603563400140514" type="System">
                             <param id="0" name="Variable">PilihanMainan</param>
-                            <param id="1" name="Value">4</param>
+                            <param id="1" name="Value">&quot;Kado&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -231,7 +231,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="646378157897100" type="System">
                             <param id="0" name="Variable">PilihanMainan</param>
-                            <param id="1" name="Value">5</param>
+                            <param id="1" name="Value">&quot;Puzzle&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -268,5 +268,24 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="887060469553156">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="596335158283099" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="700057998296854" type="Function">
+                    <param id="0" name="Name">&quot;Mainan_Block&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="116898136179001" type="Function">
+                    <param id="0" name="Name">&quot;Input_Array&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="734831698738257" type="Function">
+                    <param id="0" name="Name">&quot;Save&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

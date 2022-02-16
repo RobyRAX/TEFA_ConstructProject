@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>IsiNama_Sheet</name>
     <events>
+        <include>Storage_Sheet</include>
         <event-group description="" sid="679864162669603" title="Cek Gender">
             <sub-events>
                 <event-block sid="424755328342840">
@@ -150,6 +151,19 @@
                             <param id="0" name="Layout">OpsiUtama</param>
                         </action>
                     </actions>
+                    <sub-events>
+                        <event-block disabled="1" sid="154231364025855">
+                            <conditions>
+                                <condition id="11" name="Compare key" sid="428499294772208" type="a_LocalStorage">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="String">NamaPemain</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="1" name="Close" sid="792369790822578" type="Browser" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
             </sub-events>
         </event-group>
@@ -199,5 +213,24 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="854779207435042">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="737605389904462" type="System" />
+                <condition disabled="1" id="11" inverted="1" name="Compare key" sid="486099952030901" type="a_LocalStorage">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="String">NamaPemain</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="493660731767977" type="Function">
+                    <param id="0" name="Name">&quot;Init_Storage&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="645413042755757" type="Function">
+                    <param id="0" name="Name">&quot;Input_Array&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

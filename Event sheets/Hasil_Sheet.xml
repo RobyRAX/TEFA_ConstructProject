@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Hasil_Sheet</name>
+    <events>
+        <include>BG_Sheet</include>
+        <include>Storage_Sheet</include>
+        <event-block sid="584901294235371">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="822517253953445" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="491700495979014" type="Text_Nama">
+                    <param id="0" name="Text">NamaPemain</param>
+                </action>
+                <action id="0" name="Set text" sid="275031499161934" type="Text_Gender">
+                    <param id="0" name="Text">Gender</param>
+                </action>
+                <action id="0" name="Set text" sid="930215392130440" type="Text_Minat">
+                    <param id="0" name="Text">Pilih_OpsiUtama</param>
+                </action>
+                <action id="0" name="Set text" sid="669555978575757" type="Text_Pengayaan">
+                    <param id="0" name="Text">Pilih_OpsiStage2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="712448915131736">
+            <conditions>
+                <condition id="-14" inverted="1" name="Compare variable" sid="745843346737641" type="System">
+                    <param id="0" name="Variable">PilihanMusik</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;-&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="777033223142683" type="Text_Pilihan">
+                    <param id="0" name="Text">PilihanMusik</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="384900302986001">
+            <conditions>
+                <condition id="-14" inverted="1" name="Compare variable" sid="632508369119959" type="System">
+                    <param id="0" name="Variable">PilihanEmot</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;-&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="369374556716128" type="Text_Pilihan">
+                    <param id="0" name="Text">PilihanEmot</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="982179833779100">
+            <conditions>
+                <condition id="-14" inverted="1" name="Compare variable" sid="687712848390151" type="System">
+                    <param id="0" name="Variable">PilihanIntonasi</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;-&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="350212064185180" type="Text_Pilihan">
+                    <param id="0" name="Text">PilihanIntonasi</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="937108899358110">
+            <conditions>
+                <condition id="-14" inverted="1" name="Compare variable" sid="304719633485103" type="System">
+                    <param id="0" name="Variable">PilihanWarna</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;-&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="271264123539003" type="Text_Pilihan">
+                    <param id="0" name="Text">PilihanWarna</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="879307796805505">
+            <conditions>
+                <condition id="-14" inverted="1" name="Compare variable" sid="818543087874148" type="System">
+                    <param id="0" name="Variable">PilihanMainan</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;-&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="832225154035668" type="Text_Pilihan">
+                    <param id="0" name="Text">PilihanMainan</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="453988216690597">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="637442946057954" type="Mouse">
+                    <param id="0" name="Object">IconExit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="968039573462255" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="308324246477136">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="946848858714262" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">IconExit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="918682801288448" type="System">
+                    <param id="0" name="Layout">MainMenu</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="338086907672506" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

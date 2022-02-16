@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>OpsiUtama_Sheet</name>
     <events>
-        <variable constant="0" name="Pilih_OpsiUtama" sid="621015102854126" static="0" type="number">0</variable>
+        <include>Storage_Sheet</include>
         <event-group description="" sid="673833127270102" title="Start">
             <sub-events>
                 <event-block sid="450644646410636">
@@ -46,7 +46,7 @@
                     <actions>
                         <action id="-9" name="Set value" sid="226125399897008" type="System">
                             <param id="0" name="Variable">Pilih_OpsiUtama</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">&quot;Musik&quot;</param>
                         </action>
                         <action id="-7" name="Set size" sid="399816499451204" type="iconVolumeGede">
                             <param id="0" name="Width">lerp(self.Width, OpsiUtama_Button.defX*OpsiUtama_Button.scale, 0.2)</param>
@@ -76,7 +76,7 @@
                     <actions>
                         <action id="-9" name="Set value" sid="968034663450288" type="System">
                             <param id="0" name="Variable">Pilih_OpsiUtama</param>
-                            <param id="1" name="Value">2</param>
+                            <param id="1" name="Value">&quot;Ekspresi&quot;</param>
                         </action>
                         <action id="-7" name="Set size" sid="952593024557047" type="iconEmotionGede">
                             <param id="0" name="Width">lerp(self.Width, OpsiUtama_Button.defX*OpsiUtama_Button.scale, 0.2)</param>
@@ -106,7 +106,7 @@
                     <actions>
                         <action id="-9" name="Set value" sid="724003465136056" type="System">
                             <param id="0" name="Variable">Pilih_OpsiUtama</param>
-                            <param id="1" name="Value">3</param>
+                            <param id="1" name="Value">&quot;Intonasi&quot;</param>
                         </action>
                         <action id="-7" name="Set size" sid="840394871989180" type="iconNarativeGede">
                             <param id="0" name="Width">lerp(self.Width, OpsiUtama_Button.defX*OpsiUtama_Button.scale, 0.2)</param>
@@ -136,7 +136,7 @@
                     <actions>
                         <action id="-9" name="Set value" sid="540380978695358" type="System">
                             <param id="0" name="Variable">Pilih_OpsiUtama</param>
-                            <param id="1" name="Value">4</param>
+                            <param id="1" name="Value">&quot;Warna&quot;</param>
                         </action>
                         <action id="-7" name="Set size" sid="164646946070849" type="iconPelangiGede">
                             <param id="0" name="Width">lerp(self.Width, OpsiUtama_Button.defX*OpsiUtama_Button.scale, 0.2)</param>
@@ -166,7 +166,7 @@
                     <actions>
                         <action id="-9" name="Set value" sid="849207188897323" type="System">
                             <param id="0" name="Variable">Pilih_OpsiUtama</param>
-                            <param id="1" name="Value">5</param>
+                            <param id="1" name="Value">&quot;Mainan&quot;</param>
                         </action>
                         <action id="-7" name="Set size" sid="990287074078236" type="iconPuzzleGede">
                             <param id="0" name="Width">lerp(self.Width, OpsiUtama_Button.defX*OpsiUtama_Button.scale, 0.2)</param>
@@ -207,7 +207,7 @@
                                 <condition id="-14" name="Compare variable" sid="638607052264874" type="System">
                                     <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">1</param>
+                                    <param id="2" name="Value">&quot;Musik&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -222,7 +222,7 @@
                                 <condition id="-14" inverted="1" name="Compare variable" sid="934646848801522" type="System">
                                     <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">1</param>
+                                    <param id="2" name="Value">&quot;Musik&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -237,7 +237,7 @@
                                 <condition id="-14" name="Compare variable" sid="465640568186237" type="System">
                                     <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">2</param>
+                                    <param id="2" name="Value">&quot;Ekspresi&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -252,7 +252,7 @@
                                 <condition id="-14" inverted="1" name="Compare variable" sid="577127104288257" type="System">
                                     <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">2</param>
+                                    <param id="2" name="Value">&quot;Ekspresi&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -267,7 +267,7 @@
                                 <condition id="-14" name="Compare variable" sid="864228772996021" type="System">
                                     <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">3</param>
+                                    <param id="2" name="Value">&quot;Intonasi&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -282,7 +282,7 @@
                                 <condition id="-14" inverted="1" name="Compare variable" sid="149686646093686" type="System">
                                     <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">3</param>
+                                    <param id="2" name="Value">&quot;Intonasi&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -297,7 +297,7 @@
                                 <condition id="-14" name="Compare variable" sid="677187457147392" type="System">
                                     <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">4</param>
+                                    <param id="2" name="Value">&quot;Warna&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -312,7 +312,7 @@
                                 <condition id="-14" inverted="1" name="Compare variable" sid="887423307026265" type="System">
                                     <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">4</param>
+                                    <param id="2" name="Value">&quot;Warna&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -327,7 +327,7 @@
                                 <condition id="-14" name="Compare variable" sid="548505438247442" type="System">
                                     <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">5</param>
+                                    <param id="2" name="Value">&quot;Mainan&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -342,7 +342,7 @@
                                 <condition id="-14" inverted="1" name="Compare variable" sid="842978866575512" type="System">
                                     <param id="0" name="Variable">Pilih_OpsiUtama</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">5</param>
+                                    <param id="2" name="Value">&quot;Mainan&quot;</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -365,6 +365,10 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Call function" sid="418593808046237" type="Function">
+                            <param id="0" name="Name">&quot;Musik_Block&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
                         <action id="-2" name="Go to layout" sid="477293315161470" type="System">
                             <param id="0" name="Layout">Ganti_Musik</param>
                         </action>
@@ -377,6 +381,10 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Call function" sid="166996433476423" type="Function">
+                            <param id="0" name="Name">&quot;Emot_Block&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
                         <action id="-2" name="Go to layout" sid="766309420679928" type="System">
                             <param id="0" name="Layout">Pilih_Ekspresi</param>
                         </action>
@@ -389,6 +397,10 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Call function" sid="777883528700680" type="Function">
+                            <param id="0" name="Name">&quot;Intonasi_Block&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
                         <action id="-2" name="Go to layout" sid="390261741910992" type="System">
                             <param id="0" name="Layout">Pilih_Intonasi</param>
                         </action>
@@ -401,12 +413,47 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Call function" sid="961591894860692" type="Function">
+                            <param id="0" name="Name">&quot;Warna_Block&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
                         <action id="-2" name="Go to layout" sid="842104125733817" type="System">
                             <param id="0" name="Layout">Ganti_Warna</param>
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="922797515051655">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="969569592380238" type="Touch">
+                            <param id="0" name="Object">iconPuzzleGede</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="334990561871937" type="Function">
+                            <param id="0" name="Name">&quot;Mainan_Block&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="851272746198183" type="System">
+                            <param id="0" name="Layout">Pilih_Mainan</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="576506624844655">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="803064792860395" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="907322325218983" type="Function">
+                    <param id="0" name="Name">&quot;Input_Array&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="751104273737107" type="Function">
+                    <param id="0" name="Name">&quot;Save&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

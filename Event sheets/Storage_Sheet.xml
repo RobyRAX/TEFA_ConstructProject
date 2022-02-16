@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Storage_Sheet</name>
+    <events>
+        <variable constant="0" name="NamaPemain" sid="117258754935172" static="0" type="text">-</variable>
+        <variable constant="0" name="Gender" sid="423176775043569" static="0" type="text">-</variable>
+        <variable constant="0" name="Pilih_OpsiUtama" sid="621015102854126" static="0" type="text">-</variable>
+        <variable constant="0" name="PilihanMusik" sid="555990525690845" static="0" type="text">-</variable>
+        <variable constant="0" name="PilihanEmot" sid="808116621275658" static="0" type="text">-</variable>
+        <variable constant="0" name="PilihanIntonasi" sid="635297050374501" static="0" type="text">-</variable>
+        <variable constant="0" name="PilihanWarna" sid="509145641887108" static="0" type="text">-</variable>
+        <variable constant="0" name="PilihanMainan" sid="442309359549435" static="0" type="text">-</variable>
+        <variable constant="0" name="Pilih_OpsiStage2" sid="879708787208581" static="0" type="text">-</variable>
+        <variable constant="0" name="SubState" sid="317418699906233" static="0" type="number">0</variable>
+        <event-group description="" sid="972430870108367" title="Array_Data">
+            <sub-events>
+                <event-block sid="995134543340675">
+                    <conditions>
+                        <condition id="0" name="On function" sid="553926715447064" type="Function">
+                            <param id="0" name="Name">&quot;Init_Array&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set at XY" sid="578466034243394" type="a_PlayerData">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Nama&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="742707304598770" type="a_PlayerData">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Gender&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="816720660389952" type="a_PlayerData">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Minat&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="638746570402725" type="a_PlayerData">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Pilihan Musik&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="526940941001681" type="a_PlayerData">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Pilihan Emot&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="530857010268658" type="a_PlayerData">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Pilihan Intonasi&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="751384456434745" type="a_PlayerData">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Pilihan Warna&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="137550893321275" type="a_PlayerData">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Pilihan Mainan&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="478735492372315" type="a_PlayerData">
+                            <param id="0" name="X">8</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;Pengayaan&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="268706555612020">
+                    <conditions>
+                        <condition id="0" name="On function" sid="430819242619180" type="Function">
+                            <param id="0" name="Name">&quot;Input_Array&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set at XY" sid="316090499947498" type="a_PlayerData">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">NamaPemain</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="641053929642477" type="a_PlayerData">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">Gender</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="113984850560745" type="a_PlayerData">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">Pilih_OpsiUtama</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="829862983947359" type="a_PlayerData">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">PilihanMusik</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="443023250393938" type="a_PlayerData">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">PilihanEmot</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="680050586817470" type="a_PlayerData">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">PilihanIntonasi</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="312328624937914" type="a_PlayerData">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">PilihanWarna</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="177245545722773" type="a_PlayerData">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">PilihanMainan</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="643612871021809" type="a_PlayerData">
+                            <param id="0" name="X">8</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">Pilih_OpsiStage2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="592368625302446">
+                    <conditions>
+                        <condition id="0" name="On function" sid="207976106751744" type="Function">
+                            <param id="0" name="Name">&quot;Musik_Block&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set at XY" sid="601240733386405" type="a_PlayerData">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="556044512195892" type="a_PlayerData">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="734894920254568" type="a_PlayerData">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="203381994074161" type="a_PlayerData">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="440115516964432">
+                    <conditions>
+                        <condition id="0" name="On function" sid="913450098915018" type="Function">
+                            <param id="0" name="Name">&quot;Emot_Block&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set at XY" sid="963458120114994" type="a_PlayerData">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="472219229065940" type="a_PlayerData">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="612273688550899" type="a_PlayerData">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="384205618162735" type="a_PlayerData">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="687719427271573">
+                    <conditions>
+                        <condition id="0" name="On function" sid="423195649628135" type="Function">
+                            <param id="0" name="Name">&quot;Intonasi_Block&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set at XY" sid="195898796354040" type="a_PlayerData">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="912118594802672" type="a_PlayerData">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="605947959749118" type="a_PlayerData">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="649475973317988" type="a_PlayerData">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="639598526264084">
+                    <conditions>
+                        <condition id="0" name="On function" sid="722526939401859" type="Function">
+                            <param id="0" name="Name">&quot;Warna_Block&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set at XY" sid="766937063034512" type="a_PlayerData">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="359366000933261" type="a_PlayerData">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="713093350262508" type="a_PlayerData">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="815452096930610" type="a_PlayerData">
+                            <param id="0" name="X">7</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="941373039844647">
+                    <conditions>
+                        <condition id="0" name="On function" sid="436236887267333" type="Function">
+                            <param id="0" name="Name">&quot;Mainan_Block&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set at XY" sid="951173792488884" type="a_PlayerData">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="116494050248713" type="a_PlayerData">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="639559773986109" type="a_PlayerData">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="590303691098472" type="a_PlayerData">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">&quot;-&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="174587564046930" title="Storage">
+            <sub-events>
+                <event-block disabled="1" sid="795490803975967">
+                    <conditions>
+                        <condition id="0" name="On function" sid="355758268024952" type="Function">
+                            <param id="0" name="Name">&quot;Load&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="11" name="Load" sid="328425706033187" type="a_LoadedData">
+                            <param id="0" name="JSON">a_LocalStorage.ItemValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="490407183207607">
+                    <conditions>
+                        <condition id="0" name="On function" sid="469160147057122" type="Function">
+                            <param id="0" name="Name">&quot;Init_Storage&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set item" sid="632235756707240" type="a_LocalStorage">
+                            <param id="0" name="Key">NamaPemain</param>
+                            <param id="1" name="Value">Gender</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="963496431081565">
+                    <conditions>
+                        <condition id="0" name="On function" sid="480501075104004" type="Function">
+                            <param id="0" name="Name">&quot;Save&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set item" sid="310556253341204" type="a_LocalStorage">
+                            <param id="0" name="Key">NamaPemain</param>
+                            <param id="1" name="Value">a_PlayerData.AsJSON</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

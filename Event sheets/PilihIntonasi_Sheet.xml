@@ -3,7 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>PilihIntonasi_Sheet</name>
     <events>
-        <variable constant="0" name="PilihanIntonasi" sid="635297050374501" static="0" type="number">0</variable>
+        <include>Storage_Sheet</include>
+        <variable constant="0" name="PilihanIntonasi_" sid="592272022487092" static="0" type="number">0</variable>
         <event-group description="" sid="102865105173292" title="Start_PilihIntonasi">
             <sub-events>
                 <event-block sid="573565968249019">
@@ -117,7 +118,7 @@
                             <param id="1" name="Visibility">1</param>
                         </action>
                         <action id="-10" name="Add to" sid="672430076426775" type="System">
-                            <param id="0" name="Variable">PilihanIntonasi</param>
+                            <param id="0" name="Variable">PilihanIntonasi_</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
@@ -125,14 +126,14 @@
                         <event-block sid="722859995130583">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="741509043997778" type="System">
-                                    <param id="0" name="Variable">PilihanIntonasi</param>
+                                    <param id="0" name="Variable">PilihanIntonasi_</param>
                                     <param id="1" name="Comparison">4</param>
                                     <param id="2" name="Value">3</param>
                                 </condition>
                             </conditions>
                             <actions>
                                 <action id="-9" name="Set value" sid="760541506854926" type="System">
-                                    <param id="0" name="Variable">PilihanIntonasi</param>
+                                    <param id="0" name="Variable">PilihanIntonasi_</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
                             </actions>
@@ -161,7 +162,7 @@
                                     <param id="1" name="Visibility">0</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="586842176414825" type="System">
-                                    <param id="0" name="Variable">PilihanIntonasi</param>
+                                    <param id="0" name="Variable">PilihanIntonasi_</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
                             </actions>
@@ -190,7 +191,7 @@
                 <event-block sid="200070919269400">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="459108139502312" type="System">
-                            <param id="0" name="Variable">PilihanIntonasi</param>
+                            <param id="0" name="Variable">PilihanIntonasi_</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
                         </condition>
@@ -208,7 +209,7 @@
                 <event-block sid="706349002444089">
                     <conditions>
                         <condition id="-14" inverted="1" name="Compare variable" sid="605674277234500" type="System">
-                            <param id="0" name="Variable">PilihanIntonasi</param>
+                            <param id="0" name="Variable">PilihanIntonasi_</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
                         </condition>
@@ -222,7 +223,7 @@
                 <event-block sid="408053799471451">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="378646457198641" type="System">
-                            <param id="0" name="Variable">PilihanIntonasi</param>
+                            <param id="0" name="Variable">PilihanIntonasi_</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">2</param>
                         </condition>
@@ -240,7 +241,7 @@
                 <event-block sid="121667404706860">
                     <conditions>
                         <condition id="-14" inverted="1" name="Compare variable" sid="429632582702858" type="System">
-                            <param id="0" name="Variable">PilihanIntonasi</param>
+                            <param id="0" name="Variable">PilihanIntonasi_</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">2</param>
                         </condition>
@@ -254,7 +255,7 @@
                 <event-block sid="741172754160611">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="602623169418622" type="System">
-                            <param id="0" name="Variable">PilihanIntonasi</param>
+                            <param id="0" name="Variable">PilihanIntonasi_</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">3</param>
                         </condition>
@@ -272,7 +273,7 @@
                 <event-block sid="640503781334032">
                     <conditions>
                         <condition id="-14" inverted="1" name="Compare variable" sid="725522296712685" type="System">
-                            <param id="0" name="Variable">PilihanIntonasi</param>
+                            <param id="0" name="Variable">PilihanIntonasi_</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">3</param>
                         </condition>
@@ -285,5 +286,87 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="303302171777968">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="623661936899722" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="415026682320359" type="Function">
+                    <param id="0" name="Name">&quot;Intonasi_Block&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="779319176971522">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="187254333503306" type="System">
+                            <param id="0" name="Variable">PilihanIntonasi_</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="704250587367228" type="System">
+                            <param id="0" name="Variable">PilihanIntonasi</param>
+                            <param id="1" name="Value">&quot;Marah&quot;</param>
+                        </action>
+                        <action id="0" name="Call function" sid="547184507038919" type="Function">
+                            <param id="0" name="Name">&quot;Input_Array&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="0" name="Call function" sid="713190430909810" type="Function">
+                            <param id="0" name="Name">&quot;Save&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="911014269535503">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="109668544268208" type="System">
+                            <param id="0" name="Variable">PilihanIntonasi_</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="857663355716544" type="System">
+                            <param id="0" name="Variable">PilihanIntonasi</param>
+                            <param id="1" name="Value">&quot;Sedih&quot;</param>
+                        </action>
+                        <action id="0" name="Call function" sid="104071655687997" type="Function">
+                            <param id="0" name="Name">&quot;Input_Array&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="0" name="Call function" sid="727188005242313" type="Function">
+                            <param id="0" name="Name">&quot;Save&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="895996823338608">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="596008619161473" type="System">
+                            <param id="0" name="Variable">PilihanIntonasi_</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="301010681408434" type="System">
+                            <param id="0" name="Variable">PilihanIntonasi</param>
+                            <param id="1" name="Value">&quot;Semangat&quot;</param>
+                        </action>
+                        <action id="0" name="Call function" sid="595220678228577" type="Function">
+                            <param id="0" name="Name">&quot;Input_Array&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="0" name="Call function" sid="938400875326148" type="Function">
+                            <param id="0" name="Name">&quot;Save&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>
