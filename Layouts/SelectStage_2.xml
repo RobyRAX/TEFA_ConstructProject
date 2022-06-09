@@ -88,8 +88,8 @@
                         <x>880</x>
                         <y>45</y>
                         <z>0</z>
-                        <width>175</width>
-                        <height>175</height>
+                        <width>172.8125</width>
+                        <height>172.8125</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -115,10 +115,10 @@
                         <x>1120</x>
                         <y>45</y>
                         <z>0</z>
-                        <width>175</width>
-                        <height>175</height>
+                        <width>173.90625</width>
+                        <height>173.90625</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0.503144681</hotspotX>
                         <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
