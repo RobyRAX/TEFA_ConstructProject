@@ -51,196 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text_TemplateHasil" uid="120">
-                    <properties>
-                        <text>Hasil</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-48,700,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>640</x>
-                        <y>125</y>
-                        <z>0</z>
-                        <width>500</width>
-                        <height>100</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Text_TemplateHasil" uid="121">
-                    <properties>
-                        <text>Nama</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-27,700,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>380</x>
-                        <y>230</y>
-                        <z>0</z>
-                        <width>170</width>
-                        <height>40</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Text_TemplateHasil" uid="122">
-                    <properties>
-                        <text>Gender</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-27,700,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>380</x>
-                        <y>290</y>
-                        <z>0</z>
-                        <width>170</width>
-                        <height>40</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Text_TemplateHasil" uid="123">
-                    <properties>
-                        <text>Minat</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-27,700,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>380</x>
-                        <y>350</y>
-                        <z>0</z>
-                        <width>170</width>
-                        <height>40</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Text_TemplateHasil" uid="124">
-                    <properties>
-                        <text>Pilihan</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-27,700,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>410</x>
-                        <y>410</y>
-                        <z>0</z>
-                        <width>170</width>
-                        <height>40</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Text_TemplateHasil" uid="125">
-                    <properties>
-                        <text>Pengayaan</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-27,700,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>380</x>
-                        <y>470</y>
-                        <z>0</z>
-                        <width>170</width>
-                        <height>40</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Text_TemplateHasil" uid="126">
-                    <properties>
-                        <text>Pilihan_2</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-27,700,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>410</x>
-                        <y>530</y>
-                        <z>0</z>
-                        <width>170</width>
-                        <height>40</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Line" uid="127">
+                <instance type="Hasil_Form" uid="143">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -250,123 +61,13 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>640</x>
-                        <y>252</y>
+                        <x>525</x>
+                        <y>422</y>
                         <z>0</z>
-                        <width>600</width>
-                        <height>1</height>
+                        <width>941</width>
+                        <height>480</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Line" uid="128">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>640</x>
-                        <y>312</y>
-                        <z>0</z>
-                        <width>600</width>
-                        <height>1</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Line" uid="129">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>640</x>
-                        <y>372</y>
-                        <z>0</z>
-                        <width>600</width>
-                        <height>1</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Line" uid="130">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>640</x>
-                        <y>432</y>
-                        <z>0</z>
-                        <width>600</width>
-                        <height>1</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Line" uid="131">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>640</x>
-                        <y>492</y>
-                        <z>0</z>
-                        <width>600</width>
-                        <height>1</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Line" uid="132">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>640</x>
-                        <y>552</y>
-                        <z>0</z>
-                        <width>600</width>
-                        <height>1</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0.500531375</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -387,6 +88,28 @@
                         <z>0</z>
                         <width>110</width>
                         <height>110</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hasil_Label" uid="121">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>172</x>
+                        <y>100</y>
+                        <z>0</z>
+                        <width>232</width>
+                        <height>100</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -415,10 +138,10 @@
             <instances>
                 <instance type="Text_Nama" uid="133">
                     <properties>
-                        <text>-</text>
+                        <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-27,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Arial,-45,700,0</font>
+                        <color>220,65,65</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Left</hotspot>
@@ -428,11 +151,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>780</x>
-                        <y>230</y>
+                        <x>450</x>
+                        <y>268</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>40</height>
+                        <width>352.136352539</width>
+                        <height>70.427268982</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -442,10 +165,10 @@
                 </instance>
                 <instance type="Text_Gender" uid="134">
                     <properties>
-                        <text>-</text>
+                        <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-27,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Arial,-45,700,0</font>
+                        <color>220,65,65</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Left</hotspot>
@@ -455,11 +178,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>780</x>
-                        <y>290</y>
+                        <x>450</x>
+                        <y>344</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>40</height>
+                        <width>352.136352539</width>
+                        <height>70.427268982</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -469,10 +192,10 @@
                 </instance>
                 <instance type="Text_Minat" uid="135">
                     <properties>
-                        <text>-</text>
+                        <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-27,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Arial,-45,700,0</font>
+                        <color>220,65,65</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Left</hotspot>
@@ -482,11 +205,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>780</x>
-                        <y>350</y>
+                        <x>450</x>
+                        <y>420</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>40</height>
+                        <width>352.136352539</width>
+                        <height>70.427268982</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -496,10 +219,10 @@
                 </instance>
                 <instance type="Text_Pilihan" uid="136">
                     <properties>
-                        <text>-</text>
+                        <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-27,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Arial,-45,700,0</font>
+                        <color>220,65,65</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Left</hotspot>
@@ -509,11 +232,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>810</x>
-                        <y>410</y>
+                        <x>450</x>
+                        <y>497</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>40</height>
+                        <width>352.136352539</width>
+                        <height>70.427268982</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -523,10 +246,10 @@
                 </instance>
                 <instance type="Text_Pengayaan" uid="137">
                     <properties>
-                        <text>-</text>
+                        <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-27,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Arial,-45,700,0</font>
+                        <color>220,65,65</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Left</hotspot>
@@ -536,11 +259,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>780</x>
-                        <y>470</y>
+                        <x>450</x>
+                        <y>573</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>40</height>
+                        <width>352.136352539</width>
+                        <height>70.427268982</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -551,7 +274,7 @@
                 <instance type="Text_Pilihan_2" uid="138">
                     <properties>
                         <text>-</text>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <font>Arial,-27,700,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
@@ -563,13 +286,54 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>810</x>
-                        <y>530</y>
+                        <x>465</x>
+                        <y>760</y>
                         <z>0</z>
                         <width>200</width>
                         <height>40</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="Ref" sid="835357226987690">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>0.1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="Frame6" uid="120">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>640</x>
+                        <y>360</y>
+                        <z>0</z>
+                        <width>1280</width>
+                        <height>720</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>

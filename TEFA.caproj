@@ -1397,6 +1397,76 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Spoiler_Cahaya" sid="677477963203924">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="709610733721232" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Spoiler_Suasana" sid="473814090422121">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="167111351612852" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Spoiler_Hewan" sid="823809442053541">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="529356928705830" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Hasil_Form" sid="307001988855693">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="378260639742322" speed="5">
+                    <frame duration="1" hotspotX="0.500531" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\Hasil_Form.png">
+                        <collision-poly>
+                            <point x="0.0244421" y="0.0479167" />
+                            <point x="0.499469" y="0" />
+                            <point x="0.975558" y="0.0479167" />
+                            <point x="1" y="0.5" />
+                            <point x="0.975558" y="0.952083" />
+                            <point x="0.499469" y="1" />
+                            <point x="0.0244421" y="0.952083" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Frame6" sid="781699174550250">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="700369926149717" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Completed Scene\Frame 68.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Hasil_Label" sid="157416900556030">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="326608092436873" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\Hasil_Label.png">
+                        <collision-poly>
+                            <point x="0.0215517" y="0.05" />
+                            <point x="0.5" y="0" />
+                            <point x="0.978448" y="0.05" />
+                            <point x="1" y="0.5" />
+                            <point x="0.978448" y="0.95" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0215517" y="0.95" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="OpsiUtama_Button" plugin-id="Sprite" sid="872241909552528">

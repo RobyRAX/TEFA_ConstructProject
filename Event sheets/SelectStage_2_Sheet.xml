@@ -177,6 +177,10 @@
                             <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
                             <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
                         </action>
+                        <action id="-18" name="Set layer opacity" sid="633407516208830" type="System">
+                            <param id="0" name="Layer">&quot;Spoiler_Cahaya&quot;</param>
+                            <param id="1" name="Opacity">lerp(LayerOpacity(&quot;Spoiler_Cahaya&quot;), 100, 0.2)</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="297037764360717">
@@ -189,6 +193,10 @@
                         <action id="-7" name="Set size" sid="595211420391863" type="iconElectronics">
                             <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
                             <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="354128098472919" type="System">
+                            <param id="0" name="Layer">&quot;Spoiler_Cahaya&quot;</param>
+                            <param id="1" name="Opacity">lerp(LayerOpacity(&quot;Spoiler_Cahaya&quot;), 0, 0.2)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -207,6 +215,10 @@
                             <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
                             <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
                         </action>
+                        <action id="-18" name="Set layer opacity" sid="330103398998926" type="System">
+                            <param id="0" name="Layer">&quot;Spoiler_Suasana&quot;</param>
+                            <param id="1" name="Opacity">lerp(LayerOpacity(&quot;Spoiler_Suasana&quot;), 100, 0.2)</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="848342831003317">
@@ -219,6 +231,10 @@
                         <action id="-7" name="Set size" sid="999748325895465" type="iconAmbiance">
                             <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
                             <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="202787527346759" type="System">
+                            <param id="0" name="Layer">&quot;Spoiler_Suasana&quot;</param>
+                            <param id="1" name="Opacity">lerp(LayerOpacity(&quot;Spoiler_Suasana&quot;), 0, 0.2)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -237,6 +253,10 @@
                             <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
                             <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
                         </action>
+                        <action id="-18" name="Set layer opacity" sid="346541591354403" type="System">
+                            <param id="0" name="Layer">&quot;Spoiler_Hewan&quot;</param>
+                            <param id="1" name="Opacity">lerp(LayerOpacity(&quot;Spoiler_Hewan&quot;), 100, 0.2)</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="655515161862651">
@@ -249,6 +269,10 @@
                         <action id="-7" name="Set size" sid="918742604359192" type="iconAnimal">
                             <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
                             <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="823383279389326" type="System">
+                            <param id="0" name="Layer">&quot;Spoiler_Hewan&quot;</param>
+                            <param id="1" name="Opacity">lerp(LayerOpacity(&quot;Spoiler_Hewan&quot;), 0, 0.2)</param>
                         </action>
                     </actions>
                 </event-block>
