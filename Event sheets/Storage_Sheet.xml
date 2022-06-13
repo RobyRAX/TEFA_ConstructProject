@@ -310,6 +310,19 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="957706135435731">
+                    <conditions>
+                        <condition id="0" name="On function" sid="324989728446636" type="Function">
+                            <param id="0" name="Name">&quot;SaveToText&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Write file" sid="942772247150583" type="NWjs">
+                            <param id="0" name="Path">NWjs.AppFolder &amp; &quot;\Save\&quot; &amp; NamaPemain &amp; &quot;.txt&quot;</param>
+                            <param id="1" name="Contents">&quot;Nama : &quot; &amp; NamaPemain &amp; newline &amp;&#x0D;&#x0A;&quot;Gender : &quot; &amp; Gender &amp; newline &amp;&#x0D;&#x0A;&quot;Minat : &quot; &amp; Pilih_OpsiUtama &amp; newline &amp;&#x0D;&#x0A;&quot;     Pilihan Musik : &quot; &amp; PilihanMusik &amp; newline &amp;&#x0D;&#x0A;&quot;     Pilihan Emot : &quot; &amp; PilihanEmot &amp; newline &amp;&#x0D;&#x0A;&quot;     Pilihan Intonasi : &quot; &amp; PilihanIntonasi &amp; newline &amp;&#x0D;&#x0A;&quot;     Pilihan Warna : &quot; &amp; PilihanWarna &amp; newline &amp;&#x0D;&#x0A;&quot;     Pilihan Mainan : &quot; &amp; PilihanMainan &amp; newline &amp;&#x0D;&#x0A;&quot;Kategori : &quot; &amp; Pilih_OpsiStage2 &amp; newline </param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
     </events>

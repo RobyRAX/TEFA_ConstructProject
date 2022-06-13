@@ -13,6 +13,34 @@
                     <param id="0" name="Name">&quot;Init_Array&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="22" name="Set maximum size" sid="677081869752643" type="NWjs">
+                    <param id="0" name="Max width">1920</param>
+                    <param id="1" name="Max height">1080</param>
+                </action>
+                <action id="18" name="Maximize" sid="658222389852409" type="NWjs" />
+                <action id="14" name="Set width" sid="793041885626786" type="NWjs">
+                    <param id="0" name="Width">1920</param>
+                </action>
+                <action id="15" name="Set height" sid="385434119052688" type="NWjs">
+                    <param id="0" name="Height">1080</param>
+                </action>
+                <action id="17" name="Execute Javascript" sid="723640563683907" type="Browser">
+                    <param id="0" name="Javascript">&quot;win.toggleFullscreen();&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block disabled="1" sid="380044030575629">
+            <conditions>
+                <condition id="-32" name="Is on platform" sid="640629667165765" type="System">
+                    <param id="0" name="Platform">10</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="844501008749181" type="System" />
+                <condition id="10" inverted="1" name="Is fullscreen" sid="255143426083862" type="Browser" />
+            </conditions>
+            <actions>
+                <action id="10" name="Request fullscreen" sid="537724413754980" type="Browser">
+                    <param id="0" name="Mode">0</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="281141502832841">
@@ -48,7 +76,9 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="1" name="Close" sid="488341511775941" type="Browser" />
+                        <action id="17" name="Execute Javascript" sid="488341511775941" type="Browser">
+                            <param id="0" name="Javascript">&quot;process.exit(1);&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>

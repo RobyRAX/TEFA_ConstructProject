@@ -17,6 +17,7 @@
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="NodeWebkit" version="1">NW.js</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
@@ -1518,6 +1519,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="NWjs" sid="866968619219177">
+            <plugin id="NodeWebkit" />
+        </object-type>
     </object-folder>
     <families>
         <family name="OpsiUtama_Button" plugin-id="Sprite" sid="872241909552528">
@@ -1660,6 +1664,7 @@
         </global-instance>
         <global-instance type="a_LocalStorage" uid="116" />
         <global-instance type="Function" uid="117" />
+        <global-instance type="NWjs" uid="122" />
     </global-instances>
     <sounds-folder>
         <file name="level complete.ogg" />
@@ -1680,6 +1685,6 @@
             <file name="icon-256.png" />
             <file name="loading-logo.png" />
         </file-folder>
-        <file name="Dora_Test_Compressed.mp4" />
+        <file name="Dora_Test_Convert.webm" />
     </files-folder>
 </c2project>

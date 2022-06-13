@@ -22,6 +22,10 @@
                 <action id="0" name="Set text" sid="669555978575757" type="Text_Pengayaan">
                     <param id="0" name="Text">Pilih_OpsiStage2</param>
                 </action>
+                <action id="0" name="Call function" sid="987666698318656" type="Function">
+                    <param id="0" name="Name">&quot;SaveToText&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="712448915131736">
