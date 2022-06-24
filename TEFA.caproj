@@ -1323,6 +1323,59 @@
                         </animation>
                     </animation-folder>
                 </object-type>
+                <object-type name="Spoiler_Cahaya" sid="677477963203924">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="709610733721232" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Game Autis\Asset Printilan\polosan ikuti cahaya.png">
+                                <collision-poly>
+                                    <point x="0.382031" y="0.679167" />
+                                    <point x="0.5" y="0.430556" />
+                                    <point x="0.660937" y="0.602778" />
+                                    <point x="0.660937" y="0.5" />
+                                    <point x="1" y="1" />
+                                    <point x="0.5" y="0.569444" />
+                                    <point x="0" y="1" />
+                                    <point x="0.339063" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Spoiler_Hewan" sid="823809442053541">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="529356928705830" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Game Autis\Asset Printilan\spoiler hewan.png">
+                                <collision-poly>
+                                    <point x="0.242188" y="0.430556" />
+                                    <point x="0.757813" y="0.430556" />
+                                    <point x="0.771094" y="0.5" />
+                                    <point x="0.996875" y="0.994444" />
+                                    <point x="0" y="1" />
+                                    <point x="0.228906" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Spoiler_Suasana" sid="473814090422121">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="167111351612852" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Game Autis\Asset Printilan\ambience polosan.png">
+                                <collision-poly>
+                                    <point x="0.197656" y="0.351389" />
+                                    <point x="0.802344" y="0.351389" />
+                                    <point x="1" y="0.5" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
             <object-folder name="Kartun">
                 <object-type name="BG_Video" sid="437793587968607">
@@ -1379,6 +1432,218 @@
                     <plugin id="Text" />
                 </object-type>
             </object-folder>
+            <object-folder name="Menyanyi">
+                <object-type name="musicPlay" sid="801883821372902">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="626215917146093" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Game Autis\Asset Printilan\music play.png">
+                                <collision-poly>
+                                    <point x="0.146825" y="0.146825" />
+                                    <point x="0.5" y="0.00396825" />
+                                    <point x="0.853175" y="0.146825" />
+                                    <point x="0.996032" y="0.5" />
+                                    <point x="0.853175" y="0.853175" />
+                                    <point x="0.5" y="0.996032" />
+                                    <point x="0.146825" y="0.853175" />
+                                    <point x="0.00396825" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="lirikLagu" sid="440005329604289">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="657869259296056" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Game Autis\Asset Printilan\lirik lagu.png">
+                                <collision-poly>
+                                    <point x="0.0121145" y="0.112245" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.987885" y="0.112245" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.987885" y="0.887755" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.0121145" y="0.887755" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="musicDetail" sid="325691271189605">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="566706351742571" speed="5">
+                            <frame duration="1" hotspotX="0.508197" hotspotY="0.5" original-source="F:\Game Autis\Asset Printilan\music detail 1.png">
+                                <collision-poly>
+                                    <point x="0.245902" y="0.1875" />
+                                    <point x="0.491803" y="0.1" />
+                                    <point x="0.803279" y="0.15" />
+                                    <point x="0.918033" y="0.5" />
+                                    <point x="0.770492" y="0.825" />
+                                    <point x="0.491803" y="0.2375" />
+                                    <point x="0.0327869" y="0.975" />
+                                    <point x="0.196721" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="musicDetail2" sid="512657894541502">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="669540529113428" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Game Autis\Asset Printilan\music detail 2.png">
+                                <collision-poly>
+                                    <point x="0.452381" y="0.306452" />
+                                    <point x="0.5" y="0.016129" />
+                                    <point x="0.97619" y="0.016129" />
+                                    <point x="0.571429" y="0.5" />
+                                    <point x="0.52381" y="0.677419" />
+                                    <point x="0.5" y="0.983871" />
+                                    <point x="0.190476" y="0.870968" />
+                                    <point x="0.404762" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="musicDetail3" sid="332510326591434">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="295358370842870" speed="5">
+                            <frame duration="1" hotspotX="0.510638" hotspotY="0.512195" original-source="F:\Game Autis\Asset Printilan\music detail 3.png">
+                                <collision-poly>
+                                    <point x="0.0212766" y="0.0243902" />
+                                    <point x="0.489362" y="0.0243902" />
+                                    <point x="0.659574" y="0.390244" />
+                                    <point x="0.680851" y="0.487805" />
+                                    <point x="0.957447" y="0.951219" />
+                                    <point x="0.489362" y="0.195122" />
+                                    <point x="0.148936" y="0.829268" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="Cahaya">
+                <object-type name="lampuBiru" sid="914527163918288">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="764006370632366" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Game Autis\Asset Printilan\lampu biru.png">
+                                <collision-poly>
+                                    <point x="0.151899" y="0.0930233" />
+                                    <point x="0.5" y="0.00387597" />
+                                    <point x="0.848101" y="0.0930233" />
+                                    <point x="0.886076" y="0.5" />
+                                    <point x="0.727848" y="0.833333" />
+                                    <point x="0.5" y="0.996124" />
+                                    <point x="0.272152" y="0.833333" />
+                                    <point x="0.113924" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="lampuIjo" sid="602352501010921">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="274664000442975" speed="5">
+                            <frame duration="1" hotspotX="0.503145" hotspotY="0.5" original-source="F:\Game Autis\Asset Printilan\lampu ijo.png">
+                                <collision-poly>
+                                    <point x="0.150943" y="0.0930233" />
+                                    <point x="0.496855" y="0.00387597" />
+                                    <point x="0.849057" y="0.0930233" />
+                                    <point x="0.880503" y="0.5" />
+                                    <point x="0.72327" y="0.829457" />
+                                    <point x="0.496855" y="0.996124" />
+                                    <point x="0.27044" y="0.833333" />
+                                    <point x="0.113208" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="lampuKuning" sid="718613269904947">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="985044145059865" speed="5">
+                            <frame duration="1" hotspotX="0.503145" hotspotY="0.5" original-source="F:\Game Autis\Asset Printilan\lampu kuning.png">
+                                <collision-poly>
+                                    <point x="0.150943" y="0.0930233" />
+                                    <point x="0.496855" y="0.00387597" />
+                                    <point x="0.849057" y="0.0930233" />
+                                    <point x="0.886792" y="0.5" />
+                                    <point x="0.72327" y="0.829457" />
+                                    <point x="0.496855" y="0.996124" />
+                                    <point x="0.27044" y="0.833333" />
+                                    <point x="0.113208" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="lampuMerah" sid="703988119932261">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="698769719454308" speed="5">
+                            <frame duration="1" hotspotX="0.503145" hotspotY="0.501945" original-source="F:\Game Autis\Asset Printilan\lampu merah.png">
+                                <collision-poly>
+                                    <point x="0.150943" y="0.0933852" />
+                                    <point x="0.496855" y="0" />
+                                    <point x="0.849057" y="0.0933852" />
+                                    <point x="0.886792" y="0.498054" />
+                                    <point x="0.72327" y="0.828794" />
+                                    <point x="0.496855" y="1" />
+                                    <point x="0.27044" y="0.832685" />
+                                    <point x="0.113208" y="0.498054" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="lampuUngu" sid="931957310320897">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="408876597689059" speed="5">
+                            <frame duration="1" hotspotX="0.503145" hotspotY="0.501945" original-source="F:\Game Autis\Asset Printilan\lampu ungu.png">
+                                <collision-poly>
+                                    <point x="0.150943" y="0.0933852" />
+                                    <point x="0.496855" y="0" />
+                                    <point x="0.855346" y="0.0894942" />
+                                    <point x="0.893082" y="0.498054" />
+                                    <point x="0.72956" y="0.832685" />
+                                    <point x="0.496855" y="1" />
+                                    <point x="0.27673" y="0.828794" />
+                                    <point x="0.113208" y="0.498054" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="warnaLampu" sid="288986691929437">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="403271973131055" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Game Autis\Asset Printilan\warna lampu.png">
+                                <collision-poly>
+                                    <point x="0.0121145" y="0.112245" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.987885" y="0.112245" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.987885" y="0.887755" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.0121145" y="0.887755" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
         </object-folder>
         <object-folder name="SaveData">
             <object-type global="1" name="a_PlayerData" sid="625980022406034">
@@ -1417,59 +1682,6 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="609991124141386" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Spoiler_Cahaya" sid="677477963203924">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="709610733721232" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Game Autis\Asset Printilan\polosan ikuti cahaya.png">
-                        <collision-poly>
-                            <point x="0.382031" y="0.679167" />
-                            <point x="0.5" y="0.430556" />
-                            <point x="0.660937" y="0.602778" />
-                            <point x="0.660937" y="0.5" />
-                            <point x="1" y="1" />
-                            <point x="0.5" y="0.569444" />
-                            <point x="0" y="1" />
-                            <point x="0.339063" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Spoiler_Suasana" sid="473814090422121">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="167111351612852" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Game Autis\Asset Printilan\ambience polosan.png">
-                        <collision-poly>
-                            <point x="0.197656" y="0.351389" />
-                            <point x="0.802344" y="0.351389" />
-                            <point x="1" y="0.5" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Spoiler_Hewan" sid="823809442053541">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="529356928705830" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Game Autis\Asset Printilan\spoiler hewan.png">
-                        <collision-poly>
-                            <point x="0.242188" y="0.430556" />
-                            <point x="0.757813" y="0.430556" />
-                            <point x="0.771094" y="0.5" />
-                            <point x="0.996875" y="0.994444" />
-                            <point x="0" y="1" />
-                            <point x="0.228906" y="0.5" />
-                        </collision-poly>
-                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -1616,6 +1828,8 @@
         <layout-folder name="SelectStage_2">
             <layout>SelectStage_2.xml</layout>
             <layout>Kartun.xml</layout>
+            <layout>Menyanyi.xml</layout>
+            <layout>Cahaya.xml</layout>
         </layout-folder>
         <layout-folder name="Result">
             <layout>Hasil.xml</layout>
@@ -1638,6 +1852,8 @@
         <event-sheet>Kartun_Sheet.xml</event-sheet>
         <event-sheet>Storage_Sheet.xml</event-sheet>
         <event-sheet>Hasil_Sheet.xml</event-sheet>
+        <event-sheet>Menyanyi_Sheet.xml</event-sheet>
+        <event-sheet>Cahaya_Sheet.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="14">
