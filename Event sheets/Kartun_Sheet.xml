@@ -3,8 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Kartun_Sheet</name>
     <events>
+        <include>Storage_Sheet</include>
         <include>BG_Sheet</include>
-        <variable constant="0" name="Timer" sid="748092134445207" static="0" type="number">0</variable>
         <event-block sid="290325430280677">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="395110032915760" type="System" />

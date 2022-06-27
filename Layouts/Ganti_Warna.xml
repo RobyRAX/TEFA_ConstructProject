@@ -175,7 +175,7 @@
                     <instance-variables>
                         <defX>210</defX>
                         <defY>300</defY>
-                        <scale>1.25</scale>
+                        <scale>1.35</scale>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -202,7 +202,7 @@
                     <instance-variables>
                         <defX>210</defX>
                         <defY>300</defY>
-                        <scale>1.25</scale>
+                        <scale>1.35</scale>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -229,7 +229,7 @@
                     <instance-variables>
                         <defX>210</defX>
                         <defY>300</defY>
-                        <scale>1.25</scale>
+                        <scale>1.35</scale>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -256,7 +256,7 @@
                     <instance-variables>
                         <defX>210</defX>
                         <defY>300</defY>
-                        <scale>1.25</scale>
+                        <scale>1.35</scale>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -283,7 +283,7 @@
                     <instance-variables>
                         <defX>210</defX>
                         <defY>300</defY>
-                        <scale>1.25</scale>
+                        <scale>1.35</scale>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>

@@ -28,8 +28,11 @@
         <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
     </used-behaviors>
-    <used-effects />
+    <used-effects>
+        <effect author="Scirra" id="brightness">Brightness</effect>
+    </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
@@ -104,6 +107,14 @@
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\bg ijo.png" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\bg ungu.png" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="V:\Asset\Asset Printilan\bg biru.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BG_Hitam" sid="990614344362922">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="108143815364864" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1386,9 +1397,6 @@
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="Text_Timer" sid="384279754177045">
-                    <plugin id="Text" />
-                </object-type>
                 <object-type name="waktu" sid="655789494733354">
                     <plugin id="Sprite" />
                     <animation-folder>
@@ -1643,7 +1651,93 @@
                         </animation>
                     </animation-folder>
                 </object-type>
+                <object-type name="Lampu_Sprites" sid="127867154502573">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="BoundToLayout" sid="490289879625395">
+                            <behavior id="bound" />
+                        </behavior-type>
+                        <behavior-type name="Horizon" sid="675768599279697">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                        <behavior-type name="Vertik" sid="486512576033106">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                    </behaviors>
+                    <effects>
+                        <effect-type name="Brightness">
+                            <effect id="brightness" />
+                        </effect-type>
+                    </effects>
+                    <animation-folder>
+                        <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="242676623628949" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\My Docs\Game Autis\TEFA_ConstructProject\Animations\lampuBiru\Default\000.png">
+                                <collision-poly>
+                                    <point x="0.151899" y="0.0930233" />
+                                    <point x="0.5" y="0.00387597" />
+                                    <point x="0.848101" y="0.0930233" />
+                                    <point x="0.886076" y="0.5" />
+                                    <point x="0.727848" y="0.833333" />
+                                    <point x="0.5" y="0.996124" />
+                                    <point x="0.272152" y="0.833333" />
+                                    <point x="0.113924" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.503145" hotspotY="0.5" original-source="D:\My Docs\Game Autis\TEFA_ConstructProject\Animations\lampuIjo\Default\000.png">
+                                <collision-poly>
+                                    <point x="0.150943" y="0.0930233" />
+                                    <point x="0.496855" y="0.00387597" />
+                                    <point x="0.849057" y="0.0930233" />
+                                    <point x="0.880503" y="0.5" />
+                                    <point x="0.72327" y="0.829457" />
+                                    <point x="0.496855" y="0.996124" />
+                                    <point x="0.27044" y="0.833333" />
+                                    <point x="0.113208" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.503145" hotspotY="0.5" original-source="D:\My Docs\Game Autis\TEFA_ConstructProject\Animations\lampuKuning\Default\000.png">
+                                <collision-poly>
+                                    <point x="0.150943" y="0.0930233" />
+                                    <point x="0.496855" y="0.00387597" />
+                                    <point x="0.849057" y="0.0930233" />
+                                    <point x="0.886792" y="0.5" />
+                                    <point x="0.72327" y="0.829457" />
+                                    <point x="0.496855" y="0.996124" />
+                                    <point x="0.27044" y="0.833333" />
+                                    <point x="0.113208" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.503145" hotspotY="0.501945" original-source="D:\My Docs\Game Autis\TEFA_ConstructProject\Animations\lampuMerah\Default\000.png">
+                                <collision-poly>
+                                    <point x="0.150943" y="0.0933852" />
+                                    <point x="0.496855" y="0" />
+                                    <point x="0.849057" y="0.0933852" />
+                                    <point x="0.886792" y="0.498054" />
+                                    <point x="0.72327" y="0.828794" />
+                                    <point x="0.496855" y="1" />
+                                    <point x="0.27044" y="0.832685" />
+                                    <point x="0.113208" y="0.498054" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.503145" hotspotY="0.501945" original-source="D:\My Docs\Game Autis\TEFA_ConstructProject\Animations\lampuUngu\Default\000.png">
+                                <collision-poly>
+                                    <point x="0.150943" y="0.0933852" />
+                                    <point x="0.496855" y="0" />
+                                    <point x="0.855346" y="0.0894942" />
+                                    <point x="0.893082" y="0.498054" />
+                                    <point x="0.72956" y="0.832685" />
+                                    <point x="0.496855" y="1" />
+                                    <point x="0.27673" y="0.828794" />
+                                    <point x="0.113208" y="0.498054" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
+            <object-type name="Text_Timer" sid="384279754177045">
+                <plugin id="Text" />
+            </object-type>
         </object-folder>
         <object-folder name="SaveData">
             <object-type global="1" name="a_PlayerData" sid="625980022406034">
@@ -1810,6 +1904,20 @@
                 <instance-variable name="scale" sid="827879673887325" type="number" />
             </instance-variables>
         </family>
+        <family name="Lampu_Lampu" plugin-id="Sprite" sid="163479968989795">
+            <members>
+                <member>lampuBiru</member>
+                <member>lampuIjo</member>
+                <member>lampuKuning</member>
+                <member>lampuMerah</member>
+                <member>lampuUngu</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="defX" sid="781615346115465" type="number" />
+                <instance-variable name="defY" sid="642859256195098" type="number" />
+                <instance-variable name="scale" sid="982664840694860" type="number" />
+            </instance-variables>
+        </family>
     </families>
     <layout-folder>
         <layout-folder name="OpeningPage">
@@ -1880,7 +1988,7 @@
         </global-instance>
         <global-instance type="a_LocalStorage" uid="116" />
         <global-instance type="Function" uid="117" />
-        <global-instance type="NWjs" uid="122" />
+        <global-instance type="NWjs" uid="150" />
     </global-instances>
     <sounds-folder>
         <file name="level complete.ogg" />

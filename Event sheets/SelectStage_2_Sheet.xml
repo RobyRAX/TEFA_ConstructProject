@@ -307,6 +307,34 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="898580745372525">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="378378365217941" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">iconSingin</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="604261567766083" type="System">
+                            <param id="0" name="Layout">Menyanyi</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="913463696069951">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="809135317199236" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">iconElectronics</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="679583259125609" type="System">
+                            <param id="0" name="Layout">Cahaya</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-block sid="845484293699811">

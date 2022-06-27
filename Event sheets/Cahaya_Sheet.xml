@@ -2,5 +2,411 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Cahaya_Sheet</name>
-    <events />
+    <events>
+        <include>BG_Sheet</include>
+        <include>Storage_Sheet</include>
+        <event-group description="" sid="657044964649435" title="Logic_Lampu">
+            <sub-events>
+                <event-block sid="531000039041622">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="268991739241374" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="430047812854322" type="Lampu_Sprites">
+                            <param id="0" name="Frame number">int(random(0, 4))</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="603145138221310" type="System">
+                            <param id="0" name="Variable">Timer</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="456790657644711">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="251700372417028" type="Lampu_Sprites">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="191583671860833" type="System">
+                                    <param id="0" name="Variable">LampuYangNyala</param>
+                                    <param id="1" name="Value">&quot;Biru&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="515107339349293">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="170066121121940" type="Lampu_Sprites">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="155493183583772" type="System">
+                                    <param id="0" name="Variable">LampuYangNyala</param>
+                                    <param id="1" name="Value">&quot;Hijau&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="673603301443947">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="790462733878428" type="Lampu_Sprites">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="871231483493101" type="System">
+                                    <param id="0" name="Variable">LampuYangNyala</param>
+                                    <param id="1" name="Value">&quot;Kuning&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="643740488115982">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="577577609684525" type="Lampu_Sprites">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="541098000493594" type="System">
+                                    <param id="0" name="Variable">LampuYangNyala</param>
+                                    <param id="1" name="Value">&quot;Merah&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="423457719238140">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="995194020032831" type="Lampu_Sprites">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="895385820269894" type="System">
+                                    <param id="0" name="Variable">LampuYangNyala</param>
+                                    <param id="1" name="Value">&quot;Ungu&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="875898722738997">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="633735861201371" type="System">
+                            <param id="0" name="Interval (seconds)">1.0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="547153957256942" type="System">
+                            <param id="0" name="Variable">Timer</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="563052906031294" type="Text_Timer">
+                            <param id="0" name="Text">&quot;0&quot; &amp; zeropad(floor(Timer/60), 1) &amp; &quot;:&quot; &amp; zeropad(floor(Timer%60), 2)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="823999113323935">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="474301145113950" type="System">
+                            <param id="0" name="Variable">Timer</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-18" name="Set layer opacity" sid="148707009926215" type="System">
+                            <param id="0" name="Layer">&quot;Hitam&quot;</param>
+                            <param id="1" name="Opacity">lerp(LayerOpacity(&quot;Hitam&quot;), 0, 0.1)</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="611270958199750" type="System">
+                            <param id="0" name="Layer">&quot;Lampu&quot;</param>
+                            <param id="1" name="Opacity">LayerOpacity(&quot;Hitam&quot;)</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="924629029170145">
+                            <conditions>
+                                <condition id="-17" name="Compare opacity" sid="960679347698828" type="System">
+                                    <param id="0" name="Layer">&quot;Hitam&quot;</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Opacity">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set layer visible" sid="802768303452327" type="System">
+                                    <param id="0" name="Layer">&quot;Hitam&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                                <action id="-4" name="Set layer visible" sid="448755139952174" type="System">
+                                    <param id="0" name="Layer">&quot;Lampu&quot;</param>
+                                    <param id="1" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="809783070053502" title="Efek_Cahaya">
+            <sub-events>
+                <event-block sid="552333522383666">
+                    <conditions>
+                        <condition id="-9" inverted="1" name="Layer is visible" sid="303270826136202" type="System">
+                            <param id="0" name="Layer">&quot;Hitam&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="169393681709425">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="823067051260646" type="Mouse">
+                                    <param id="0" name="Object">lampuBiru</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="584555908058375" type="lampuBiru">
+                                    <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
+                                    <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="608126168502862">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="185213708199354" type="Mouse">
+                                    <param id="0" name="Object">lampuBiru</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="975378404057825" type="lampuBiru">
+                                    <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
+                                    <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>----------------------------------------------------------------------------------------</comment>
+                        <event-block sid="439112901694893">
+                            <conditions />
+                            <actions />
+                        </event-block>
+                        <event-block sid="309459132094912">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="518489137011784" type="Mouse">
+                                    <param id="0" name="Object">lampuIjo</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="208328046808898" type="lampuIjo">
+                                    <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
+                                    <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="242288746252905">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="361486904495766" type="Mouse">
+                                    <param id="0" name="Object">lampuIjo</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="324283552862376" type="lampuIjo">
+                                    <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
+                                    <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>----------------------------------------------------------------------------------------</comment>
+                        <event-block sid="450118705484437">
+                            <conditions />
+                            <actions />
+                        </event-block>
+                        <event-block sid="547430257166993">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="411009456108171" type="Mouse">
+                                    <param id="0" name="Object">lampuKuning</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="307722957895935" type="lampuKuning">
+                                    <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
+                                    <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="696192853119118">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="249438643109846" type="Mouse">
+                                    <param id="0" name="Object">lampuKuning</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="743526018542978" type="lampuKuning">
+                                    <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
+                                    <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>----------------------------------------------------------------------------------------</comment>
+                        <event-block sid="269477990389284">
+                            <conditions />
+                            <actions />
+                        </event-block>
+                        <event-block sid="506502997043737">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="854140375592754" type="Mouse">
+                                    <param id="0" name="Object">lampuMerah</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="376413993763746" type="lampuMerah">
+                                    <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
+                                    <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="626323937013159">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="227978608054162" type="Mouse">
+                                    <param id="0" name="Object">lampuMerah</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="934991365280674" type="lampuMerah">
+                                    <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
+                                    <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>----------------------------------------------------------------------------------------</comment>
+                        <event-block sid="581144490665494">
+                            <conditions />
+                            <actions />
+                        </event-block>
+                        <event-block sid="759513153403708">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="768916528343144" type="Mouse">
+                                    <param id="0" name="Object">lampuUngu</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="639347252092300" type="lampuUngu">
+                                    <param id="0" name="Width">lerp(self.width, self.defX*self.scale, 0.2)</param>
+                                    <param id="1" name="Height">lerp(self.height, self.defY*self.scale, 0.2)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="658695816864571">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="203615077108192" type="Mouse">
+                                    <param id="0" name="Object">lampuUngu</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="822675190996248" type="lampuUngu">
+                                    <param id="0" name="Width">lerp(self.width, self.defX, 0.2)</param>
+                                    <param id="1" name="Height">lerp(self.height, self.defY, 0.2)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="937645793143638" title="Button_Cahaya">
+            <sub-events>
+                <event-block sid="503989341938971">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="148738184043923" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">lampuBiru</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="343594688219922" type="System">
+                            <param id="0" name="Variable">PiilihanLampu</param>
+                            <param id="1" name="Value">&quot;Biru&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="520247342491590">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="142324291461075" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">lampuIjo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="593311224247073" type="System">
+                            <param id="0" name="Variable">PiilihanLampu</param>
+                            <param id="1" name="Value">&quot;Hijau&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="349056667958720">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="997813390933502" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">lampuKuning</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="547178585582023" type="System">
+                            <param id="0" name="Variable">PiilihanLampu</param>
+                            <param id="1" name="Value">&quot;Kuning&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="947028086852969">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="166042423071344" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">lampuMerah</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="891708972888066" type="System">
+                            <param id="0" name="Variable">PiilihanLampu</param>
+                            <param id="1" name="Value">&quot;Merah&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="787509027940579">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="709112027429794" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">lampuUngu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="428164845755881" type="System">
+                            <param id="0" name="Variable">PiilihanLampu</param>
+                            <param id="1" name="Value">&quot;Ungu&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="135921801470928">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="987818664804179" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Lampu_Lampu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="249625592993172" type="System">
+                            <param id="0" name="Layout">Hasil</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
 </c2eventsheet>

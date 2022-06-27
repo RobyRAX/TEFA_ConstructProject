@@ -3,6 +3,9 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Storage_Sheet</name>
     <events>
+        <variable constant="0" name="LampuYangNyala" sid="161955335848813" static="0" type="text">-</variable>
+        <variable constant="0" name="PiilihanLampu" sid="153128414783824" static="0" type="text">-</variable>
+        <variable constant="0" name="Timer" sid="748092134445207" static="0" type="number">0</variable>
         <variable constant="0" name="NamaPemain" sid="117258754935172" static="0" type="text">-</variable>
         <variable constant="0" name="Gender" sid="423176775043569" static="0" type="text">-</variable>
         <variable constant="0" name="Pilih_OpsiUtama" sid="621015102854126" static="0" type="text">-</variable>
@@ -319,7 +322,7 @@
                     <actions>
                         <action id="0" name="Write file" sid="942772247150583" type="NWjs">
                             <param id="0" name="Path">NWjs.AppFolder &amp; &quot;\Save\&quot; &amp; NamaPemain &amp; &quot;.txt&quot;</param>
-                            <param id="1" name="Contents">&quot;Nama : &quot; &amp; NamaPemain &amp; newline &amp;&#x0D;&#x0A;&quot;Gender : &quot; &amp; Gender &amp; newline &amp;&#x0D;&#x0A;&quot;Minat : &quot; &amp; Pilih_OpsiUtama &amp; newline &amp;&#x0D;&#x0A;&quot;     Pilihan Musik : &quot; &amp; PilihanMusik &amp; newline &amp;&#x0D;&#x0A;&quot;     Pilihan Emot : &quot; &amp; PilihanEmot &amp; newline &amp;&#x0D;&#x0A;&quot;     Pilihan Intonasi : &quot; &amp; PilihanIntonasi &amp; newline &amp;&#x0D;&#x0A;&quot;     Pilihan Warna : &quot; &amp; PilihanWarna &amp; newline &amp;&#x0D;&#x0A;&quot;     Pilihan Mainan : &quot; &amp; PilihanMainan &amp; newline &amp;&#x0D;&#x0A;&quot;Kategori : &quot; &amp; Pilih_OpsiStage2 &amp; newline </param>
+                            <param id="1" name="Contents">&quot;Nama : &quot; &amp; NamaPemain &amp; newline &amp;&#x0D;&#x0A;&quot;Gender : &quot; &amp; Gender &amp; newline &amp;&#x0D;&#x0A;&quot;Minat : &quot; &amp; Pilih_OpsiUtama &amp; newline &amp;&#x0D;&#x0A;&quot;     Pilihan Musik : &quot; &amp; PilihanMusik &amp; newline &amp;&#x0D;&#x0A;&quot;     Pilihan Emot : &quot; &amp; PilihanEmot &amp; newline &amp;&#x0D;&#x0A;&quot;     Pilihan Intonasi : &quot; &amp; PilihanIntonasi &amp; newline &amp;&#x0D;&#x0A;&quot;     Pilihan Warna : &quot; &amp; PilihanWarna &amp; newline &amp;&#x0D;&#x0A;&quot;     Pilihan Mainan : &quot; &amp; PilihanMainan &amp; newline &amp;&#x0D;&#x0A;&quot;Kategori : &quot; &amp; Pilih_OpsiStage2 &amp; newline &amp;&#x0D;&#x0A;&quot;     Cahaya : &quot; &amp; LampuYangNyala &amp; newline &amp;&#x0D;&#x0A;&quot;          Pilihan Lampu : &quot; &amp; PiilihanLampu </param>
                         </action>
                     </actions>
                 </event-block>
